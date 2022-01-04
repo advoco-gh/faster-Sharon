@@ -1,0 +1,139 @@
+version: '2.0'
+rules:
+
+  - rule: question_related_to_singpass_checking
+    steps:
+    - intent: question_related_to_singpass_checking
+    - action: utter_regarding_singpass
+
+  - rule: question_related_to_fees
+    steps:
+    - intent: question_related_to_fees
+    - action: utter_cost_info
+
+  - rule: question_related_to_scam
+    steps:
+    - intent: question_related_to_scam
+    - action: utter_scam_reply
+
+  - rule: question_related_to_distribution
+    steps:
+    - intent: question_related_to_distribution
+    - action: utter_distributions_info
+
+  - rule: question_related_to_disclosure_details
+    steps:
+    - intent: question_related_to_disclosure_details
+    - action: utter_disclose_nomination_info
+
+  - rule: call_back_to_another_party
+    steps:
+    - intent: call_back_to_another_party
+    - action: utter_call_others
+  
+  - rule: question_related_to_numbers
+    steps:
+    - intent: question_related_to_numbers
+    - action: utter_numbers_info
+
+  - rule: cpf_account_distribution
+    steps:
+    - intent: cpf_account_distribution
+    - action: utter_types_of_account_distribution
+
+  - rule: question_related_to_witness
+    steps:
+    - intent: question_related_to_witness
+    - action: utter_witness_info
+
+  - rule: question_related_to_who_i_can_nominate
+    steps:
+    - intent: question_related_to_who_i_can_nominate
+    - action: utter_nomination_criteria_info
+
+  - rule: objection_i_am_agent
+    steps:
+    - intent: objection_i_am_agent
+    - action: utter_goodbye
+
+  - rule: question_speak_chinese
+    steps:
+    - intent: question_speak_chinese
+    - action: utter_chinese_audio
+
+  - rule: confirm
+    steps:
+    - intent: confirm
+    - action: action_fast_sharon
+
+  - rule: reject
+    steps:
+    - intent: reject
+    - action: action_fast_sharon
+
+  - rule: already_done
+    steps:
+    - intent: already_done
+    - action: action_fast_sharon
+
+  - rule: already_have_agent
+    steps:
+    - intent: already_have_agent
+    - action: action_fast_sharon
+
+  - rule: morning
+    steps:
+    - intent: morning
+    - action: action_fast_sharon
+
+  - rule: afternoon
+    steps:
+    - intent: afternoon
+    - action: action_fast_sharon
+
+  - rule: evening
+    steps:
+    - intent: evening
+    - action: action_fast_sharon
+
+  - rule: age
+    steps:
+    - intent: age
+    - action: action_fast_sharon
+
+  - rule: restart
+    steps:
+      - intent: restart
+      - action: action_restart
+   
+  - rule: out-of-scope
+    steps:
+      - intent: nlu_fallback
+      - action: utter_fallback
+
+  - rule: greet
+    steps:
+    - intent: start_conversation 
+    - action: utter_greeting_sharon_prudential
+
+  - rule: who
+    steps:
+    - intent: who_is
+    - action: utter_greeting_repeat_sharon_prudential
+
+
+  - rule: not_singaporean
+    steps:
+    - intent: not_singaporean
+    - action: utter_goodbye
+
+  - rule: busy
+    steps:
+    - intent: busy
+    - action: utter_busy_call_back
+
+  - rule: looking_for
+    steps:
+    - intent: looking_for
+    - action: utter_who_am_i
+
