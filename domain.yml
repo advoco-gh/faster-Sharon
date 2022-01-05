@@ -40,9 +40,9 @@ intents:
 
 responses:
   utter_regarding_singpass:
-    - text: oh okay erm don't worry you do not have to give me your confidential details soduring the meet up with my manager she will assist you with the cpf nomination procession
+    - text: oh okay erm don't worry you do not have to give me your confidential details so during the meet up with my manager she will assist you with the cpf nomination procession  so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process
   utter_cost_info:
-    - text: er yes dont worry, During the meet with my manager there will not be any cost involvement on the whole process of nomination.
+    - text: er yes dont worry during the meet with my manager there will not be any cost involvement on the whole process of nomination so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the
   utter_scam_reply:
     - text: erm don't worry this is definitely not a scam i am calling on behalf of prudential so erm Many people like you and i probably not aware of CPF nomination so this more like a awareness campaign to guide you through on the process so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process 
   utter_distributions_info:
@@ -60,7 +60,7 @@ responses:
   utter_chinese_audio:
     - text: hi erm so sorry i dont understand chinese i get my colleague to call you tomorrow thank you bye bye
   utter_agent_followup:
-    - text: oh okay erm can i ask if your agent follow up with you often
+    - text: oh okay can i ask does your agent follow up with you often would you be interested for me to assign a new agent for you
   utter_goodbye_conversion:
     - text: oh okay thank you have a nice day good bye (conversion)
   utter_who_am_i:
@@ -72,11 +72,11 @@ responses:
   utter_age_question:
     - text: oh okay erm by knowing your age this allow my manager to do her preparation before meeting you so this  allow us to save some time on the nomination process
   utter_appointment_call_time:
-    - text: great erm i will get my manager to contact you within the next two days erm do prefer him to call you in the morning afternoon or evening
+    - text: great erm i will get my manager to contact you  erm do prefer him to call you in the afternoon or evening
   utter_assurance:
     - text: er ya you can rest assure as there is no risk involvement but more like a informative sharing on what ishappening to your CPF distribution if there is no nomination made so erm will it be okay for my manager to give you a call and arrange a meet up with you
   utter_busy_call_back:
-    - text: oh okay erm sorry to disturb can i will give you a call back tomorrow ok thank you have a nice day goodbye
+    - text: oh okay erm sorry to disturb can i will give you a call back ok
   utter_call_other:
     - text: oh okay erm so sorry disturb no problem will get my manager to give you a call tomorrow and erm do pass the contact details over to my manager alright
   utter_convincing:
@@ -98,7 +98,7 @@ responses:
   utter_nomination_criteria_info:
     - text: er ya you can indicate to any person that includes a non cpf account holder as long as they are 16 years old and above so all you need to know is their name exactly as per NRIC so erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_purpose:
-    - text: er ya because the government are encouraging everyone to do their CPF nomination so erm we are actually providing a free guidance to all singsporean and pr to assist them with the nomination so erm will it be okay for my manager to give you a quick call & arrange a meet up to guide you through the procress
+    - text: er ya because the government are encouraging everyone to do their CPF nomination so erm we are actually providing a free guidance to all singsporean and pr as a value added service to assist them so erm will it be okay for my manager to give you a quick call this week & arrange a meet up to guide you through the procress
   utter_sry_are_you_there:
     - text: hi erm sorry are you there
   utter_fallback:

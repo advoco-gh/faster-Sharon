@@ -4,6 +4,18 @@ nlu:
 - intent: question_related_to_singpass_checking
   examples: |
     - i can't give you my singpass it is very sensative
+    - i can't give you my singpass it is very sensative
+    - Do i need to give my pass
+    - i am not going to share my pass with you
+    - i will not share my pass with you
+    - will it neeed my singpass
+    - is there any need for pass?
+    - i cannot share my pass with you
+    - are you okay anot need to give you my singpass
+    - no la i dont want give you my singpass
+    - i forgot my singpass password
+    - i need to check my singpass
+    - later you see how much money i got in my singpass
 
 - intent: question_related_to_fees
   examples: |
@@ -17,6 +29,35 @@ nlu:
     - is this a scam
     - prank call isit
     - i can report you to the police
+    - is this a scam call
+    - scam call isit
+    - prank call ah 
+    - is this a prank call
+    - are you playing me 
+    - no time for all this nonense 
+    - i can report to police 
+    - do you know it is illegal 
+    - not comfortable 
+    - i don't think it is appropriate
+    - are you scamming me 
+    - i call police
+    - pranking me is it 
+    - eh you trying to fool me ah 
+    - you think i am a fool is it 
+    - you think i 3 years old is it
+    - do you think i am stupid 
+    - bloody hell what are you saying
+    - you trying to disturb aunty is it 
+    - you think aunty old alr play me ah 
+    - dont con old people la 
+    - you people like to cheat people
+    - what are you talking about cheating people
+    - yes yes yes cheat call 
+    - cheat people 
+    - think i am a fool is it 
+    - fun isit 
+    - what you trying to do
+
 
 - intent: question_related_to_distribution
   examples: |
@@ -26,12 +67,64 @@ nlu:
 - intent: question_related_to_disclosure_details
   examples: |
     - will cpf board disclose the amount i am doing to nomiate to the nominee
+    - why cpf anyhow give my details anot
+    - what will happen to my details
+    - is everything confidential
+    - the amount i set will the person know
+    - will cpf disclose the amount 
+    - will the nominee know the amount i nominate
+    - will my family know 
+    - later my family know how 
+    - if i do the nomination my family will know anot
+    - i dont want anyone to know how much i distrubute 
+    - can dont let anyone know first 
+    - can dont let my family know how much i nominate 
+    - i am worried my family will know the amount 
+    - i worried cpf will disclose the amount
+    - later cpf send letter to my family how 
+    - later cpf email my family the amount
+    - later my son know how much i give him
+    - later my daughter know how much i give him 
+    - i dont want my childre to know 
+    - can dont let my children know the amount 
+    - can dont let my husband know the amount 
+    - can dont let my wife know the amount 
+    - can dont let my partner know the amount 
+    - will cpf disclose the amount to my children
+    - will cpf disclose the amount to my son
+    - will cpf disclose the amount to my daughter
+    - will cpf disclose the amount to my wife
+    - will cpf disclose the amount to my husband
+    - will cpf disclose the amount to my partner
+    - will cpf disclose the amount to my spouse
 
 - intent: call_back_to_another_party
   examples: |
     - please call my husband
     - please call my spouse
     - please call my wife
+    - can you call my husband
+    - call my husband
+    - talk to my husband
+    - am not aware of it speak with my husband
+    - please talk to my husband
+    - i need to check with my husband
+    - call my parents
+    - I need to ask my husband
+    - My husband will handle this
+    - my husband will take care
+    - speak with my husband
+    - can you call back again to explain to my wife
+    - can you call back and explain to my husband
+    - can you explain to my husband
+    - i am confuse can you explain to my husband
+    - what are you talking about can you call & explain to my husband
+    - i need to check with my husband because he handle all this
+    - have to check with my husband
+    - i dont handle all this maybe you call back and explain to my husband
+    - dont know what you are talking about you call back tomorrow again help me explain to my husband
+    - dont know anything you call back again help me explain to my husband
+    - i dont know i dont know you call back again explain to my husband
 
 - intent: restart
   examples: |
@@ -51,6 +144,16 @@ nlu:
     - who can I nominate to?
     - what are the requirement of the nomination?
     - is there any criteria
+    - who can I nominate to?
+    - i dont remember if i have make any nomination
+    - what are the requirements of the nomination
+    - is there any criteria
+    - what are the maximum people i can nominate to
+    - can i nominate my whole family
+    - how many people i can nominate
+    - is there any particular criteria for nomination
+    - what is its requirement
+    - any capped anot
 
 - intent: question_related_to_witness
   examples: |
@@ -65,6 +168,21 @@ nlu:
   examples: |
     - the nomination only can nominate base on ordinary account or all?
     - can medisave contribution distributed too?
+    - distributed to who will still distributed to my family right
+    - distributed to who?
+    - will it be distributed to my family
+    - distributed to my children?
+    - can i know the distribution process la
+    - what is the distribution process?
+    - can you explain me the distribution process
+    - can i check to whom it is distributed?
+    - will it be distributed to whole family
+    - only distributed to nominated person?
+    - can i choose who i want to distribute to 
+    - the distribution base on percentage or 
+    - i can distribute to how many people 
+    - can do online or 
+    - i no computer
 
 
     
@@ -80,6 +198,26 @@ nlu:
     - where did you get my number
     - sorry you are calling 
     - who you are calling
+    - how did you get my number
+    - how did you know my number
+    - who gave my number
+    - can i check how did you get my number
+    - where did you find my number
+    - can i know who gave my number?
+    - what is it exactly you do?
+    - eh why you call me 
+    - how come you got my number
+    - you know who am i anot why you call me
+    - do i even know you 
+    - tell me what is my name to prove me you know me 
+    - what is my name
+    - what is my date of birth 
+    - how did you get to reach this number
+    - who pass you my number 
+    - where you got my number from
+    - have i met you before
+    - do i know you 
+    - are we friend
 
 - intent: already_have_agent
   examples: |
@@ -124,6 +262,7 @@ nlu:
 - intent: busy
   examples: |
     - I'm busy at the moment
+    - driving now
     - this is a work phone
     - I am at the hospital
     - I am a student
@@ -270,6 +409,67 @@ nlu:
     - am [twentyone](number)
     - [thirtyfive](number)
     - my age is [sixty](number)
+    - ten
+    - eleven
+    - twelve
+    - thirteen
+    - fourteen
+    - fifteen
+    - sixteen
+    - seventeen
+    - eighteen
+    - nineteen
+    - twenty 
+    - twenty one
+    - twenty two
+    - twenty three
+    - twenty four
+    - twenty five
+    - twenty six
+    - twenty seven
+    - twenty eight
+    - twenty nine
+    - thirty 
+    - thirty one
+    - thirty two
+    - thirty three
+    - thirty four
+    - thirty five
+    - thirty six
+    - thirty seven
+    - thirty eight
+    - thirty nine
+    - forty 
+    - forty one
+    - forty two
+    - forty three
+    - forty four
+    - forty five
+    - forty six
+    - forty seven
+    - forty eight
+    - forty nine
+    - fifty 
+    - fifty one
+    - fifty two
+    - fifty three
+    - fifty four
+    - fifty five
+    - fifty six
+    - fifty seven
+    - fifty eight
+    - fifty nine
+    - sixty 
+    - sixty one
+    - sixty two
+    - sixty three
+    - sixty four
+    - sixty five
+    - sixty six
+    - sixty seven
+    - sixty eight
+    - sixty nine
+
 
 - intent: reject
   examples: |
@@ -413,6 +613,10 @@ nlu:
 - intent: confirm
   examples: |
     - yes
+    - can you be quick, i'm going for a meeting
+    - a quick call I think it's fine
+    - why
+    - prudential why
     - what is it about you wanna discuss
     - is it through the phone
     - cpf nomination
