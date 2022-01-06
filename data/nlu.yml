@@ -16,6 +16,14 @@ nlu:
     - i forgot my singpass password
     - i need to check my singpass
     - later you see how much money i got in my singpass
+
+
+- intent: question_related_to_fees
+  examples: |
+    - is there any obligaton
+    - is it expensive
+    - how much does it cost
+    - Is it free
     - How much is this?
     - Free or not ?
     - do i need to pay anything?
@@ -26,13 +34,6 @@ nlu:
     - Is this really free?
     - sorry free?
     - is there any terms and conditions?
-
-- intent: question_related_to_fees
-  examples: |
-    - is there any obligaton
-    - is it expensive
-    - how much does it cost
-    - Is it free
 
 - intent: question_related_to_scam
   examples: |
