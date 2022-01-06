@@ -16,6 +16,16 @@ nlu:
     - i forgot my singpass password
     - i need to check my singpass
     - later you see how much money i got in my singpass
+    - How much is this?
+    - Free or not ?
+    - do i need to pay anything?
+    - do we need to buy?
+    - no obligations right?
+    - do i need to pay
+    - i dont need pay a single cent right 
+    - Is this really free?
+    - sorry free?
+    - is there any terms and conditions?
 
 - intent: question_related_to_fees
   examples: |
@@ -97,6 +107,7 @@ nlu:
     - will cpf disclose the amount to my husband
     - will cpf disclose the amount to my partner
     - will cpf disclose the amount to my spouse
+    - i cannot let my wife no i never nominate her 
 
 - intent: call_back_to_another_party
   examples: |
