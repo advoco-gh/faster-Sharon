@@ -1,6 +1,43 @@
 version: '2.0'
 nlu:
+- intent: question_related_to_age_info
+  examples: |
+    - why do you need my age 
+    - why must i tell you my age 
+    - you  need my age for what 
+    - why do you need to know 
+    - for what tell you my age
+    - why must you know 
+    - not comfortable telling you my age 
+    - do not wish to disclose my age 
+    - no i dont want to tell you
+    
+- intent: student 
+  examples: |
+    - i am still a student 
+    - i am schooling 
+    - i am ten years old 
+    - i am eleven years old
+    - only twelve years old
+    - only thirteen years old
+    - only fourteen years old 
+    - only fifteen years old
+    - sixteen years old 
+    - Seventeen years old 
+    - eighteen year old
+    - nineteen years old
+    - i am a children 
+    - still a child
+    - is a kid
 
+- intent: request_names
+  examples: |
+    - i want to give you my name
+    - give name
+    - you need to know my name
+    - do you know my name?
+
+    
 - intent: question_related_to_singpass_checking
   examples: |
     - i can't give you my singpass it is very sensative
@@ -38,10 +75,15 @@ nlu:
 - intent: question_related_to_scam
   examples: |
     - is this a scam
+    - is this a scheme
+    - is this a scan
     - prank call isit
     - i can report you to the police
     - is this a scam call
+    - is this a scan call
     - scam call isit
+    - scheme call isit
+    - scan call isit
     - prank call ah 
     - is this a prank call
     - are you playing me 
@@ -170,11 +212,24 @@ nlu:
 - intent: question_related_to_witness
   examples: |
     - do i need to bring any witness along during the meet up?
+    - any information from my weakness
+    - what are the information you need for my weakness
+    - let me check with my weakness available or not
+    - i need to check my weakness free or not
+    - i checked my sister to go with me or not
+    - i checked with my friend to go with me or not
+    - i checked with my husband free to go with me or not
 
 - intent: question_related_to_numbers
   examples: |
     - how did you got my number
     - what is it exactly you do
+    - who gave you my number
+    - who pass you my number
+    - where did you find my number
+    - eh why are you calling me
+
+
 
 - intent: cpf_account_distribution
   examples: |
@@ -207,29 +262,8 @@ nlu:
     - looking for
     - looking for who
     - why are you calling me
-    - where did you get my number
     - sorry you are calling 
     - who you are calling
-    - how did you get my number
-    - how did you know my number
-    - who gave my number
-    - can i check how did you get my number
-    - where did you find my number
-    - can i know who gave my number?
-    - what is it exactly you do?
-    - eh why you call me 
-    - how come you got my number
-    - you know who am i anot why you call me
-    - do i even know you 
-    - tell me what is my name to prove me you know me 
-    - what is my name
-    - what is my date of birth 
-    - how did you get to reach this number
-    - who pass you my number 
-    - where you got my number from
-    - have i met you before
-    - do i know you 
-    - are we friend
 
 - intent: already_have_agent
   examples: |
@@ -238,6 +272,7 @@ nlu:
     - I work in prudential
     - I also work in prudential
     - I have a prudential agent
+    - I have a credential agent
     - I'm from the same company
 
 
@@ -403,6 +438,7 @@ nlu:
     - who is calling
     - who is this?
     - you are calling from prudential?
+    - you are calling from credentials?
     - from where are you calling?
     - where are you calling from?
     - I don't know you
@@ -581,7 +617,9 @@ nlu:
     - my family is in AIA
     - I have an agent from AIA
     - my family is in prudential
-    - i am in prudential/AIA
+    - i am in prudential
+    - my family is in credential
+    - i am in credentials
     - Not interested in anything
     - This will surely lead into insurance. No thanks.
     - We are not interested in any insurance
@@ -607,6 +645,7 @@ nlu:
     - i don't want
     - i have my own agent
     - my family from prudential
+    - my family from credential
     - i have enough coverage
     - i don't have time for this
     - i dont want a callback
@@ -629,6 +668,7 @@ nlu:
     - a quick call I think it's fine
     - why
     - prudential why
+    - credential why
     - what is it about you wanna discuss
     - is it through the phone
     - cpf nomination

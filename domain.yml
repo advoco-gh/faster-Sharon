@@ -4,7 +4,17 @@ actions:
   
 entities:
   - number
-  
+
+slots:
+  acknowledgement_age:
+    type: text
+    influence_conversation: true
+
+forms:
+  name_form:
+    acknowledgement_age:
+    - type: from_text
+
 intents:
   - confirm:
       use_entities: []
@@ -15,9 +25,12 @@ intents:
   - fallback:
       use_entities: []
   - who_is
+  - question_related_to_age_info
+  - request_names
   - start_conversation
   - speak_twice
   - not_singaporean
+  - student 
   - already_done
   - busy
   - morning 
@@ -39,6 +52,18 @@ intents:
   - call_back_to_another_party
 
 responses:
+  utter_ask_first_name:
+  - text: What is your first name?
+  utter_ask_last_name:
+  - text: What is your last name?
+  utter_submit:
+  - text: Ok. Thanks!
+  utter_slots_values:
+  - text: I will remember that your name is {first_name}!
+  utter_ask_acknowledgement_age:
+    - text: sure i will take note. Thank you for your time do expect a call from my manager
+  utter_acknowledgement_age:
+    - text: sure i will take note. Thank you for your time do expect a call from my manager
   utter_regarding_singpass:
     - text: oh okay erm don't worry you do not have to give me your confidential details so during the meet up with my manager she will assist you with the cpf nomination procession  so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process
   utter_cost_info:

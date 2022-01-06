@@ -1,6 +1,32 @@
 version: '2.0'
 rules:
 
+  - rule: Activate form
+    steps:
+    - intent: busy
+    - action: name_form
+    - active_loop: name_form
+
+  - rule: Submit form
+    condition:
+    - active_loop: name_form
+    steps:
+    - action: name_form
+    - active_loop: null
+    - slot_was_set:
+      - requested_slot: null
+    - action: utter_goodbye
+    
+  - rule: question_related_to_age_info
+    steps:
+    - intent: question_related_to_age_info
+    - action: utter_age_info_repeat
+  
+  - rule: student
+    steps:
+    - intent: student
+    - action: utter_goodbye
+    
   - rule: question_related_to_singpass_checking
     steps:
     - intent: question_related_to_singpass_checking
@@ -127,10 +153,10 @@ rules:
     - intent: not_singaporean
     - action: utter_goodbye
 
-  - rule: busy
-    steps:
-    - intent: busy
-    - action: utter_busy_call_back
+  # - rule: busy
+  #   steps:
+  #   - intent: busy
+  #   - action: utter_busy_call_back
 
   - rule: looking_for
     steps:
