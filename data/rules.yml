@@ -17,10 +17,21 @@ rules:
       - requested_slot: null
     - action: utter_goodbye
     
+  - rule: dnc
+    steps:
+    - intent: dnc
+    - action: utter_goodbye
+
+  - rule: question_related_to_manager
+    steps:
+    - intent: question_related_to_manager
+    - action: utter_manager_introduction
+
+
   - rule: question_related_to_age_info
     steps:
     - intent: question_related_to_age_info
-    - action: utter_age_info_repeat
+    - action: utter_age_question
   
   - rule: student
     steps:

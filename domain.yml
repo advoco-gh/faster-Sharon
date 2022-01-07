@@ -6,13 +6,13 @@ entities:
   - number
 
 slots:
-  acknowledgement_age:
+  busy_call_back:
     type: text
     influence_conversation: true
 
 forms:
   name_form:
-    acknowledgement_age:
+    busy_call_back:
     - type: from_text
 
 intents:
@@ -50,6 +50,10 @@ intents:
   - question_related_to_distribution
   - question_related_to_disclosure_details
   - call_back_to_another_party
+  - dnc
+  - question_related_to_manager
+  - date_day
+  - question_why_cpf_and_prudential
 
 responses:
   utter_ask_first_name:
@@ -101,6 +105,8 @@ responses:
   utter_assurance:
     - text: er ya you can rest assure as there is no risk involvement but more like a informative sharing on what ishappening to your CPF distribution if there is no nomination made so erm will it be okay for my manager to give you a call and arrange a meet up with you
   utter_busy_call_back:
+    - text: oh okay erm sorry to disturb can i will give you a call back ok
+  utter_ask_busy_call_back:
     - text: oh okay erm sorry to disturb can i will give you a call back ok
   utter_call_other:
     - text: oh okay erm so sorry disturb no problem will get my manager to give you a call tomorrow and erm do pass the contact details over to my manager alright

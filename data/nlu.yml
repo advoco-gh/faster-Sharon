@@ -1,34 +1,96 @@
 version: '2.0'
 nlu:
+- intent: dnc
+  examples: |
+    - i can go PDPA and log a complain
+    - i am from do not call list
+    - i am under DNC
+    - do you know i am registered under do not call list
+    - why are you calling me my number from DNC
+    - do you know the PDPA guideline 
+    - PDPA rules
+    - i registered DNC
+    - my number registered under do not call
+    - my number is under PDPA
+    - you know you cannot call me i am from DNC list
+
+- intent: question_related_to_manager
+  examples: |
+    - tell me about your manager
+    - can i know who is your manager
+    - your manager who
+    - what is your manger name
+    - who is your manager
+    - can i check who is your manager
+    - what is the manager call regarding?
+    - you cannot tell me meh need your manager to all me meh 
+    - why your manager need to call me?
+    - how do i know your manager
+    - just tell me la why need your manager 
+    - why he need to call me again?
+    - what is tthe purpose of your manager calling me?
+
+
+- intent: date_day
+  examples: |
+    - next sunday
+    - next week 
+    - last week 
+    - third week
+    - next monday
+    - next month 
+    - next friday
+    - next weekday
+    - first week
+    - next tuesday
+    - next thursday
+    - second week
+    - next weekend
+    - next wednesday
+
+- intent: question_why_cpf_and_prudential
+  examples: |
+    - what has cpf got to do with prudential
+    - you are calling on from cpf or prudential 
+    - why prudential call me regarding cpf nomination
+    - are you from cpf 
+    - i can do myself 
+    - i can go cpf board and do
+    - representing cpf or from insurance
+
 - intent: question_related_to_age_info
   examples: |
-    - why do you need my age 
-    - why must i tell you my age 
-    - you  need my age for what 
-    - why do you need to know 
-    - for what tell you my age
-    - why must you know 
-    - not comfortable telling you my age 
-    - do not wish to disclose my age 
+    - do not wish to disclose my age
+    - why must i tell you my age
+    - you need my age for what
+    - why do you need my age
+    - not comfortable telling you my age
+    - why do you need to know
+    - why must you know
     - no i dont want to tell you
+    - for what tell you my age
+    - why do you need to know how old am i 
     
 - intent: student 
   examples: |
-    - i am still a student 
-    - i am schooling 
-    - i am ten years old 
-    - i am eleven years old
-    - only twelve years old
-    - only thirteen years old
-    - only fourteen years old 
     - only fifteen years old
-    - sixteen years old 
-    - Seventeen years old 
-    - eighteen year old
-    - nineteen years old
-    - i am a children 
-    - still a child
+    - i am schooling
     - is a kid
+    - still a kid
+    - still a child
+    - i am a children
+    - i am ten years old
+    - i am still a student
+    - only fourteen years old
+    - Seventeen years old
+    - eighteen year old
+    - i am eleven years old
+    - only thirteen years old
+    - nineteen years old
+    - sixteen years old
+    - still studying 
+    - only twelve years old
+    - i am actually a student
 
 - intent: request_names
   examples: |
@@ -40,109 +102,136 @@ nlu:
     
 - intent: question_related_to_singpass_checking
   examples: |
-    - i can't give you my singpass it is very sensative
-    - i can't give you my singpass it is very sensative
-    - Do i need to give my pass
-    - i am not going to share my pass with you
-    - i will not share my pass with you
-    - will it neeed my singpass
-    - is there any need for pass?
-    - i cannot share my pass with you
     - are you okay anot need to give you my singpass
-    - no la i dont want give you my singpass
+    - i am not going to share my pass with you
+    - i can't give you my singpass it is very sensative
+    - i cannot share my pass with you
     - i forgot my singpass password
     - i need to check my singpass
+    - i will not share my pass with you
+    - is there any need for pass?
+    - is there any terms and conditions?
     - later you see how much money i got in my singpass
+    - no la i dont want give you my singpass
+    - no obligations right?
+    - will it neeed my singpass
 
 
 - intent: question_related_to_fees
   examples: |
-    - is there any obligaton
+    - do i need to pay anything
     - is it expensive
+    - no oblgations right
+    - is there any terms and conditions
+    - is it expensive how much does it cost
+    - sorry free
+    - is this free of charge
     - how much does it cost
+    - is there any obligaton
+    - Free or not
+    - confirm free ah
+    - How can this be free
+    - what it costs
     - Is it free
-    - How much is this?
-    - Free or not ?
-    - do i need to pay anything?
-    - do we need to buy?
-    - no obligations right?
-    - do i need to pay
-    - i dont need pay a single cent right 
-    - Is this really free?
-    - sorry free?
-    - is there any terms and conditions?
+    - Is this really free
+    - i dont need pay a single cent right
+    - no payment ah
+    - free ah
+    - do we need to buy
+    - is there any obligaton
+    - zero cost ah
+    - How much is this
+    - you sure free ah
+    - promise me free first
+    - confirm with me it is free
+    - got so good thing meh 
+    - free lunch
+    - any cost involvement
 
 - intent: question_related_to_scam
   examples: |
-    - is this a scam
-    - is this a scheme
-    - is this a scan
+    - are you playing me
     - prank call isit
-    - i can report you to the police
-    - is this a scam call
-    - is this a scan call
-    - scam call isit
-    - scheme call isit
-    - scan call isit
-    - prank call ah 
-    - is this a prank call
-    - are you playing me 
-    - no time for all this nonense 
-    - i can report to police 
-    - do you know it is illegal 
-    - not comfortable 
-    - i don't think it is appropriate
-    - are you scamming me 
+    - you think i am a fool is it
     - i call police
-    - pranking me is it 
-    - eh you trying to fool me ah 
-    - you think i am a fool is it 
+    - pranking me is it
+    - are you scamming me
+    - i don't think it is appropriate
+    - i can report you to the police
+    - is this a scam
+    - is this a prank call
     - you think i 3 years old is it
-    - do you think i am stupid 
+    - i can report to police
+    - do you know it is illegal
+    - is this a scam call
+    - prank call ah
+    - you trying to disturb aunty is it
+    - do you think i am stupid
+    - not comfortable
+    - no time for all this nonense
+    - eh you trying to fool me ah
     - bloody hell what are you saying
-    - you trying to disturb aunty is it 
-    - you think aunty old alr play me ah 
-    - dont con old people la 
+    - scam call isit
+    - you think aunty old alr play me ah
+    - dont con old people la
     - you people like to cheat people
     - what are you talking about cheating people
-    - yes yes yes cheat call 
-    - cheat people 
-    - think i am a fool is it 
-    - fun isit 
+    - yes yes yes cheat call
+    - cheat people
+    - think i am a fool is it
+    - fun isit
     - what you trying to do
 
 
 - intent: question_related_to_distribution
   examples: |
-    - distributed to who
-    - will still distributed to my family right
+    - can i choose who i want to distribute to
+    - can medisave contribution distributed too?
+    - ordinary account 
+    - OA account 
+    - SA account 
+    - retirement account also can distribute
+    - all account can nominate or 
+    - can i know the distribution process la
+    - the nomination only can nominate base on ordinary account or all?
+    - only distributed to nominated person?
+    - what account can nominate 
+    - i can distribute to how many people
+    - what is the distribution process?
+    - can i check to whom it is distributed?
+    - which account i can use 
+    - i no computer
+    - the distribution base on percentage or
+    - special account 
+    - i only got 1 daughter money all give her who else i can nominate
+    - can you explain me the distribution process
 
 - intent: question_related_to_disclosure_details
   examples: |
-    - will cpf board disclose the amount i am doing to nomiate to the nominee
+    - will my family know
     - why cpf anyhow give my details anot
-    - what will happen to my details
-    - is everything confidential
-    - the amount i set will the person know
-    - will cpf disclose the amount 
-    - will the nominee know the amount i nominate
-    - will my family know 
-    - later my family know how 
-    - if i do the nomination my family will know anot
-    - i dont want anyone to know how much i distrubute 
-    - can dont let anyone know first 
-    - can dont let my family know how much i nominate 
-    - i am worried my family will know the amount 
-    - i worried cpf will disclose the amount
-    - later cpf send letter to my family how 
-    - later cpf email my family the amount
     - later my son know how much i give him
-    - later my daughter know how much i give him 
-    - i dont want my childre to know 
-    - can dont let my children know the amount 
-    - can dont let my husband know the amount 
-    - can dont let my wife know the amount 
-    - can dont let my partner know the amount 
+    - i worried cpf will disclose the amount
+    - later cpf send letter to my family how
+    - i am worried my family will know the amount
+    - can dont let my family know how much i nominate
+    - what will happen to my details
+    - will cpf board disclose the amount i am doing to nomiate to the nominee
+    - will the nominee know the amount i nominate
+    - later my daughter know how much i give him
+    - if i do the nomination my family will know anot
+    - i dont want anyone to know how much i distrubute
+    - is everything confidential
+    - will cpf disclose the amount
+    - can dont let my husband know the amount
+    - i dont want my childre to know
+    - can dont let anyone know first
+    - later my family know how
+    - later cpf email my family the amount
+    - can dont let my children know the amount
+    - the amount i set will the person know
+    - can dont let my wife know the amount
+    - can dont let my partner know the amount
     - will cpf disclose the amount to my children
     - will cpf disclose the amount to my son
     - will cpf disclose the amount to my daughter
@@ -150,35 +239,39 @@ nlu:
     - will cpf disclose the amount to my husband
     - will cpf disclose the amount to my partner
     - will cpf disclose the amount to my spouse
-    - i cannot let my wife no i never nominate her 
+    - i cannot let my wife no i never nominate her
 
 - intent: call_back_to_another_party
   examples: |
-    - please call my husband
-    - please call my spouse
-    - please call my wife
-    - can you call my husband
-    - call my husband
-    - talk to my husband
-    - am not aware of it speak with my husband
     - please talk to my husband
-    - i need to check with my husband
-    - call my parents
-    - I need to ask my husband
-    - My husband will handle this
-    - my husband will take care
-    - speak with my husband
+    - please call my spouse
+    - i am confuse can you explain to my husband
     - can you call back again to explain to my wife
     - can you call back and explain to my husband
-    - can you explain to my husband
-    - i am confuse can you explain to my husband
+    - speak with my husband
+    - my husband will take care
+    - please call my wife
+    - please call my husband
+    - am not aware of it speak with my husband
     - what are you talking about can you call & explain to my husband
-    - i need to check with my husband because he handle all this
-    - have to check with my husband
+    - call my parents
+    - I need to ask my husband
+    - can you call my husband
+    - talk to my husband
     - i dont handle all this maybe you call back and explain to my husband
-    - dont know what you are talking about you call back tomorrow again help me explain to my husband
+    - i need to check with my husband because he handle all this
+    - My husband will handle this
+    - i need to check with my husband
+    - can you explain to my husband
+    - have to check with my husband
+    - call my husband
+    - dont know what you are talking about you call back again help me explain to my husband
     - dont know anything you call back again help me explain to my husband
     - i dont know i dont know you call back again explain to my husband
+    - my husband handle everything can you call and explain to him 
+    - my wife settle all my insurance can you call again 
+    - you can do it for my sister 
+    - you can call my friend
 
 - intent: restart
   examples: |
@@ -186,163 +279,275 @@ nlu:
 
 - intent: question_speak_chinese
   examples: |
-    - can you speak chinese
+    - i don't know english
     - can you speak mandarine
+    - ke yi ma
+    - i dont unsderstand what you say
+    - i don't know what you say 
+    - ting bu dong 
+    - sorry can you speak chinese
+    - i don't understand english
+    - can you speak chinese
+    - talk english i don't know
+    - ting bu min by
+    - don't know what you say
+    - say english i don't know 
+    - don't know english
+    - talking chinese
+    - ke yi shuo hua yu ma
+    - wo ting bu dong 
+    - say chinese can 
+    - jiang hua yu ma
+    - wo bu zhi dao
+    - wo bu dong
+    - wo bu min by
+    - wo bu hui jiang in one
+    - ting bu dong ni zai jiang some more
+    - by ni zai jiang some more
 
 - intent: objection_i_am_agent
   examples: |
+    - we are actually in the same industry 
+    - i am also under pru
+    - i am agent from manulife
+    - i am agent from prudential
+    - i am agent from  Aviva
+    - i am agent from AXA
+    - i am a insurance broker myself 
+    - i am from AIA
     - I'm also an agent
+    - i am in the same industry 
+    - i am agent from FWD
+    - i am a insurance agent myself
+    - i am also selling insurance
+    - i am also a financial advisor 
+    - i am working at prudential i am also the staff there
+    - i am agent from HL Assurance
+    - i am agent from Pacific Prime Singapore
+    - i am from great easten 
+    - i am a financial advisor from aviva
+    - i am agent from NTUC
+    - i am agent from Liberty Insurance
+    - i am a agent as well
+    - i am agent from Zurich Insurance Company
+    - i am agent from XL Insurance Company
+    - i am agent from United Overseas Insurance
+    - i am agent from Tokio Marine Insurance
+    - i am agent from Swiss Re International 
+    - i am agent from Starr International Insurance
+    - i am agent from Sompo Insurance
+    - i am agent from Raffles Health Insurance
+    - i am agent from QBE Insurance
+    - i am agent from MSIG
+    - i am agent from MS First Capital
+    - i am agent from Lonpac Insurance
+    - i am agent from Lloyd’s of London
+    - i am agent from India International Insurance
+    - i am agent from HL Assurance
+    - i am agent from HDI Global
+    - i am agent from Great American Insurance
+    - i am agent from Etiqa 
+    - i am agent from ERGO
+    - i am agent from EQ Insurance
+    - i am agent from ECICS Limited
+    - i am agent from Direct Asia Insurance
+    - i am agent from Allianz Insurance
+    - i am agent from AIG
+    - i am from the same company 
 
 - intent: question_related_to_who_i_can_nominate
   examples: |
-    - who can I nominate to?
-    - what are the requirement of the nomination?
-    - is there any criteria
-    - who can I nominate to?
-    - i dont remember if i have make any nomination
-    - what are the requirements of the nomination
-    - is there any criteria
-    - what are the maximum people i can nominate to
-    - can i nominate my whole family
     - how many people i can nominate
-    - is there any particular criteria for nomination
+    - what are the requirement of the nomination?
+    - i single who can i give
+    - is there any criteria
+    - who can I nominate to?
+    - can i nominate my whole family
     - what is its requirement
     - any capped anot
+    - i dont remember if i have make any nomination
+    - what are the maximum people i can nominate to
+    - i also not married who can i nominate to 
+    - is there any particular criteria for nomination
+    - what are the requirements of the nomination
 
 - intent: question_related_to_witness
   examples: |
+    - i check if my friend can come with you
+    - how many witness do i need
+    - i check my sister free to go with me anot
+    - any information you need for my withness
+    - let me check with my withness available anot
+    - what are the information you need for my witness
+    - any document for my witness to sign
+    - do i need to bring anyone along
     - do i need to bring any witness along during the meet up?
-    - any information from my weakness
-    - what are the information you need for my weakness
-    - let me check with my weakness available or not
-    - i need to check my weakness free or not
-    - i checked my sister to go with me or not
-    - i checked with my friend to go with me or not
-    - i checked with my husband free to go with me or not
+    - do i need to bring anyone along to identify the nomination
+    - i check with my friend free to go with me anot
+    - do i have to bring the witness nric
+    - do i need the witness details
+    - does the witness need to tag along
+    - i check when my witness is free to go
+    - i need to find withness first 
+    - i check with my husband free to go with me anot
+    - how my witness know he is my witness
+    - i need to bring my witness nric anot
+    - i need to check with my withness free anot
+    - but need withness right
+    - but my witness is not free
 
 - intent: question_related_to_numbers
   examples: |
-    - how did you got my number
-    - what is it exactly you do
-    - who gave you my number
+    - how come you got my number
+    - who gave my number
+    - can i check how did you get my number
+    - how did you get my number
+    - eh why you call me
     - who pass you my number
+    - where you got my number from
     - where did you find my number
-    - eh why are you calling me
+    - what is it exactly you do?
+    - how did you get to reach this number
+    - can i know who gave my number?
 
 
 
 - intent: cpf_account_distribution
   examples: |
-    - the nomination only can nominate base on ordinary account or all?
-    - can medisave contribution distributed too?
+    - by defult will go to my children ma
+    - will still distributed to my family right
+    - all will go to my children right 
     - distributed to who will still distributed to my family right
-    - distributed to who?
-    - will it be distributed to my family
-    - distributed to my children?
-    - can i know the distribution process la
-    - what is the distribution process?
-    - can you explain me the distribution process
-    - can i check to whom it is distributed?
+    - distributed to who
+    - distributed to my children
+    - the money all go to my wife right
+    - the money all go to my husband right
     - will it be distributed to whole family
-    - only distributed to nominated person?
-    - can i choose who i want to distribute to 
-    - the distribution base on percentage or 
-    - i can distribute to how many people 
-    - can do online or 
-    - i no computer
+    - my children will get it right 
+    - i only got one person to distribute
 
 
     
 - intent: looking_for
   examples: |
-    - who are you looking for
+    - where did you get my number
     - who are you calling
+    - tell me what is my name to prove me you know me
+    - what is my date of birth
+    - are we friend
+    - what is my name
+    - tell me what is my name to prove me you know me
     - who do you want to speak with
-    - who do you want to call
-    - looking for
-    - looking for who
+    - who are you looking for
     - why are you calling me
-    - sorry you are calling 
+    - are we friend
     - who you are calling
+    - you know who am i anot why you call me
+    - who do you want to call
+    - looking for who
+    - have i met you before
+    - do i even know you
+    - sorry you are calling
+    - do i even know you
+    - do i know you
+    - looking for
 
 - intent: already_have_agent
   examples: |
-    - I already have an agent
+    - my wife is a agent
     - I already have a financial advisor
-    - I work in prudential
-    - I also work in prudential
     - I have a prudential agent
-    - I have a credential agent
-    - I'm from the same company
+    - I already have an agent
+    - my relative is a agent
+    - i prefer to stay to my agent
+    - it is okay i got some one who handle my insurance for me
+    - i have a agent who handle all this for me 
+    - my brother is an agent too 
+    - no it is fine my relative under the same industry too 
+    - my husband is a agent
+    - no it is okay i will just go to my agent
 
 
 - intent: evening
   examples: |
-    - evening is ok
-    - it is ok evening 
-    - let's do evening
-    - early evening
-    - evening 
-    - evening please
-    - night
     - in the night
+    - it is ok evening
+    - 8pm
+    - after six
+    - 6pm
+    - after dinner 
+    - maybe evening 
+    - let's do evening
+    - evening is ok
+    - night
+    - 9pm
+    - after five
+    - evening lo
+    - early evening
+    - evening please
+    - evening is good
+    - 10pm
+    - can la evening 
     - at night
+    - 7pm
+    - 11pm
+    - evening
     
 - intent: morning
   examples: |
-    - Morning is ok
-    - it is ok morning 
+    - it is ok morning
     - let's do morning
+    - Morning is ok
     - early morning
-    - morning 
     - morning please
+    - morning
+    - maybe tomorrow morning 
     
 - intent: afternoon
   examples: |
-    - afternoon is ok
+    - after one
     - afternoon
-    - it is ok afternoon 
+    - 4pm
+    - 1pm
+    - 2pm
+    - 12pm
+    - after two
+    - it is ok afternoon
+    - afternoon is ok
+    - in the afternoon
+    - afternoon is good
+    - can la afternoon
+    - maybe afternoon
     - let's do afternoon
-    - early afternoon please
     - afternoon please
+    - after lunch
+    - afternoon lo
+    - 3pm
+    - early afternoon please
 
 - intent: busy
   examples: |
-    - I'm busy at the moment
     - driving now
-    - this is a work phone
-    - I am at the hospital
-    - I am a student
-    - can you call me back in the evening
-    - I'm not available right now can you call me back
-    - I'm busy at the moment can you call tomorrow
-    - I'm busy can you can another time
-    - I'm busy can you call tomorrow
-    - Can we do it in a few months
-    - can you call in a few months
-    - Can we do it next week
-    - can you call next week
-    - Can we do it next month
-    - can you call next month
-    - Can we do it next year
-    - can you call next year
-    - can call another time
-    - can call tomorrow
-    - am busy now
-    - busy right now
-    - busy right now
-    - I have no time
-    - I'm busy
+    - I don't have time for this
     - I'm swamped
     - I got things to do
-    - how busy I am
-    - I don't have time for this
+    - I'm busy
+    - I have no time
+    - this is a work phone
+    - I'm busy at the moment
+    - I'm busy can you can another time
     - I'm working right now
+    - am busy now
+    - I am at the hospital
+    - I'm busy at the moment can you call another time
+    - I'm driving
     - No I'm in the public transport
-    - Sorry, I'm still in the middle of something.
-    - I'm driving, call tomorrow.
+    - busy right now
+    - can call another time
+    - how busy I am
+    - Sorry I'm still in the middle of something
+    - I'm not available right now can you call me back
     - driving at this moment
-    - hello in the auto
     - no its okay am not free
     - no free
     - sorry I cant talk
@@ -360,116 +565,133 @@ nlu:
     - call me again
     - call me other time
     - call me in the afternoon
-    - call me tomorrow
     - call me next time
-    - call me next week
     - call me next month
     - this is not a good time can you call me back later
     - it is okay i am expecting a call now
-    - er no sorry i am not free at the moment sorry 
+    - er no sorry i am not free at the moment sorry
     - sorry i cannot answer your call now can you call me the next day i am at work now
-    - no need la now i am outside not convenient 
-    - no it is okay i am currently at work right now 
-    - actually not convenient right now thank you 
-    - i am in the middle of discussion now so sorry 
-    - i am so sorry i am actually in the mid of conference right now 
-    - i am not convenient to talk okay 
-    - so sorry i am actually in the meeting right now 
-    - sorry ah i busy now i can't talk 
-    - hi is this very urgent 
-    - not a good time i am working right now 
+    - no need la now i am outside not convenient
+    - no it is okay i am currently at work right now
+    - actually not convenient right now thank you
+    - i am in the middle of discussion now so sorry
+    - i am so sorry i am actually in the mid of conference right now
+    - i am not convenient to talk okay
+    - so sorry i am actually in the meeting right now
+    - sorry ah i busy now i can't talk
+    - hi is this very urgent
+    - not a good time i am working right now
+    - outside now can't talk 
+    - I'm not free to speak to you now
+    - I'm not free thank you for calling
+    - I don't have time for the call now
+    - i will contact you later
+    - sorry,this isn't a good convienent time to talk.I am at work
+    - am not available now
+    - I have work
+    - I am in office
+    - I am at work
+    - not convient to talk
+    - I am at work
 
 
 - intent: already_done
   examples: |
-    - I've already done the cpf nomination
-    - I have done 
-    - I've already done it
-    - no thanks i've already done my nomination thank you
-    - i've already done my nomination
-    - I've done it already
-    - ah I actually have done cpf nomination alr
     - yes done
-    - I got the nomination
-    - done alr last week
-    - yes everything I have done alr
-    - done alr I go cpf do alr
-    - yes done already
-    - oh done already
+    - I have done
+    - oh everything done
     - ya I done alr already done
     - yes I did it already
-    - yes I have already done it
-    - oh everything done
-    - oh I think that is someone who help me to hand all this already
-    - ya I have done
-    - ah ya done already thank you ah
-    - ya already done so
+    - oh done already
     - yes done already
+    - I've already done it
+    - I've already done the cpf nomination
+    - ah I actually have done cpf nomination alr
+    - oh I think that is someone who help me to hand all this already
+    - done alr last week
+    - yes everything I have done alr
+    - no thanks i've already done my nomination thank you
+    - I've done it already
+    - ya already done so
+    - ya I have done
+    - done alr I go cpf do alr
+    - I got the nomination
+    - yes I have already done it
+    - ah ya done already thank you ah
+    - i've already done my nomination
     - ya yes done already
     - nomination already done already
     - ah yes I have done already
+    - i completed 
+    - i already settle allthis 
+    - can do online or
 
 - intent: not_singaporean
   examples: |
-    - i'm not singaporean
-    - i'm malesian
-    - i don't qualify for cpf
-    - i'm not a singapore citizen
-    - i cannot do cpf i'm malesian
-    - i am holding on to a permit pass
-    - i am onwork permit
     - i am on EP
-    - i am on s pass
-    - i am a foreigner
-    - i am a foreigner i am a s pass holder
-    - i am a s pass holder
-    - oh sorry i am a foreigner i am a s pass holder
-    - i am not eligibe for cpf 
+    - i'm malesian
+    - i am not a singaporean or pr
     - i am not a pr
     - sorry i am not a pr
+    - i am not eligibe for cpf
+    - oh sorry i am a foreigner i am a s pass holder
+    - i don't qualify for cpf
+    - i'm not singaporean
+    - i am on work permit
+    - not local
+    - i am a foreigner
+    - i am a foreigner i am a s pass holder
+    - i'm not a singapore citizen
+    - i am holding on to a permit pass
+    - i don't contribute cpf 
+    - i am a s pass holder
+    - i am on s pass
     - i do not have cpf
-    - i am not a singaporean or pr
+    - i cannot do cpf i'm malesian
+    - i am e p 
 
 
 - intent: who_is
   examples: |
-    - who am I speaking to?
-    - who are you?
-    - who is calling
-    - who is this?
-    - you are calling from prudential?
-    - you are calling from credentials?
-    - from where are you calling?
-    - where are you calling from?
     - I don't know you
-    - hello who are you
+    - who are you?
+    - you are  
+    - who is calling
+    - who am I speaking to?
+    - where are you calling from?
     - who's on the line
     - whats your name again
+    - who is this?
+    - from where are you calling?
+    - sorry you are
+    - hello who are you
+    - you are calling from prudential?
+    - prudential life insurance
 
 - intent: age
   examples: |
-    - my age is [30](number)
-    - am [25](number)
-    - am major
-    - I am minor
-    - I have [26](number) years
-    - [24](number)
-    - am [twentyone](number)
     - [thirtyfive](number)
-    - my age is [sixty](number)
-    - ten
-    - eleven
-    - twelve
-    - thirteen
-    - fourteen
+    - am [25](number)
+    - eighteen
     - fifteen
     - sixteen
-    - seventeen
-    - eighteen
+    - fourteen
+    - thirteen
+    - am major
+    - my age is [30](number)
+    - am [twentyone](number)
     - nineteen
-    - twenty 
-    - twenty one
+    - ten
+    - eleven
+    - I am minor
+    - [24](number)
     - twenty two
+    - twenty
+    - twelve
+    - my age is [sixty](number)
+    - seventeen
+    - twenty one
+    - I have [26](number) years
     - twenty three
     - twenty four
     - twenty five
@@ -477,7 +699,7 @@ nlu:
     - twenty seven
     - twenty eight
     - twenty nine
-    - thirty 
+    - thirty
     - thirty one
     - thirty two
     - thirty three
@@ -487,7 +709,7 @@ nlu:
     - thirty seven
     - thirty eight
     - thirty nine
-    - forty 
+    - forty
     - forty one
     - forty two
     - forty three
@@ -497,7 +719,7 @@ nlu:
     - forty seven
     - forty eight
     - forty nine
-    - fifty 
+    - fifty
     - fifty one
     - fifty two
     - fifty three
@@ -507,7 +729,7 @@ nlu:
     - fifty seven
     - fifty eight
     - fifty nine
-    - sixty 
+    - sixty
     - sixty one
     - sixty two
     - sixty three
@@ -521,31 +743,28 @@ nlu:
 
 - intent: reject
   examples: |
-    - No
-    - I'm not changing my nomination
-    - I'm not free to speak to you now
-    - I'm not free thank you for calling
-    - you can share this with other people
-    - hello can you hear me
-    - thanks for the offer i can do it myself
-    - i can do it myself
-    - i dont want anymore
-    - actually prudential right no need no need
     - never mind
-    - no its okay
-    - no its fine
-    - don't want
-    - need not
-    - don't come
-    - never help
+    - I'm not changing my nomination
+    - never
     - no la no
     - not needed
-    - of course not
-    - never
+    - never help
+    - don't come
+    - you can share this with other people
+    - No
+    - actually prudential right no need no need
     - not at this time
-    - not exactly
-    - absolutely no
+    - no its fine
+    - don't want
+    - thanks for the offer i can do it myself
+    - i dont want anymore
     - no forget
+    - not exactly
+    - need not
+    - no its okay
+    - of course not
+    - absolutely no
+    - i can do it myself
     - do not
     - dont think i need
     - i will be fine without it
@@ -560,8 +779,6 @@ nlu:
     - i don't need your help
     - i don't want your help
     - i am not okay with your help
-    - don't want
-    - do not
     - I don't need anything from you
     - okay keep it in mind
     - nope i dont need your help
@@ -591,18 +808,7 @@ nlu:
     - not now
     - sorry not now
     - don’t know
-    - huh cpf what 
-    - ah cpf nomination not really why 
-    - in meeting.
-    - sorry, am driving
-    - I don't have time for the call now
-    - i will contact you later
-    - sorry,this isn't a good/convienent time to talk.I am at work
-    - am not available now
-    - I have work
-    - I am in office
-    - I am at work
-    - not convient to talk
+    - huh cpf what
     - don't have time
     - sorry,not interested
     - not interested
@@ -611,15 +817,6 @@ nlu:
     - can you take me off your calling list
     - can you take my number off your calling list
     - I already have it
-    - I have an agent already
-    - someone is handling it for me
-    - i already have that plan
-    - my family is in AIA
-    - I have an agent from AIA
-    - my family is in prudential
-    - i am in prudential
-    - my family is in credential
-    - i am in credentials
     - Not interested in anything
     - This will surely lead into insurance. No thanks.
     - We are not interested in any insurance
@@ -638,20 +835,14 @@ nlu:
     - don't want don't want
     - i don't need it
     - i dont have time now
-    - not interested
     - i don't have the time now
-    - i not free now
     - no no no i don't need it
     - i don't want
-    - i have my own agent
-    - my family from prudential
-    - my family from credential
-    - i have enough coverage
     - i don't have time for this
-    - i dont want a callback
-    - i am not interested for callback
+    - i dont want a call back
+    - i am not interested for call back
     - No, I don’t want to receive a callback
-    - Why would you need them to call me back?
+    - Why would you need them to call me back
     - please dont call me again
     - not need for callback
     - dont disturb me
@@ -659,34 +850,36 @@ nlu:
     - thank you bye bye
     - okay thank you bye bye
     - okay sorry bye bye
+    - no it is okay 
+    - i think it is okay
+    - i think it about it again it is pkay thank you 
+    - no you call the wrong person
 
 
 - intent: confirm
   examples: |
-    - yes
-    - can you be quick, i'm going for a meeting
-    - a quick call I think it's fine
-    - why
-    - prudential why
-    - credential why
-    - what is it about you wanna discuss
-    - is it through the phone
     - cpf nomination
-    - come again
-    - ahh cpf nomination
-    - what is this call about
-    - what is it about
-    - what is it regarding
-    - sorry what is it regarding
+    - can you be quick, i'm going for a meeting
+    - what is it regarding about
     - what do you want
     - ok thanks
-    - it's alright
-    - what is it about
-    - what is it regarding about
+    - sorry what is it regarding
+    - what is it regarding
+    - a quick call I think it's fine
+    - yes
+    - is it through the phone
     - thats right
-    - yes please.
-    - you can you call me I think
+    - ahh cpf nomination
+    - what is this call about
+    - why
+    - what is it about you wanna discuss
     - you can you call me
+    - yes please
+    - what is it about
+    - come again
+    - it's alright
+    - you can you call me I think
+    - prudential why
     - indeed
     - of course
     - um hmm
@@ -728,10 +921,9 @@ nlu:
     - yes it is
     - yep
     - yew
-    - yeah
     - hey yes
     - yeah fine
-    - yes what is it?
+    - yes what is it
     - yes continue
     - am free
     - yea fine
@@ -746,7 +938,6 @@ nlu:
     - coool
     - okay
     - can thank you
-    - ok sure
     - ok can
     - Okay can.
     - absolutely
@@ -754,7 +945,7 @@ nlu:
     - all right
     - no problem
     - welcome
-    - Erm.. I think it’s okay.
+    - Erm I think it’s okay.
     - erm okay
     - sup
     - yo
@@ -765,20 +956,11 @@ nlu:
     - umm
     - ahhaa
     - uh huhh
-    - yes tell me
-    - yup
-    - erm yes
-    - of course
     - oh humm huh
-    - okay buddy
     - sup man
     - that sound good
-    - uhh
-    - yes tell me
-    - yo
     - is there anything i can help you
     - go about it
-    - continue
     - ah yes
     - hmm yes
     - there
@@ -791,18 +973,13 @@ nlu:
     - howdy
     - hey there
     - whatsup
-    - greetings
-    - I greet you
     - hi there
     - lovely day isn't it
     - hello again
     - just going to say hi
-    - hi there
     - a good day
     - hello hi
     - heya
-    - hey
-    - hi
     - hey yeah?
     - hey buddy
     - oka
@@ -810,23 +987,14 @@ nlu:
     - hola
     - hii what is it about?
     - heyy
-    - a good day
     - hello hi what is it about
     - hello there
     - hello what is it about
     - hello yeah
     - Hey boo
-    - hey there
     - hey ya
     - hey yeah
-    - heya
-    - hola
-    - just going to say hi
-    - long time no see
-    - I greet you
     - lovely day
-    - lovely day isn't it
-    - howdy
     - wei
     - wei ni hao
     - Ar lo
@@ -835,9 +1003,19 @@ nlu:
     - am completely aware of it
     - aware of it la
     - maybe
-    - it may be 
+    - it may be
     - it may be ok
     - maybe it is ok
+    - hello can you hear me
+    - hi ya sorry what is it about
+    - CPF nomination why
+    - eh actually this is insurance isit
+    - i mean what cpf
+    - two minutes only 
+    - what cpf nomination youre talking about i didnt hear you clearly
+    - sharon
+    - what what cpf nomination are you saying
+    - ah cpf nomination not really why
 
 - intent: start_conversation
   examples: |
