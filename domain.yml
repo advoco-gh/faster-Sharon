@@ -1,6 +1,7 @@
 version: '2.0'
 actions:
   - action_fast_sharon
+  - validate_already_have_agent
   
 entities:
   - number
@@ -9,11 +10,28 @@ slots:
   busy_call_back:
     type: text
     influence_conversation: true
+  want_to_continue:
+    type: bool
+    influence_conversation: false  
+  reply_to_manager_advice:
+    type: text
+    influence_conversation: false
+  goodbye:
+    type: text
+    influence_conversation: false
 
 forms:
   name_form:
     busy_call_back:
     - type: from_text
+  already_have_agent:
+    want_to_continue:
+    - type: from_intent
+      intent: confirm
+      value: true
+    - type: from_intent
+      intent: reject
+      value: false
 
 intents:
   - confirm:
@@ -54,8 +72,18 @@ intents:
   - question_related_to_manager
   - date_day
   - question_why_cpf_and_prudential
+  - repeat
 
 responses:
+  utter_ask_goodbye:
+    - text: oh okay thank you have a nice day good bye
+    
+  utter_ask_want_to_continue:
+    - text: oh okay can i ask does your agent follow up with you often would you be interested for me to assign a new agent for you
+    
+  utter_ask_reply_to_manager_advice:
+    - text: er ya my manager is from prudential with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you with the nomination erm the whole duration will take around 30 minutes or more
+
   utter_ask_first_name:
   - text: What is your first name?
   utter_ask_last_name:
@@ -85,7 +113,7 @@ responses:
   utter_types_of_account_distribution:
     - text: oh okay the nomination covers all the saving in your account such as medisave account ordinary special and retirement account so erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the nomination process okay
   utter_witness_info:
-    - text: er no the witness do not have to come during the meet up, once you assign them as witness using your singpass they will receive a authorization sms or email erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
+    - text: nope the witness do not have to come during the meet up, onec you assign them as witness using your singpass they will receive a authorization sms or email
   utter_chinese_audio:
     - text: hi erm so sorry i dont understand chinese i get my colleague to call you tomorrow thank you bye bye
   utter_agent_followup:

@@ -1,5 +1,12 @@
 version: '2.0'
 nlu:
+
+- intent: repeat
+  examples: |
+    - can you repeat
+    - sorry I didn't get you
+    - what did you say
+    
 - intent: dnc
   examples: |
     - i can go PDPA and log a complain
@@ -13,6 +20,9 @@ nlu:
     - my number registered under do not call
     - my number is under PDPA
     - you know you cannot call me i am from DNC list
+    - do not call list
+    - do not call
+    - stop calling i am under do not call
 
 - intent: question_related_to_manager
   examples: |

@@ -1,6 +1,22 @@
 version: '2.0'
 rules:
 
+  - rule: Activate form2
+    steps:
+    - intent: already_have_agent
+    - action: already_have_agent
+    - active_loop: already_have_agent
+
+  - rule: Submit form2
+    condition:
+    - active_loop: already_have_agent
+    steps:
+    - action: already_have_agent
+    - active_loop: null
+    - slot_was_set:
+      - requested_slot: null
+    - action: utter_manager_introduction
+    
   - rule: Activate form
     steps:
     - intent: busy
@@ -98,6 +114,11 @@ rules:
     - intent: question_speak_chinese
     - action: utter_chinese_audio
 
+  - rule: repeat
+    steps:
+    - intent: repeat
+    - action: action_fast_sharon
+    
   - rule: confirm
     steps:
     - intent: confirm
@@ -113,10 +134,6 @@ rules:
     - intent: already_done
     - action: action_fast_sharon
 
-  - rule: already_have_agent
-    steps:
-    - intent: already_have_agent
-    - action: action_fast_sharon
 
   - rule: morning
     steps:
