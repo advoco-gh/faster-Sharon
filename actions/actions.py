@@ -32,13 +32,8 @@ class action_fast_sharon(Action):
                 
         #only_intents = ["start_conversation","confirm","reject","confirm","who_is","confirm","confirm","age"]        
 
-        repeat = ''
-        # if the last if the who_are_you_aff then add repeat
-        if only_intents[-2:] == ["who_is","confirm"]:
-            repeat = 'rep_'
             
         rules = ["'reject', 'already_done'",
-                "'who_is', 'confirm'",
                 "'who_is', ", "'nlu_fallback', ",
                 "'looking_for', ",
                 "'question_related_to_singpass_checking', ",
@@ -66,9 +61,13 @@ class action_fast_sharon(Action):
         four_yes = ['confirm', 'morning','afternoon','evening']
         two_yes = ['confirm', 'age']
         reply = 'utter_goodbye'
+        if len_a < 4 and only_intents[-1] in ['afternoon', 'morning', 'evening']:
+            reply = 'utter_busy_call_back'
+
+            
         if len_a == 1:
             reply = 'utter_goodbye'
-        if len_a == 2:
+        elif len_a == 2:
             if only_intents == ['start_conversation', 'confirm']:
                 reply = 'utter_discuss_nomination'
             elif only_intents == ['start_conversation', 'reject']:
