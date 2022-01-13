@@ -59,11 +59,11 @@ class action_fast_sharon(Action):
 
 
             
-        rules = ["'reject', 'already_done'", "'already_have_agent', ",
+        rules = ["'reject', 'already_done'", "'already_have_agent', 'confirm'",
                 "'who_is', ", "'nlu_fallback', ", "'repeat', ",
                 "'looking_for', ",
                 "'question_related_to_singpass_checking', ",
-                "'question_related_to_fees', ",
+                "'question_related_to_fees', ", "'question_related_to_age_info', ",
                 "'question_related_to_scam', ",
                 "'question_related_to_distribution', ",
                 "'question_related_to_disclosure_details', ",

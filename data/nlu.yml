@@ -6,6 +6,9 @@ nlu:
     - can you repeat
     - sorry I didn't get you
     - what did you say
+    - come again
+    - sorry come again
+    - i don't get you
     
 - intent: dnc
   examples: |
@@ -869,6 +872,7 @@ nlu:
 - intent: confirm
   examples: |
     - cpf nomination
+    - okay this this week okay tomorrow afternoon no
     - can you be quick, i'm going for a meeting
     - what is it regarding about
     - what do you want
@@ -886,7 +890,6 @@ nlu:
     - you can you call me
     - yes please
     - what is it about
-    - come again
     - it's alright
     - you can you call me I think
     - prudential why
