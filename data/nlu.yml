@@ -469,6 +469,7 @@ nlu:
   examples: |
     - my wife is a agent
     - I already have a financial advisor
+    - i already has an agent
     - I have a prudential agent
     - I already have an agent
     - my relative is a agent
