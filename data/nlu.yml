@@ -64,12 +64,14 @@ nlu:
 - intent: question_why_cpf_and_prudential
   examples: |
     - what has cpf got to do with prudential
-    - you are calling on from cpf or prudential 
+    - you are calling on from cpf or prudential
     - why prudential call me regarding cpf nomination
-    - are you from cpf 
-    - i can do myself 
+    - are you from cpf
+    - i can do myself
     - i can go cpf board and do
     - representing cpf or from insurance
+    - how do i review
+    - you say singaporean and pr only
 
 - intent: question_related_to_age_info
   examples: |
@@ -105,12 +107,7 @@ nlu:
     - only twelve years old
     - i am actually a student
 
-- intent: request_names
-  examples: |
-    - i want to give you my name
-    - give name
-    - you need to know my name
-    - do you know my name?
+
 
     
 - intent: question_related_to_singpass_checking
@@ -296,20 +293,20 @@ nlu:
     - can you speak mandarine
     - ke yi ma
     - i dont unsderstand what you say
-    - i don't know what you say 
-    - ting bu dong 
+    - i don't know what you say
+    - ting bu dong
     - sorry can you speak chinese
     - i don't understand english
     - can you speak chinese
     - talk english i don't know
     - ting bu min by
     - don't know what you say
-    - say english i don't know 
+    - say english i don't know
     - don't know english
     - talking chinese
     - ke yi shuo hua yu ma
-    - wo ting bu dong 
-    - say chinese can 
+    - wo ting bu dong
+    - say chinese can
     - jiang hua yu ma
     - wo bu zhi dao
     - wo bu dong
@@ -317,6 +314,8 @@ nlu:
     - wo bu hui jiang in one
     - ting bu dong ni zai jiang some more
     - by ni zai jiang some more
+    - jiang hua yu ke ma
+    - wo ting bu ming bai
 
 - intent: objection_i_am_agent
   examples: |
@@ -636,9 +635,10 @@ nlu:
     - ya yes done already
     - nomination already done already
     - ah yes I have done already
-    - i completed 
-    - i already settle allthis 
+    - i completed
+    - i already settle allthis
     - can do online or
+    - i already have 
 
 - intent: not_singaporean
   examples: |
@@ -657,12 +657,14 @@ nlu:
     - i am a foreigner i am a s pass holder
     - i'm not a singapore citizen
     - i am holding on to a permit pass
-    - i don't contribute cpf 
+    - i don't contribute cpf
     - i am a s pass holder
     - i am on s pass
     - i do not have cpf
     - i cannot do cpf i'm malesian
-    - i am e p 
+    - i am e p
+    - no i dont have the c p f
+    - i am employment pass
 
 
 - intent: who_is
