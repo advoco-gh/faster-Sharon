@@ -72,6 +72,8 @@ nlu:
     - representing cpf or from insurance
     - how do i review
     - you say singaporean and pr only
+    - no i already done my cpf nomination what okay its done through the cpf board why why need to go through potential i thought understand
+    - cpf nomination may i will go check it out myself first
 
 - intent: question_related_to_age_info
   examples: |
@@ -479,6 +481,8 @@ nlu:
     - no it is fine my relative under the same industry too 
     - my husband is a agent
     - no it is okay i will just go to my agent
+    - my girlfriend is a insurance agent from great eastern 
+    - no thats fine i have already somebody working with me with on prudential itself
 
 
 - intent: evening
@@ -606,7 +610,17 @@ nlu:
     - I am at work
     - not convient to talk
     - I am at work
-
+    - i think its okay its not a good time to answer the call thank you bye bye
+    - sorry im having lunch now
+    - i am not free at the moment 
+    - hi can you call back
+    - yeah but can you call me back later
+    - maybe not i am talking with some one else
+    - im sorry actually im from the call now
+    - hello hi im sorry but im actually quite busy now going into a meeting so sorry about that yah okay
+    - im not sorry im working sorry bye
+    - no i think its okay because i only its okay its okay because i just did not long ago
+    - meeting 
 
 - intent: already_done
   examples: |
@@ -639,6 +653,8 @@ nlu:
     - i already settle allthis
     - can do online or
     - i already have 
+    - never mind i nominate already 
+    - okay im ive actually nominated my my my cpf so i dont think any any help thank you so much
 
 - intent: not_singaporean
   examples: |
@@ -665,6 +681,8 @@ nlu:
     - i am e p
     - no i dont have the c p f
     - i am employment pass
+    - its not applicable for me
+    - im not local also so
 
 
 - intent: who_is
@@ -683,6 +701,8 @@ nlu:
     - hello who are you
     - you are calling from prudential?
     - prudential life insurance
+    - sorry what is that
+    - sorry who is this person
 
 - intent: age
   examples: |
@@ -870,11 +890,19 @@ nlu:
     - i think it is okay
     - i think it about it again it is pkay thank you 
     - no you call the wrong person
+    - sorry i am not interested thank you bye bye 
+    - you dont wont be talking about nomination only you will be also selling selling insurance to me so i i dont need this ok thank you bye
+    - why would you want to dicuss on that
+    - i can do okay thank you very much
+    - orh i think no need because i really done recently only
+    - doesnt doesnt matter anyway
+    - no i dont need to talk to anyone its okay i can review yup im quite familiar to process
 
 
 - intent: confirm
   examples: |
     - cpf nomination
+    - understand
     - okay this this week okay tomorrow afternoon no
     - can you be quick, i'm going for a meeting
     - what is it regarding about
@@ -1032,6 +1060,18 @@ nlu:
     - sharon
     - what what cpf nomination are you saying
     - ah cpf nomination not really why
+    - why do you want to discuss this with me
+    - no what what is this regarding
+    - how are you regarding 
+    -  cpf nomination why cpf nomination ah
+    - nice okay 
+    - yes please go ahead and say
+    - cpf nominations why leh
+    - c p f
+    - what is regarding
+    - c p f what
+    - understand
+    - this is for regarding what
 
 - intent: start_conversation
   examples: |

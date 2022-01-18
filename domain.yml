@@ -19,10 +19,16 @@ slots:
   goodbye:
     type: text
     influence_conversation: false
+  am_i_ashley:
+    type: text
+    influence_conversation: false
 
 forms:
   name_form:
     busy_call_back:
+    - type: from_text
+  do_you_know_me:
+    am_i_ashley:
     - type: from_text
   already_have_agent:
     want_to_continue:
@@ -44,7 +50,6 @@ intents:
       use_entities: []
   - who_is
   - question_related_to_age_info
-  - request_names
   - start_conversation
   - speak_twice
   - not_singaporean
@@ -88,6 +93,8 @@ responses:
   - text: What is your first name?
   utter_ask_last_name:
   - text: What is your last name?
+  utter_value_added_services:
+  - text: er ya because the government are encouraging everyone to do their CPF nomination so erm we are actually providing a free guidance to all singsporean and pr as a value added service to assist them so erm will it be okay for my manager to give you a quick call this week & arrange a meet up to guide you through the procress
   utter_submit:
   - text: Ok. Thanks!
   utter_slots_values:
@@ -120,7 +127,7 @@ responses:
     - text: oh okay can i ask does your agent follow up with you often would you be interested for me to assign a new agent for you
   utter_goodbye_conversion:
     - text: oh okay thank you have a nice day good bye (conversion)
-  utter_who_am_i:
+  utter_ask_am_i_ashley:
     - text: hi erm sorry am i speaking to erm ashley
   utter_age_info:
     - text: okay i will get my manager will give you a call back oh ya one last question i just wanted to check how old are you 

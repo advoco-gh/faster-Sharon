@@ -32,6 +32,27 @@ rules:
     - slot_was_set:
       - requested_slot: null
     - action: utter_goodbye
+
+  - rule: Activate form you know me
+    steps:
+    - intent: looking_for
+    - action: do_you_know_me
+    - active_loop: do_you_know_me
+
+  - rule: Activate form you know me
+    condition:
+    - active_loop: do_you_know_me
+    steps:
+    - action: do_you_know_me
+    - active_loop: null
+    - slot_was_set:
+      - requested_slot: null
+    - action: utter_goodbye
+    
+  - rule: question_why_cpf_and_prudential
+    steps:
+    - intent: question_why_cpf_and_prudential
+    - action: utter_value_added_services
     
   - rule: dnc
     steps:
@@ -150,6 +171,11 @@ rules:
     - intent: evening
     - action: action_fast_sharon
 
+  - rule: date_day
+    steps:
+    - intent: date_day
+    - action: action_fast_sharon
+
   - rule: age
     steps:
     - intent: age
@@ -186,8 +212,8 @@ rules:
   #   - intent: busy
   #   - action: utter_busy_call_back
 
-  - rule: looking_for
-    steps:
-    - intent: looking_for
-    - action: utter_who_am_i
+  # - rule: looking_for
+  #   steps:
+  #   - intent: looking_for
+  #   - action: utter_who_am_i
 
