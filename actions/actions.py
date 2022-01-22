@@ -60,7 +60,7 @@ class action_fast_sharon(Action):
 
             
         rules = [ "'already_have_agent', 'confirm'",
-                "'who_is', ", "'nlu_fallback', ", "'repeat', ",
+                "'who_is', ", "'nlu_fallback', ", "'repeat', ",  "'question_why_cpf_and_prudential', ",
                 "'looking_for', ",
                 "'question_related_to_singpass_checking', ",
                 "'question_related_to_fees', ", "'question_related_to_age_info', ",
@@ -72,7 +72,7 @@ class action_fast_sharon(Action):
                 "'question_related_to_witness', ",
                 "'question_related_to_who_i_can_nominate', ",
                 "'objection_i_am_agent', ",
-                "'question_speak_chinese', "]
+                "'question_speak_chinese', "]  
 
         for r in rules:
             only_intents = str(only_intents).replace(r, "")
@@ -83,8 +83,8 @@ class action_fast_sharon(Action):
         len_a = len(only_intents)
 
         yes_no = ['reject','already_done', 'confirm']
-        three_no = ['reject','already_done']
-        four_yes = ['confirm', 'morning','afternoon','evening', 'date_day']
+        two_no = ['reject','already_done']
+        five_yes = ['confirm', 'morning','afternoon','evening', 'date_day']
         two_yes = ['confirm', 'age']
         reply = 'utter_goodbye'
         if len_a < 4 and only_intents[-1] in ['afternoon', 'morning', 'evening', 'date_day']:
@@ -114,7 +114,7 @@ class action_fast_sharon(Action):
             # contains any of the rejections
             # if only_intents in [['start_conversation']+[x]+[x]+['confirm'] for x in ['reject','already_done']]:
             #     reply = 'utter_appointment_call_time'
-            if only_intents in [['start_conversation']+[x]+[xx]+['confirm'] for x in ['reject','already_done', 'confirm'] for xx in ['reject','already_done', 'confirm'] ]:
+            if only_intents in [['start_conversation']+[x]+[xx]+[t] for x in ['reject','already_done', 'confirm'] for xx in ['reject','already_done', 'confirm'] for t in ['afternoon', 'morning', 'evening', 'date_day', 'confirm']]:
                 reply = 'utter_appointment_call_time'
             elif only_intents in [['start_conversation']+[x]+[xx]+['reject'] for x in ['reject','already_done', 'confirm'] for xx in ['reject','already_done', 'confirm']]:
                 reply = 'utter_convincing'
@@ -122,25 +122,25 @@ class action_fast_sharon(Action):
                 reply = 'utter_done_nomination'
 
         elif len_a == 5:
-            if only_intents in [['start_conversation']+[x]+[xx]+[i]+['confirm'] for i in ['reject','already_done']\
-            for x in ['reject','already_done', 'confirm'] for xx in ['reject','already_done', 'confirm']]:
+            if only_intents in [['start_conversation']+[x]+[xx]+[i]+[t] for i in ['reject','already_done']\
+            for x in ['reject','already_done', 'confirm'] for xx in ['reject','already_done', 'confirm'] for t in ['afternoon', 'morning', 'evening', 'date_day', 'confirm']]:
                 reply = 'utter_appointment_call_time'
-            elif only_intents[:-1] in [['start_conversation']+[x]+[xx]+['confirm'] for x in ['reject','already_done', 'confirm'] for xx in ['reject','already_done', 'confirm'] ]\
+            elif only_intents[:-1] in [['start_conversation']+[x]+[xx]+[t] for x in ['reject','already_done', 'confirm'] for xx in ['reject','already_done', 'confirm'] for t in ['afternoon', 'morning', 'evening', 'date_day', 'confirm'] ]\
                 and only_intents[-1] in ['confirm','morning','afternoon','evening', 'date_day']:
                 reply = 'utter_age_info'
-            elif only_intents in [['start_conversation']+[x]+[xx]+['confirm'] for x in ['reject','already_done', 'confirm'] for xx in ['reject','already_done', 'confirm']]:
-                reply = 'utter_appointment_call_time'
+            # elif only_intents in [['start_conversation']+[x]+[xx]+['confirm'] for x in ['reject','already_done', 'confirm'] for xx in ['reject','already_done', 'confirm']]:
+            #     reply = 'utter_appointment_call_time'
         elif len_a == 6:
-            if only_intents[:-1] in [['start_conversation']+[x]+[xx]+[i]+['confirm'] for i in ['reject','already_done'] for x in ['reject','already_done', 'confirm'] for xx in ['reject','already_done', 'confirm']]\
+            if only_intents[:-1] in [['start_conversation']+[x]+[xx]+[i]+[t] for i in ['reject','already_done'] for x in ['reject','already_done', 'confirm'] for xx in ['reject','already_done', 'confirm'] for t in ['afternoon', 'morning', 'evening', 'date_day', 'confirm'] ]\
                 and only_intents[-1] in ['confirm','morning','afternoon','evening', 'date_day']:
                 reply = 'utter_age_info'
-            elif only_intents in [['start_conversation', 'confirm', 'confirm']+[x]+['confirm']+ [i] for i in ['confirm', 'morning','afternoon','evening', 'date_day']\
-                 for x in ['reject','already_done']]:
-                reply = 'utter_age_info'
-            elif only_intents in [['start_conversation']+[i]+[i]+['confirm']+[ii]+ [iii] for i in yes_no for ii in four_yes for iii in two_yes]:
+            # elif only_intents in [['start_conversation', 'confirm', 'confirm']+[x]+['confirm']+ [i] for i in ['confirm', 'morning','afternoon','evening', 'date_day']\
+            #      for x in ['reject','already_done']]:
+            #     reply = 'utter_age_info'
+            elif only_intents in [['start_conversation']+[x]+[xx]+[t]+[ii]+ [iii] for x in yes_no for xx in yes_no for ii in five_yes for iii in two_yes for t in ['afternoon', 'morning', 'evening', 'date_day', 'confirm']]:
                 reply = 'utter_acknowledgement_age'
         elif len_a == 7:
-            if only_intents in [['start_conversation']+[i]+[i]+[ii]+['confirm']+ [iii] + [iiii] for i in yes_no for ii in three_no for iii in four_yes for iiii in two_yes]:
+            if only_intents in [['start_conversation']+[x]+[xx]+[ii]+[t]+ [iii] + [iiii] for x in yes_no for xx in yes_no for ii in two_no for iii in five_yes for iiii in two_yes for t in ['afternoon', 'morning', 'evening', 'date_day', 'confirm']]:
                 reply = 'utter_acknowledgement_age'
               
 

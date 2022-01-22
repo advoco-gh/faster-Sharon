@@ -43,6 +43,17 @@ nlu:
     - why he need to call me again?
     - what is tthe purpose of your manager calling me?
 
+- intent: question_related_to_email_request
+  examples: |
+    - is it possible to send email instead
+    - can drop me email
+    - can email me 
+    - sendc email
+    - email
+    - you send me email for me to look through 
+    - okay email me first can
+    - okay i will consider can you send me an email 
+
 
 - intent: date_day
   examples: |

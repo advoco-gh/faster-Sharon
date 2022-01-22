@@ -33,13 +33,29 @@ rules:
       - requested_slot: null
     - action: utter_goodbye
 
+  - rule: Activate email
+    steps:
+    - intent: question_related_to_email_request
+    - action: email
+    - active_loop: email
+
+  - rule: Submit email
+    condition:
+    - active_loop: email
+    steps:
+    - action: email
+    - active_loop: null
+    - slot_was_set:
+      - requested_slot: null
+    - action: utter_goodbye
+
   - rule: Activate form you know me
     steps:
     - intent: looking_for
     - action: do_you_know_me
     - active_loop: do_you_know_me
 
-  - rule: Activate form you know me
+  - rule: submit form you know me
     condition:
     - active_loop: do_you_know_me
     steps:

@@ -7,6 +7,9 @@ entities:
   - number
 
 slots:
+  email:
+    type: text
+    influence_conversation: true
   busy_call_back:
     type: text
     influence_conversation: true
@@ -26,6 +29,9 @@ slots:
 forms:
   name_form:
     busy_call_back:
+    - type: from_text
+  email:
+    email:
     - type: from_text
   do_you_know_me:
     am_i_ashley:
@@ -78,6 +84,7 @@ intents:
   - date_day
   - question_why_cpf_and_prudential
   - repeat
+  - question_related_to_email_request
 
 responses:
   utter_ask_goodbye:
@@ -97,6 +104,8 @@ responses:
   - text: er ya because the government are encouraging everyone to do their CPF nomination so erm we are actually providing a free guidance to all singsporean and pr as a value added service to assist them so erm will it be okay for my manager to give you a quick call this week & arrange a meet up to guide you through the procress
   utter_submit:
   - text: Ok. Thanks!
+  utter_ask_email:
+  - text: oh okay i will take note on your email request i will get my manager to give you a call back do provide him your email address okay
   utter_slots_values:
   - text: I will remember that your name is {first_name}!
   utter_ask_acknowledgement_age:
@@ -124,7 +133,7 @@ responses:
   utter_chinese_audio:
     - text: hi erm so sorry i dont understand chinese i get my colleague to call you tomorrow thank you bye bye
   utter_agent_followup:
-    - text: oh okay can i ask does your agent follow up with you often would you be interested for me to assign a new agent for you
+    - text: oh okay would you still be keen for me to assign a new agent for you as my manager has many years of experience in prudential
   utter_goodbye_conversion:
     - text: oh okay thank you have a nice day good bye (conversion)
   utter_ask_am_i_ashley:
