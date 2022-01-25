@@ -9,6 +9,8 @@ nlu:
     - come again
     - sorry come again
     - i don't get you
+    - no sorry what what were you saying
+    - why is the thing about again 
     
 - intent: dnc
   examples: |
@@ -26,6 +28,7 @@ nlu:
     - do not call list
     - do not call
     - stop calling i am under do not call
+    - this a company number 
 
 - intent: question_related_to_manager
   examples: |
@@ -42,6 +45,7 @@ nlu:
     - just tell me la why need your manager 
     - why he need to call me again?
     - what is tthe purpose of your manager calling me?
+    - who is your manager is it amanda
 
 - intent: question_related_to_email_request
   examples: |
@@ -71,6 +75,7 @@ nlu:
     - second week
     - next weekend
     - next wednesday
+    - orh okay make it next wednesday okay
 
 - intent: question_why_cpf_and_prudential
   examples: |
@@ -85,6 +90,13 @@ nlu:
     - you say singaporean and pr only
     - no i already done my cpf nomination what okay its done through the cpf board why why need to go through potential i thought understand
     - cpf nomination may i will go check it out myself first
+    - the nomination can i do it on my own at home online or i must go to the c d a branch or what
+    - is this for singaporean or pr only
+    - what is the cpf thing 
+    - cpf nomination why are you calling from to talk about my cpf nomination
+    - no i just im just wondering for cpf nomination prudential calling me to do up
+    - i not sure whether she has prudential insurance
+    - is this a sales call
 
 - intent: question_related_to_age_info
   examples: |
@@ -494,7 +506,9 @@ nlu:
     - no it is okay i will just go to my agent
     - my girlfriend is a insurance agent from great eastern 
     - no thats fine i have already somebody working with me with on prudential itself
-
+    - sorry because i already have a habit done in another insurance
+    - no no its okay i have some agent to help me already thank you
+    - its okay i have my own agent thanks
 
 - intent: evening
   examples: |
@@ -520,6 +534,12 @@ nlu:
     - 7pm
     - 11pm
     - evening
+    - six p m
+    - seven p m 
+    - eight p m
+    - nine p m
+    - ten p m
+    - eleven p m 
     
 - intent: morning
   examples: |
@@ -530,6 +550,8 @@ nlu:
     - morning please
     - morning
     - maybe tomorrow morning 
+    - ten a m 
+    - eleven a m
     
 - intent: afternoon
   examples: |
@@ -552,6 +574,11 @@ nlu:
     - afternoon lo
     - 3pm
     - early afternoon please
+    - one p m
+    - two p m 
+    - three p m 
+    - four p m
+    - five p m
 
 - intent: busy
   examples: |
@@ -632,6 +659,8 @@ nlu:
     - im not sorry im working sorry bye
     - no i think its okay because i only its okay its okay because i just did not long ago
     - meeting 
+    - can i call you back later just just one minute okay
+    - sorry sorry no time sorry thank you bye bye 
 
 - intent: already_done
   examples: |
@@ -666,6 +695,8 @@ nlu:
     - i already have 
     - never mind i nominate already 
     - okay im ive actually nominated my my my cpf so i dont think any any help thank you so much
+    - no no no ive already done my nomination no need no need thank you very much
+    - i have done it already its okay thank you
 
 - intent: not_singaporean
   examples: |
@@ -714,6 +745,8 @@ nlu:
     - prudential life insurance
     - sorry what is that
     - sorry who is this person
+    - i think you got the wrong number 
+    - you are from prudential right 
 
 - intent: age
   examples: |
@@ -908,7 +941,12 @@ nlu:
     - orh i think no need because i really done recently only
     - doesnt doesnt matter anyway
     - no i dont need to talk to anyone its okay i can review yup im quite familiar to process
-
+    - ya is okay
+    - its alright
+    - i think its alright because the process i can read up on the c p f website should be quite clear i mean i i read it before but ya
+    -  im aware im aware im aware i read i read up last year actually but of course maybe theres this year they got change things i dunno
+    - no i dont need him to call me sorry what is that what is there for you to call me to tell me how to do nomination yet
+    - no no actually is fine i think im im still okay with my current nomination
 
 - intent: confirm
   examples: |
@@ -1074,7 +1112,7 @@ nlu:
     - why do you want to discuss this with me
     - no what what is this regarding
     - how are you regarding 
-    -  cpf nomination why cpf nomination ah
+    - cpf nomination why cpf nomination ah
     - nice okay 
     - yes please go ahead and say
     - cpf nominations why leh
@@ -1083,6 +1121,8 @@ nlu:
     - c p f what
     - understand
     - this is for regarding what
+    - you working on weekend
+    - i dont understand why
 
 - intent: start_conversation
   examples: |
