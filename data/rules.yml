@@ -1,13 +1,13 @@
 version: '2.0'
 rules:
 
-  - rule: Activate form2
+  - rule: Activate already_have_agent
     steps:
     - intent: already_have_agent
     - action: already_have_agent
     - active_loop: already_have_agent
 
-  - rule: Submit form2
+  - rule: Submit already_have_agent
     condition:
     - active_loop: already_have_agent
     steps:
@@ -17,13 +17,13 @@ rules:
       - requested_slot: null
     - action: utter_manager_introduction
     
-  - rule: Activate form
+  - rule: Activate busy
     steps:
     - intent: busy
     - action: name_form
     - active_loop: name_form
 
-  - rule: Submit form
+  - rule: Submit busy
     condition:
     - active_loop: name_form
     steps:
@@ -78,13 +78,13 @@ rules:
   - rule: question_related_to_manager
     steps:
     - intent: question_related_to_manager
-    - action: utter_manager_introduction
+    - action: action_rule_only_once
 
 
   - rule: question_related_to_age_info
     steps:
     - intent: question_related_to_age_info
-    - action: utter_age_question
+    - action: action_rule_only_once
   
   - rule: student
     steps:
@@ -99,12 +99,12 @@ rules:
   - rule: question_related_to_fees
     steps:
     - intent: question_related_to_fees
-    - action: utter_cost_info
+    - action: action_rule_only_once
 
   - rule: question_related_to_scam
     steps:
     - intent: question_related_to_scam
-    - action: utter_scam_reply
+    - action: action_rule_only_once
 
   - rule: question_related_to_distribution
     steps:
@@ -149,7 +149,7 @@ rules:
   - rule: question_speak_chinese
     steps:
     - intent: question_speak_chinese
-    - action: utter_chinese_audio
+    - action: action_rule_only_once
 
   - rule: repeat
     steps:
@@ -221,7 +221,7 @@ rules:
   - rule: not_singaporean
     steps:
     - intent: not_singaporean
-    - action: utter_goodbye
+    - action: action_rule_only_once
 
   # - rule: busy
   #   steps:

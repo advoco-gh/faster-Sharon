@@ -2,6 +2,7 @@ version: '2.0'
 actions:
   - action_fast_sharon
   - validate_already_have_agent
+  - action_rule_only_once
   
 entities:
   - number

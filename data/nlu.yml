@@ -1,6 +1,11 @@
 version: '2.0'
 nlu:
 
+- intent: start_conversation
+  examples: |
+    - start conversation
+    
+
 - intent: question_related_to_email_request
   examples: |
     - is it possible to send email instead
@@ -11,7 +16,6 @@ nlu:
     - you send me email for me to look through 
     - okay email me first can
     - okay i will consider can you send me an email 
-
 
 - intent: repeat
   examples: |
@@ -28,8 +32,7 @@ nlu:
     - sorry sorry hello hello
     - cannot hear
 
-
-- intent: DNC
+- intent: dnc
   examples: |
     - do not call
     - do not call list
@@ -47,7 +50,6 @@ nlu:
     - you know you cannot call me i am from DNC list
     - this a company number 
 
-
 - intent: question_related_to_manager
   examples: |
     - can i check who is your manager
@@ -64,7 +66,6 @@ nlu:
     - you cannot tell me meh need your manager to all me meh
     - your manager who
     - who is your manager is it amanda
-
 
 - intent: question_why_cpf_and_prudential
   examples: |
@@ -86,9 +87,7 @@ nlu:
     - no i just im just wondering for cpf nomination prudential calling me to do up
     - i not sure whether she has prudential insurance
     - is this a sales call
-    - i no computer
     - the nomination is very direct right why do we need any guidance
-
 
 - intent: question_related_to_age_info
   examples: |
@@ -102,7 +101,6 @@ nlu:
     - why must i tell you my age
     - why must you know
     - you need my age for what
-
 
 - intent: student
   examples: |
@@ -125,7 +123,6 @@ nlu:
     - only twelve years old
     - i am actually a student
 
-
 - intent: question_related_to_singpass_checking
   examples: |
     - are you okay anot need to give you my singpass
@@ -141,8 +138,6 @@ nlu:
     - no la i dont want give you my singpass
     - no obligations right?
     - will it neeed my singpass
-
-
 - intent: question_related_to_fees
   examples: |
     - any cost involvement
@@ -172,7 +167,6 @@ nlu:
     - what it costs
     - you sure free ah
     - zero cost ah
-
 
 - intent: question_related_to_scam
   examples: |
@@ -208,7 +202,6 @@ nlu:
     - you think i am a fool is it
     - you trying to disturb aunty is it
 
-
 - intent: question_related_to_distribution
   examples: |
     - can i check to whom it is distributed?
@@ -220,7 +213,6 @@ nlu:
     - i only got 1 daughter money all give her who else i can nominate
     - only distributed to nominated person?
     - what account can nominate
-
 
 - intent: question_related_to_disclosure_details
   examples: |
@@ -257,7 +249,6 @@ nlu:
     - will my family know
     - will the nominee know the amount i nominate
 
-
 - intent: call_back_to_another_party
   examples: |
     - am not aware of it speak with my husband
@@ -290,7 +281,6 @@ nlu:
     - you can call my friend
     - you can do it for my sister
 
-
 - intent: question_speak_chinese
   examples: |
     - by ni zai jiang some more
@@ -320,7 +310,6 @@ nlu:
     - wo bu zhi dao
     - wo ting bu dong
     - wo ting bu ming bai
-
 
 - intent: objection_i_am_agent
   examples: |
@@ -371,7 +360,6 @@ nlu:
     - I'm also an agent
     - we are actually in the same industry
 
-
 - intent: question_related_to_who_i_can_nominate
   examples: |
     - any capped anot
@@ -387,7 +375,6 @@ nlu:
     - what are the requirements of the nomination
     - what is its requirement
     - who can I nominate to?
-
 
 - intent: question_related_to_witness
   examples: |
@@ -414,7 +401,6 @@ nlu:
     - let me check with my withness available anot
     - what are the information you need for my witness
 
-
 - intent: question_related_to_numbers
   examples: |
     - can i check how did you get my number
@@ -428,14 +414,12 @@ nlu:
     - where you got my number from
     - who gave my number
     - who pass you my number
-
-
+r
 - intent: cpf_account_distribution
   examples: |
     - all account can nominate or 
     - can medisave contribution distributed too?
     - OA account 
-    - only distributed to nominated person?
     - ordinary account 
     - retirement account also can distribute
     - SA account 
@@ -444,7 +428,6 @@ nlu:
     - the nomination only can nominate base on ordinary account or all?
     - what is the distribution process?
     - which account i can use 
-
 
 - intent: looking_for
   examples: |
@@ -466,7 +449,6 @@ nlu:
     - who you are calling
     - why are you calling me
     - you know who am i anot why you call me
-
 
 - intent: already_have_agent
   examples: |
@@ -497,7 +479,6 @@ nlu:
     - prudrential i got my own agent leh 
     - sorry i think i will i will look for my agent my agent also prudential
     - no its okay thank you i have my insurance agent
-
 
 - intent: evening
   examples: |
@@ -530,7 +511,6 @@ nlu:
     - ten p m
     - eleven p m 
 
-
 - intent: morning
   examples: |
     - it is ok morning
@@ -542,7 +522,6 @@ nlu:
     - maybe tomorrow morning
     - ten a m 
     - eleven a m
-
 
 - intent: afternoon
   examples: |
@@ -570,7 +549,6 @@ nlu:
     - three p m 
     - four p m
     - five p m
-
 
 - intent: busy
   examples: |
@@ -653,7 +631,6 @@ nlu:
     - can i call you back later just just one minute okay
     - sorry sorry no time sorry thank you bye bye
 
-
 - intent: already_done
   examples: |
     - ah I actually have done cpf nomination alr
@@ -690,7 +667,6 @@ nlu:
     - no no no ive already done my nomination no need no need thank you very much
     - i have done it already its okay thank you
 
-
 - intent: not_singaporean
   examples: |
     - i am a foreigner
@@ -719,7 +695,6 @@ nlu:
     - oh sorry i am a foreigner i am a s pass holder
     - sorry i am not a pr
 
-
 - intent: who_is
   examples: |
     - from where are you calling?
@@ -740,7 +715,6 @@ nlu:
     - you are calling from prudential?
     - i think you got the wrong number 
     - you are from prudential right 
-
 
 - intent: age 
   examples: |
@@ -814,8 +788,6 @@ nlu:
     - sixty seven
     - sixty eight
     - sixty nine
-
-
 - intent: reject
   examples: |
     - absolutely no
@@ -943,7 +915,6 @@ nlu:
     - no i dont need him to call me sorry what is that what is there for you to call me to tell me how to do nomination yet
     - no no actually is fine i think im im still okay with my current nomination
     - no need im good
-
 
 - intent: confirm
   examples: |
