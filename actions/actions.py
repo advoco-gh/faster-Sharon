@@ -12,6 +12,44 @@ from rasa_sdk.types import DomainDict
 from typing import Text, List, Optional
 
 
+
+# class action_trigger_conversion_form(Action):
+
+#     def name(self) -> Text:
+#         return "action_trigger_conversion_form"
+
+#     def run(self, dispatcher: CollectingDispatcher,
+#             tracker: Tracker,
+#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+#         a = tracker.events
+
+#         only_actions = []
+#         only_intents = []
+
+#         for x in a:
+#             if x['event'] == 'user':
+#                 only_intents.append(x['parse_data']['intent']['name'])
+#             elif x['event'] == 'bot':
+#                 try:
+#                     only_actions.append(x['metadata']['utter_action'])
+#                 except:
+#                     pass
+
+#         # if only_intents[-1] == "speak_twice":
+#         #     reply = only_actions[-1] 
+#         if only_actions[-1] == 'utter_greeting_sharon_prudential':
+#             dispatcher.utter_message(response = 'utter_greeting_repeat_sharon_prudential')
+#             return []
+
+#         else:
+#             rules =  {'already_have_agent': 'already_have_agent'}
+#             reply_action = rules[only_intents[-1]]
+#             dispatcher.utter_message(text = reply_action)
+#             return [FollowupAction(name=reply_action)]
+        
+
+        
 class Validate_already_have_agent(FormValidationAction):
     def name(self) -> Text:
         return "validate_already_have_agent"
@@ -59,7 +97,19 @@ class action_rule_only_once(Action):
         
         else:
             reply = ''
-            for intent in [ ]:
+            for intent in ['question_related_to_age_info',
+                        'not_singaporean',
+                        'question_speak_chinese',
+                        'question_related_to_fees',
+                        'question_related_to_scam',
+                        'question_related_to_manager',
+                        'question_related_to_singpass_checking',
+                        'question_related_to_distribution',
+                        'question_related_to_disclosure_details',
+                        'question_related_to_who_i_can_nominate',
+                        'question_related_to_witness',
+                        'cpf_account_distribution',
+                        'objection_i_am_agent']:
                 if only_intents.count(intent) > 1:
                     reply = 'utter_goodbye'
 
@@ -70,7 +120,15 @@ class action_rule_only_once(Action):
                         'question_speak_chinese':'utter_chinese_audio',
                         'question_related_to_fees':'utter_cost_info',
                         'question_related_to_scam':'utter_scam_reply',
-                        'question_related_to_manager':'utter_manager_introduction'}
+                        'question_related_to_manager':'utter_manager_introduction',
+                        'question_related_to_singpass_checking':'utter_regarding_singpass',
+                        'question_related_to_distribution':'utter_distributions_info',
+                        'question_related_to_disclosure_details':'utter_disclose_nomination_info',
+                        'question_related_to_who_i_can_nominate':'utter_nomination_criteria_info',
+                        'question_related_to_witness':'utter_witness_info',
+                        'cpf_account_distribution': 'utter_types_of_account_distribution',
+                        'objection_i_am_agent': 'utter_goodbye'}
+
                 reply = rules[only_intents[-1]]
 
         dispatcher.utter_message(response = reply)
@@ -106,9 +164,8 @@ class action_fast_sharon(Action):
 
 
 
-            
         rules = [ "'already_have_agent', 'confirm'",
-                "'who_is', ", "'nlu_fallback', ", "'repeat', ",  "'question_why_cpf_and_prudential', ",
+                "'who_is', ", "'nlu_fallback', ", "'repeat', ",  "'question_why_cpf_and_prudential', ", 
                 "'looking_for', ",
                 "'question_related_to_singpass_checking', ",
                 "'question_related_to_fees', ", "'question_related_to_age_info', ", 
@@ -144,7 +201,7 @@ class action_fast_sharon(Action):
             
 
         if len_a == 1:
-            reply = 'utter_goodbye'
+            reply = 'utter_discuss_nomination'
         elif len_a == 2:
             if only_intents in [['start_conversation', x] for x in after_greeting]:
                 reply = 'utter_discuss_nomination'

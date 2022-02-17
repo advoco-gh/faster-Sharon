@@ -414,7 +414,7 @@ nlu:
     - where you got my number from
     - who gave my number
     - who pass you my number
-r
+
 - intent: cpf_account_distribution
   examples: |
     - all account can nominate or 

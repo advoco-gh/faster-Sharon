@@ -17,6 +17,13 @@ rules:
       - requested_slot: null
     - action: utter_manager_introduction
     
+
+  # - rule: already_have_agent
+  #   steps:
+  #   - intent: already_have_agent
+  #   - action: action_trigger_conversion_form 
+
+
   - rule: Activate busy
     steps:
     - intent: busy
@@ -94,7 +101,7 @@ rules:
   - rule: question_related_to_singpass_checking
     steps:
     - intent: question_related_to_singpass_checking
-    - action: utter_regarding_singpass
+    - action: action_rule_only_once
 
   - rule: question_related_to_fees
     steps:
@@ -109,12 +116,12 @@ rules:
   - rule: question_related_to_distribution
     steps:
     - intent: question_related_to_distribution
-    - action: utter_distributions_info
+    - action: action_rule_only_once
 
   - rule: question_related_to_disclosure_details
     steps:
     - intent: question_related_to_disclosure_details
-    - action: utter_disclose_nomination_info
+    - action: action_rule_only_once 
 
   - rule: call_back_to_another_party
     steps:
@@ -129,22 +136,22 @@ rules:
   - rule: cpf_account_distribution
     steps:
     - intent: cpf_account_distribution
-    - action: utter_types_of_account_distribution
+    - action: action_rule_only_once 
 
   - rule: question_related_to_witness
     steps:
     - intent: question_related_to_witness
-    - action: utter_witness_info
+    - action: action_rule_only_once 
 
   - rule: question_related_to_who_i_can_nominate
     steps:
     - intent: question_related_to_who_i_can_nominate
-    - action: utter_nomination_criteria_info
+    - action: action_rule_only_once 
 
   - rule: objection_i_am_agent
     steps:
     - intent: objection_i_am_agent
-    - action: utter_goodbye
+    - action: action_rule_only_once 
 
   - rule: question_speak_chinese
     steps:
