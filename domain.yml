@@ -102,7 +102,7 @@ responses:
   utter_ask_last_name:
   - text: What is your last name?
   utter_value_added_services:
-  - text: er ya because the government are encouraging everyone to do their CPF nomination so erm we are actually providing a free guidance to all singsporean and pr as a value added service to assist them so erm will it be okay for my manager to give you a quick call this week & arrange a meet up to guide you through the procress
+  - text: uhm yap so i am calling on behalf of prudential this call is to check if you have done your CPF nomination as this is a value added service provided by us to all Singaporean and pr with no cost involvement so erm would it be ok for my manager to give you a quick call this week & arrange a meet up to guide you through the process
   utter_submit:
   - text: Ok. Thanks!
   utter_ask_email:
@@ -110,57 +110,57 @@ responses:
   utter_slots_values:
   - text: I will remember that your name is {first_name}!
   utter_ask_acknowledgement_age:
-    - text: sure i will take note. Thank you for your time do expect a call from my manager
+    - text: sure i will take note thank you for your time do expect a call from my manager okay
   utter_acknowledgement_age:
-    - text: sure i will take note. Thank you for your time do expect a call from my manager
+    - text: sure i will take note thank you for your time do expect a call from my manager okay
   utter_regarding_singpass:
-    - text: oh okay erm don't worry you do not have to give me your confidential details so during the meet up with my manager she will assist you with the cpf nomination procession  so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process
+    - text: oh okay erm don't worry you do not have to give me your confidential details so during the meet up with my manager she will assist you with the CPF nomination process so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process
   utter_cost_info:
-    - text: er yes dont worry during the meet with my manager there will not be any cost involvement on the whole process of nomination so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the
+    - text: er yes don't worry during the meet with my manager there will not be any cost involvement on the whole process of nomination so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process
   utter_scam_reply:
-    - text: erm don't worry this is definitely not a scam i am calling on behalf of prudential so erm Many people like you and i probably not aware of CPF nomination so this more like a awareness campaign to guide you through on the process so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process 
+    - text: erm don't worry this is definitely not a scam i am calling on behalf of prudential so erm many people like you and i probably not aware of CPF nomination so this more like a awareness campaign to guide you through on the process so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process 
   utter_distributions_info:
-    - text: er yes the distribution will distribute base on the intestate law however if you have do your nomination you have the flexibility choose who you would like to nominate to which many singaporean are not aware of it so erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
+    - text: er yes the distribution will distribute base on the intestate law however if you have done your nomination you have the flexibility to choose who you would like to nominate to which many singaporean are not aware of it so erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_disclose_nomination_info:
-    - text: er no cpf board will not disclose your CPF account information. er This information will only be disclosed upon your demise so erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process ok
+    - text: er no CPF board will not disclose your CPF account information er this information will only be disclosed upon your demise erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_call_others:
-    - text: oh okay erm so sorry disturb no problem will get my manager to give you a call tomorrow and erm do pass the contact details over to my manager alright
+    - text: oh okay so sorry disturb no problem will get my manager to give you a call back and do pass the contact details over to my manager alright
   utter_numbers_info:
-    - text: hi erm so sorry i got your number from a online marketing survey that  you fill in your particular some times back i am actually doing a follow up service call to check with you if you have made your cpf nomination and my manager can provide such value added service to assist you hmm may i arrange for a quick call back to guide you through the procress
+    - text: hi erm so sorry i got your number from a online marketing survey that you fill in your particular some times back i am actually doing a follow up service call to check with you if you have made your cpf nomination and my manager can provide such value added service to assist you hmm may i arrange for a quick call back to guide you through the process 
   utter_types_of_account_distribution:
     - text: oh okay the nomination covers all the saving in your account such as medisave account ordinary special and retirement account so erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the nomination process okay
   utter_witness_info:
-    - text: nope the witness do not have to come during the meet up, onec you assign them as witness using your singpass they will receive a authorization sms or email
+    - text: er no the witness do not have to come during the meet up once you assign them as witness using your singpass they will receive a authorization sms or email erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_chinese_audio:
-    - text: hi erm so sorry i dont understand chinese i get my colleague to call you tomorrow thank you bye bye
+    - text: hi er er dui bu qi wo bu da hui shuo hua yu er wo ming tian jia wo de tong shi da gei ni okay thank you bye bye
   utter_agent_followup:
     - text: oh okay would you still be keen for me to assign a new agent for you as my manager has many years of experience in prudential
   utter_goodbye_conversion:
     - text: oh okay thank you have a nice day good bye (conversion)
   utter_ask_am_i_ashley:
-    - text: hi erm sorry am i speaking to erm ashley
+    - text: hi so sorry am i speaking to erm Ashley
   utter_age_info:
     - text: okay i will get my manager will give you a call back oh ya one last question i just wanted to check how old are you 
   utter_age_info_repeat:
     - text: oh okay so sorry as i was mentioning may i check with your age how old are you
   utter_age_question:
-    - text: oh okay erm by knowing your age this allow my manager to do her preparation before meeting you so this  allow us to save some time on the nomination process
+    - text: oh okay erm by knowing your age this allow my manager to do her preparation before meeting you so this allow us to save some time on the nomination process
   utter_appointment_call_time:
-    - text: great erm i will get my manager to contact you  erm do prefer him to call you in the afternoon or evening
+    - text: great erm i will get my manager to contact you erm do prefer him to call you in the afternoon or evening 
   utter_assurance:
     - text: er ya you can rest assure as there is no risk involvement but more like a informative sharing on what ishappening to your CPF distribution if there is no nomination made so erm will it be okay for my manager to give you a call and arrange a meet up with you
   utter_busy_call_back:
-    - text: oh okay erm sorry to disturb can i will give you a call back ok
+    - text: oh okay erm sorry to disturb i will give you a call back okay
   utter_ask_busy_call_back:
-    - text: oh okay erm sorry to disturb can i will give you a call back ok
+    - text: oh okay erm sorry to disturb i will give you a call back okay
   utter_call_other:
-    - text: oh okay erm so sorry disturb no problem will get my manager to give you a call tomorrow and erm do pass the contact details over to my manager alright
+    - text: oh okay so sorry disturb no problem will get my manager to give you a call back and do pass the contact details over to my manager alright
   utter_convincing:
-    - text: erm okay can I understand this may not be a top priority right now or perhaps you don’t see the value in it er many people have said the same but once my manager meet them up and guide along with the nomination they find it very useful to have this settle before hand erm allow me to have  two minutes of your time and I promise that erm that you will be clear anot on whether or not this is a good use of your time
+    - text: erm okay I understand this may not be a top priority right now or perhaps you don’t see the value in it er many people have said the same but once my manager meet them up and guide them along with the nomination they find it very useful to have this settle before hand erm allow me to have two minutes of your time and I promise that you will be clear anot on whether this is a good use of your time
   utter_discuss_nomination:
     - text: hmm can i discuss with you on the CPF nomination
   utter_done_nomination:
-    - text: ah ok erm so you are encouraged to review your CPF nomination as often as possible and also there is no limit to the number of time you make changes on the nomination so erm will it be okay for my manager to give you a quick call & arrange a meet up to guide you through the procress
+    - text: ah ok erm so you are encouraged to review your CPF nomination as often as possible as there is no limit to the number of time you make changes on the nomination so erm will it be okay for my manager to give you a quick call and arrange a meet up to guide you through the process
   utter_fall_back:
     - text: erm so sorry i didn't get you 
   utter_goodbye:
@@ -168,13 +168,13 @@ responses:
   utter_greeting_repeat_sharon_prudential:
     - text: hi hmm so sorry i am sharon callingon behalf of prudential
   utter_greeting_sharon_prudential:
-    - text: hello hi i am Sharon calling on behalf of  prudential
+    - text: hello hi i am sharon calling on behalf of prudential
   utter_manager_introduction:
     - text: er ya my manager is from prudential with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you with the nomination erm the whole duration will take around 30 minutes or more
   utter_nomination_criteria_info:
     - text: er ya you can indicate to any person that includes a non cpf account holder as long as they are 16 years old and above so all you need to know is their name exactly as per NRIC so erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_purpose:
-    - text: er ya because the government are encouraging everyone to do their CPF nomination so erm we are actually providing a free guidance to all singsporean and pr as a value added service to assist them so erm will it be okay for my manager to give you a quick call this week & arrange a meet up to guide you through the procress
+    - text: er ya because the government are encouraging everyone to do their CPF nomination so erm we are actually providing a free guidance to all singaporean and pr as a value added service to assist them so erm will it be okay for my manager to give you a quick call this week and arrange a meet up to guide you through the process
   utter_sry_are_you_there:
     - text: hi erm sorry are you there
   utter_fallback:
