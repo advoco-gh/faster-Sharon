@@ -92,21 +92,21 @@ responses:
     - text: oh okay thank you have a nice day good bye
     
   utter_ask_want_to_continue:
-    - text: oh okay can i ask does your agent follow up with you often would you be interested for me to assign a new agent for you
+    - text: oh okay would you still be keen for me to assign a new agent for you as my manager has many years of experience in prudential
     
   utter_ask_reply_to_manager_advice:
     - text: er ya my manager is from prudential with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you with the nomination erm the whole duration will take around 30 minutes or more
 
-  utter_ask_first_name:
-  - text: What is your first name?
-  utter_ask_last_name:
-  - text: What is your last name?
+  # utter_ask_first_name:
+  # - text: What is your first name?
+  # utter_ask_last_name:
+  # - text: What is your last name?
   utter_value_added_services:
   - text: uhm yap so i am calling on behalf of prudential this call is to check if you have done your CPF nomination as this is a value added service provided by us to all Singaporean and pr with no cost involvement so erm would it be ok for my manager to give you a quick call this week & arrange a meet up to guide you through the process
   utter_submit:
   - text: Ok. Thanks!
-  utter_ask_email:
-  - text: oh okay i will take note on your email request i will get my manager to give you a call back do provide him your email address okay
+  # utter_ask_email:
+  # - text: oh okay i will take note on your email request i will get my manager to give you a call back do provide him your email address okay
   utter_slots_values:
   - text: I will remember that your name is {first_name}!
   utter_ask_acknowledgement_age:
