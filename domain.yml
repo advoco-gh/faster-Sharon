@@ -166,7 +166,7 @@ responses:
   utter_goodbye:
     - text: oh okay thank you have a nice day good bye
   utter_greeting_repeat_sharon_prudential:
-    - text: hi hmm so sorry i am sharon callingon behalf of prudential
+    - text: hi hmm so sorry i am sharon calling on behalf of prudential
   utter_greeting_sharon_prudential:
     - text: hello hi i am sharon calling on behalf of prudential
   utter_manager_introduction:
