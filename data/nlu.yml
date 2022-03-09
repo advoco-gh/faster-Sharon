@@ -38,6 +38,7 @@ nlu:
     - what what is that sorry whats that again
     - can you hear me
     - can you hear me can you hear me
+    - i dont understand
 
 
 - intent: dnc
@@ -61,6 +62,8 @@ nlu:
     - this is a bank number
     - this is a coperate phone 
     - this is a company phone
+    - hotline
+    - despite me telling not to call me anymore why do i still receive call every day 
 
 
 - intent: question_related_to_manager
@@ -103,6 +106,18 @@ nlu:
     - is this a sales call
     - the nomination is very direct right why do we need any guidance
     - the nomination can be done online right
+    - its okay because youre doing telemarketing call is it
+    - what does that mean
+    - i do not know what is your intention
+    - no i dont understand what else is got to do with prudential
+    - i dont know the goverment ask me to do 
+    - it weird that why is it doing a nomination on behalf of cpf
+    - you mean i need to make decisions on my beneficiary i need someone to tell me
+    - c p f i really dont know what is it 
+    - are you calling from cpf board
+    - this is p n c issue why prudential 
+    - this is private and confidential 
+    - cpf nomination are you saying that
 
 
 - intent: question_related_to_age_info
@@ -117,6 +132,7 @@ nlu:
     - why must i tell you my age
     - why must you know
     - you need my age for what
+    - is my age important
 
 
 - intent: student
@@ -187,6 +203,8 @@ nlu:
     - what it costs
     - you sure free ah
     - zero cost ah
+    - it a complimentary service by you
+    - complimentary service
 
 
 - intent: question_related_to_scam
@@ -222,6 +240,7 @@ nlu:
     - you think i 3 years old is it
     - you think i am a fool is it
     - you trying to disturb aunty is it
+    - is this a scam i think you better get some one from prudential to call me
 
 
 - intent: question_related_to_distribution
@@ -339,6 +358,8 @@ nlu:
     - wo bu hui ting
     - ni jiang some more
     - some more
+    - i no english 
+    - ke yi jiang hua yi ma
 
 
 - intent: objection_i_am_agent
@@ -389,6 +410,11 @@ nlu:
     - i am working at prudential i am also the staff there
     - I'm also an agent
     - we are actually in the same industry
+    - no i dont want i have i have a family member that insurance
+     - im from prudential too
+    - im a planner myself you know
+    - but i already told you im a planner myself
+    - my wife is a insurance agent
 
 
 - intent: question_related_to_who_i_can_nominate
@@ -675,6 +701,16 @@ nlu:
     - sorry sorry no time sorry thank you bye bye
     - sorry im engaged
     - not the right time yeah
+    - call me in fifteen minutes
+    - call me in ten minutes
+    - call me in twenty minutes
+    - call me in five minutes
+    - im sorry im a line
+    - orh no free when we were walking so ya
+    - call back later
+    - orh sorry i dont have time
+    - i i dont think so im quite busy right now yeah its okay thanks anyway i i will let you know if i need your help
+    - sorry im on the another line
 
 
 - intent: already_done
@@ -720,6 +756,7 @@ nlu:
     - no need la i already nominate before
     - no i think its okay i have i have already nominated
     - i did long ago
+    - yeah i nominated
 
 
 - intent: not_singaporean
@@ -750,6 +787,7 @@ nlu:
     - oh sorry i am a foreigner i am a s pass holder
     - sorry i am not a pr
     - no i know c p f i am foreigner i busy sorry
+    - no i know c p f i am foreigner i busy sorry
 
 
 - intent: who_is
@@ -773,6 +811,9 @@ nlu:
     - i think you got the wrong number 
     - you are from prudential right 
     - are you from cpf
+    - which agency are you from
+    - no its alright your name miss sharon right
+    - you are calling from 
 
 
 - intent: age 
@@ -986,6 +1027,10 @@ nlu:
     - yah i know
     - its okay i think fine i have others whom i can consult okay thanks for reminding right i will yeah i dont need your manager to call me back thanks
     - i know
+    - no i i do myself no worries
+    - im aware of this 
+    - why do i what do i want to work with you then
+    - no its okay i think im im all right thank you so much thank you
 
 
 - intent: confirm
@@ -1169,3 +1214,4 @@ nlu:
     - okay can thank you sorry sorry
     - yah so sorry
     - orh orh okay
+    - potential
