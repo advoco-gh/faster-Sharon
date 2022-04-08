@@ -102,7 +102,7 @@ responses:
   # utter_ask_last_name:
   # - text: What is your last name?
   utter_value_added_services:
-  - text: uhm yap so i am calling on behalf of prudential this call is to check if you have done your CPF nomination as this is a value added service provided by us to all Singaporean and pr with no cost involvement so erm would it be ok for my manager to give you a quick call this week & arrange a meet up to guide you through the process
+  - text: uhm yap so i am calling on behalf of great eastern this call is to check if you have done your CPF nomination as this is a value added service provided by us to all Singaporean and pr with no cost involvement so erm would it be ok for my manager to give you a quick call this week and arrange a meet up to guide you through the process 
   utter_submit:
   - text: Ok. Thanks!
   utter_ask_email:
@@ -118,7 +118,7 @@ responses:
   utter_cost_info:
     - text: er yes don't worry during the meet with my manager there will not be any cost involvement on the whole process of nomination so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process
   utter_scam_reply:
-    - text: erm don't worry this is definitely not a scam i am calling on behalf of prudential so erm many people like you and i probably not aware of CPF nomination so this more like a awareness campaign to guide you through on the process so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process 
+    - text: erm dont worry this is definitely not a scam i am calling on behalf of great eastern so erm many people like you and i probably not aware of CPF nomination so this more like a awareness campaign to guide you through on the process so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process
   utter_distributions_info:
     - text: er yes the distribution will distribute base on the intestate law however if you have done your nomination you have the flexibility to choose who you would like to nominate to which many singaporean are not aware of it so erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_disclose_nomination_info:
@@ -134,7 +134,7 @@ responses:
   utter_chinese_audio:
     - text: hi er er dui bu qi wo bu da hui shuo hua yu er wo ming tian jia wo de tong shi da gei ni okay thank you bye bye
   utter_agent_followup:
-    - text: oh okay would you still be keen for me to assign a new agent for you as my manager has many years of experience in prudential
+    - text: oh okay would you still be keen for me to assign a new agent for you as my manager has many years of experience in great eastern
   utter_goodbye_conversion:
     - text: oh okay thank you have a nice day good bye (conversion)
   utter_ask_am_i_ashley:
@@ -166,11 +166,11 @@ responses:
   utter_goodbye:
     - text: oh okay thank you have a nice day good bye
   utter_greeting_repeat_sharon_prudential:
-    - text: hi hmm so sorry i am sharon calling on behalf of prudential
+    - text: hi hmm so sorry i am sharon calling on behalf of great eastern
   utter_greeting_sharon_prudential:
-    - text: hello hi i am sharon calling on behalf of prudential
+    - text: hello hi i am sharon calling on behalf of great eastern
   utter_manager_introduction:
-    - text: er ya my manager is from prudential with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you with the nomination erm the whole duration will take around 30 minutes or more
+    - text: er ya my manager is from great eastern with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you with the nomination erm the whole duration will take around 30 minutes or more
   utter_nomination_criteria_info:
     - text: er ya you can indicate to any person that includes a non cpf account holder as long as they are 16 years old and above so all you need to know is their name exactly as per NRIC so erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_purpose:
