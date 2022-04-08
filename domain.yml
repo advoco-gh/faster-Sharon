@@ -92,7 +92,7 @@ responses:
     - text: oh okay thank you have a nice day good bye
     
   utter_ask_want_to_continue:
-    - text: oh okay would you still be keen for me to assign a new agent for you as my manager has many years of experience in prudential
+    - text: oh okay would you still be keen for me to assign a new agent for you as my manager has many years of experience in great eastern
     
   utter_ask_reply_to_manager_advice:
     - text: er ya my manager is from prudential with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you with the nomination erm the whole duration will take around 30 minutes or more
