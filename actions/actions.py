@@ -252,3 +252,55 @@ class action_fast_sharon(Action):
         return []
 
 
+class action_busy_reply(Action):
+
+    def name(self) -> Text:
+        return "action_busy_reply"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        a = tracker.events
+
+        only_actions = []
+        only_intents = []
+
+        for x in a:
+            if x['event'] == 'user':
+                only_intents.append(x['parse_data']['intent']['name'])
+            elif x['event'] == 'bot':
+                try:
+                    only_actions.append(x['metadata']['utter_action'])
+                except:
+                    pass
+        
+
+
+        replies = 	{ "already_have_agent":"utter_agent_followup",
+						"who_is": "utter_ask_am_i_ashley",
+						"utter_fallback":  "nlu_fallback",
+						"question_why_cpf_and_prudential" : "utter_value_added_service", 
+						"looking_for":"utter_ask_am_i_ashley",
+						"question_related_to_scam": "utter_scam_reply",
+						"question_related_to_distribution": "utter_distributions_info",
+						"question_related_to_disclosure_details": "utter_disclose_nomination_info",
+						"question_related_to_numbers": "utter_numbers_info",
+						"cpf_account_distribution":  "utter_types_of_account_distribution",
+						"question_related_to_witness":"utter_witness_info",
+						"call_back_to_another_party": "utter_call_others",
+						"question_related_to_who_i_can_nominate": "utter_nomination_criteria_info",
+				    }
+       
+        print('action_busy_reply', only_intents, only_actions)
+        for intent, ans in replies.items():
+            if intent == only_intents[-1]:
+                reply = ans
+                break
+            else:
+                reply = 'utter_ask_goodbye'
+
+        if only_intents.count('busy') > 1:
+                reply = 'utter_ask_goodbye'
+        dispatcher.utter_message(response = reply)
+        return []
