@@ -415,6 +415,10 @@ nlu:
     - im a planner myself you know
     - but i already told you im a planner myself
     - my wife is a insurance agent
+    - my uncle is a insurance agent
+    - my aunt is a insurance agent
+    - my brother is a insurance agent
+    - my relative is a agent
 
 
 - intent: question_related_to_who_i_can_nominate
