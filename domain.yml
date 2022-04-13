@@ -178,5 +178,4 @@ responses:
     - text: er ya because the government are encouraging everyone to do their CPF nomination so erm we are actually providing a free guidance to all singaporean and pr as a value added service to assist them so erm will it be okay for my manager to give you a quick call this week and arrange a meet up to guide you through the process
   utter_sry_are_you_there:
     - text: hi erm sorry are you there
-  utter_fallback:
-    - text: sorry,i didnt get you.
+ 
