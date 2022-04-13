@@ -290,6 +290,8 @@ class action_busy_reply(Action):
 						"question_related_to_witness":"utter_witness_info",
 						"call_back_to_another_party": "utter_call_others",
 						"question_related_to_who_i_can_nominate": "utter_nomination_criteria_info",
+                        "question_why_cpf_and_prudential":"utter_value_added_services",
+                        "question_related_to_email_request":"utter_ask_email"
 				    }
        
         print('action_busy_reply', only_intents, only_actions)

@@ -162,7 +162,7 @@ responses:
     - text: hmm can i discuss with you on the CPF nomination
   utter_done_nomination:
     - text: ah ok erm so you are encouraged to review your CPF nomination as often as possible as there is no limit to the number of time you make changes on the nomination so erm will it be okay for my manager to give you a quick call and arrange a meet up to guide you through the process
-  utter_fall_back:
+  utter_fallback:
     - text: erm so sorry i didn't get you 
   utter_goodbye:
     - text: oh okay thank you have a nice day good bye
