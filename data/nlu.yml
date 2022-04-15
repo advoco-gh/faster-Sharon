@@ -16,6 +16,7 @@ nlu:
     - you send me email for me to look through 
     - okay email me first can
     - okay i will consider can you send me an email 
+    - i not free now able to e mail to me or what
 
 
 - intent: repeat
@@ -64,6 +65,9 @@ nlu:
     - this is a company phone
     - hotline
     - despite me telling not to call me anymore why do i still receive call every day 
+    - do you know im on the do not call list
+    - why do you actually call my number because as i mentioned my number is d n c 
+    - no its okay actually how to you come across to call me because my my number is d n c 
 
 
 - intent: question_related_to_manager
@@ -128,6 +132,9 @@ nlu:
     - no i already done my cpf nomination what okay its done through the cpf board why why need to go through great eastern l i thought understand
     - no i just im just wondering for cpf nomination great eastern calling me to do up
     - i not sure whether she has great eastern insurance
+    - what nomination is this can i check
+    - isnt making the nomination just doing it on the website
+    - yeah i understand no this is this is regarding which policy what is it about
 
 
 - intent: question_related_to_age_info
@@ -429,6 +436,7 @@ nlu:
     - my aunt is a insurance agent
     - my brother is a insurance agent
     - my relative is a agent
+    - no need i am financial planner myself thanks
 
 
 - intent: question_related_to_who_i_can_nominate
@@ -487,6 +495,7 @@ nlu:
     - where you got my number from
     - who gave my number
     - who pass you my number
+    - if youre calling from great eastern while mobile number
 
 
 - intent: already_have_agent
@@ -519,6 +528,7 @@ nlu:
     - sorry i think i will i will look for my agent my agent also prudential
     - no its okay thank you i have my insurance agent
     - i mentioned earlier i already have my own financial planner 
+    - its okay i will call my agent
 
 
 - intent: cpf_account_distribution
@@ -558,6 +568,7 @@ nlu:
     - why are you calling me
     - you know who am i anot why you call me
     - you are talking to which client can i have your name
+    - i think you got the wrong number i dont have the patience
 
 
 - intent: evening
@@ -590,6 +601,7 @@ nlu:
     - nine p m
     - ten p m
     - eleven p m 
+    - next week next week evening 
 
 
 - intent: morning
@@ -725,6 +737,9 @@ nlu:
     - orh sorry i dont have time
     - i i dont think so im quite busy right now yeah its okay thanks anyway i i will let you know if i need your help
     - sorry im on the another line
+    - okay now i quite busy
+    - now is not a s good time 
+    - not at the moment im working 
 
 
 - intent: already_done
@@ -771,6 +786,7 @@ nlu:
     - no i think its okay i have i have already nominated
     - i did long ago
     - yeah i nominated
+    - i think done
 
 
 - intent: not_singaporean
@@ -801,7 +817,7 @@ nlu:
     - oh sorry i am a foreigner i am a s pass holder
     - sorry i am not a pr
     - no i know c p f i am foreigner i busy sorry
-    - no i know c p f i am foreigner i busy sorry
+    - so sorry im im not p r
 
 
 - intent: who_is
@@ -828,6 +844,8 @@ nlu:
     - which agency are you from
     - no its alright your name miss sharon right
     - you are calling from 
+    - calling from
+    - calling on behalf of what 
 
 
 - intent: age 
@@ -1045,6 +1063,9 @@ nlu:
     - im aware of this 
     - why do i what do i want to work with you then
     - no its okay i think im im all right thank you so much thank you
+    - i have no need for any financial services thanks
+    - isnt making the nomination just doing it on the website
+    - no if youre on behalf of great eastern no thank you
 
 
 - intent: confirm
@@ -1229,3 +1250,12 @@ nlu:
     - yah so sorry
     - orh orh okay
     - potential
+    - great eastern you mean great eastern insurance
+    - great eastern okay
+    - great eastern ya
+    - why you want to know my nomination sorry
+    - what do you mean
+    - what is that about
+    - yes sorry what is the about for the c p f thing
+    - no i do i have any plans for great eastern
+    - can it be a virtual call versus a physical meet up i think that will be easier
