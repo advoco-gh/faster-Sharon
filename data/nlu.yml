@@ -17,6 +17,7 @@ nlu:
     - okay email me first can
     - okay i will consider can you send me an email 
     - i not free now able to e mail to me or what
+    - at the moment im not convenient now can you drop me an email or anything
 
 
 - intent: repeat
@@ -68,6 +69,8 @@ nlu:
     - do you know im on the do not call list
     - why do you actually call my number because as i mentioned my number is d n c 
     - no its okay actually how to you come across to call me because my my number is d n c 
+    - is a robot
+    - sorry you got the wrong number this one is company phone
 
 
 - intent: question_related_to_manager
@@ -135,6 +138,20 @@ nlu:
     - what nomination is this can i check
     - isnt making the nomination just doing it on the website
     - yeah i understand no this is this is regarding which policy what is it about
+    - calling from g e and tell you tell me you wanna talk about nominations also strange right
+    - what has cpf got to do with manulife
+    - you are calling on from cpf or manulife
+    - why manulife call me regarding cpf nomination
+    - no i dont understand what else is got to do with manulife
+    - this is p n c issue why manulife
+    - what has cpf got to do with manulife
+    - you are calling on from cpf or manulife
+    - why manulife call me regarding cpf nomination
+    - no i dont understand what else is got to do with manulife
+    - this is p n c issue why manulife
+    - no i already done my cpf nomination what okay its done through the cpf board why why need to go through manulife l i thought understand
+    - no i just im just wondering for cpf nomination manulife calling me to do up
+    - calling from manulife and tell you tell me you wanna talk about nominations also strange right
 
 
 - intent: question_related_to_age_info
@@ -150,6 +167,7 @@ nlu:
     - why must you know
     - you need my age for what
     - is my age important
+    - not comfortable giving age
 
 
 - intent: student
@@ -172,6 +190,7 @@ nlu:
     - still studying
     - only twelve years old
     - i am actually a student
+    - actually no because i not im not at the age where i want to explore other policy
 
 
 - intent: question_related_to_singpass_checking
@@ -271,6 +290,7 @@ nlu:
     - i only got 1 daughter money all give her who else i can nominate
     - only distributed to nominated person?
     - what account can nominate
+    - c p f normally i thought its by default is will be in to my next next of kin
 
 
 - intent: question_related_to_disclosure_details
@@ -437,6 +457,11 @@ nlu:
     - my brother is a insurance agent
     - my relative is a agent
     - no need i am financial planner myself thanks
+    - no im a own brooker for that
+    - sorry im from great eastern
+    - i am also under manulife
+    - i am working at manulife i am also the staff there
+    - sorry im from manulife
 
 
 - intent: question_related_to_who_i_can_nominate
@@ -496,6 +521,7 @@ nlu:
     - who gave my number
     - who pass you my number
     - if youre calling from great eastern while mobile number
+    - sorry where did you get my contact 
 
 
 - intent: already_have_agent
@@ -529,6 +555,15 @@ nlu:
     - no its okay thank you i have my insurance agent
     - i mentioned earlier i already have my own financial planner 
     - its okay i will call my agent
+    - i think its okay because i have a agent also handled my case also yeah
+    - its okay because i got my own agent
+    - no my agent has been there for very long and experience as well
+    - friend is from manulife very long time working with me on my portfolio so appreciate that call thank you so much
+    - i actually have my own manulife agent i think i dont think i need i need to discuss already
+    - I have a manulife agent
+    - no thats fine i have already somebody working with me with on manulife itself
+    - youre frommanulife is it my my agent is from prudential ill just check with her okay
+    - manulife i got my own agent leh 
 
 
 - intent: cpf_account_distribution
@@ -643,6 +678,7 @@ nlu:
     - three p m 
     - four p m
     - five p m
+    - afternoon would be better depending on time
 
 
 - intent: busy
@@ -740,6 +776,11 @@ nlu:
     - okay now i quite busy
     - now is not a s good time 
     - not at the moment im working 
+    - actually i just woke up can you call back tomorrow
+    - no no not at the moment thanks thanks
+    - no not at the moment
+    - im actually in the train
+    - i cant hear you 
 
 
 - intent: already_done
@@ -787,6 +828,8 @@ nlu:
     - i did long ago
     - yeah i nominated
     - i think done
+    - but i dont understand so that means because myself i have already made a nomination so why would the call the whats the purpose of the call
+    - i thought theres already a nomination made
 
 
 - intent: not_singaporean
@@ -818,6 +861,9 @@ nlu:
     - sorry i am not a pr
     - no i know c p f i am foreigner i busy sorry
     - so sorry im im not p r
+    - because im not the p r and singaporean
+    - i dont think that apply to me im a p r
+    - sorry im not singaporean sorry 
 
 
 - intent: who_is
@@ -846,6 +892,9 @@ nlu:
     - you are calling from 
     - calling from
     - calling on behalf of what 
+    - this is prudential right
+    - youre calling from which office
+    - this is manulife right
 
 
 - intent: age 
@@ -1066,6 +1115,8 @@ nlu:
     - i have no need for any financial services thanks
     - isnt making the nomination just doing it on the website
     - no if youre on behalf of great eastern no thank you
+    - thank you  
+    - i already declined you twice
 
 
 - intent: confirm
@@ -1259,3 +1310,12 @@ nlu:
     - yes sorry what is the about for the c p f thing
     - no i do i have any plans for great eastern
     - can it be a virtual call versus a physical meet up i think that will be easier
+    - cpf what sorry
+    - okay you can call back
+    - great eastern
+    - great eastern ya 
+    - the meet up cant be this week 
+    - and this is regarding nomination for
+    - can sure but im a p r i just work here for one year plus
+    - manulife
+    - manulife insurance ya 
