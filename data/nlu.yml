@@ -89,6 +89,7 @@ nlu:
     - you cannot tell me meh need your manager to all me meh
     - your manager who
     - who is your manager is it amanda
+    - she will meet me to do the nomination with me or no
 
 
 - intent: question_why_cpf_and_prudential
@@ -152,6 +153,7 @@ nlu:
     - no i already done my cpf nomination what okay its done through the cpf board why why need to go through manulife l i thought understand
     - no i just im just wondering for cpf nomination manulife calling me to do up
     - calling from manulife and tell you tell me you wanna talk about nominations also strange right
+    
 
 
 - intent: question_related_to_age_info
@@ -1319,3 +1321,5 @@ nlu:
     - can sure but im a p r i just work here for one year plus
     - manulife
     - manulife insurance ya 
+    - its okay because youre doing telemarketing call is it
+    - orh orh okay
