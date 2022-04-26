@@ -41,6 +41,7 @@ nlu:
     - can you hear me
     - can you hear me can you hear me
     - i dont understand
+    - i cant hear you i cant hear you
 
 
 - intent: dnc
@@ -279,6 +280,10 @@ nlu:
     - you think i am a fool is it
     - you trying to disturb aunty is it
     - is this a scam i think you better get some one from prudential to call me
+    - how come your number is six five
+    - why your number start from plus six five
+    - your number is plus six five
+    - where are you from first hold on because i see a plus sixty five thirteen im very worried
 
 
 - intent: question_related_to_distribution
@@ -362,6 +367,7 @@ nlu:
     - what are you talking about can you call & explain to my husband
     - you can call my friend
     - you can do it for my sister
+    - orh yah its for my my dads right
 
 
 - intent: question_speak_chinese
@@ -399,6 +405,7 @@ nlu:
     - some more
     - i no english 
     - ke yi jiang hua yi ma
+    - i cannot understand
 
 
 - intent: objection_i_am_agent
@@ -464,6 +471,7 @@ nlu:
     - i am also under manulife
     - i am working at manulife i am also the staff there
     - sorry im from manulife
+    - not interested because i am a insurance agent thank you
 
 
 - intent: question_related_to_who_i_can_nominate
@@ -524,6 +532,7 @@ nlu:
     - who pass you my number
     - if youre calling from great eastern while mobile number
     - sorry where did you get my contact 
+    - no im not interested i dont know how you get my number
 
 
 - intent: already_have_agent
@@ -866,6 +875,7 @@ nlu:
     - because im not the p r and singaporean
     - i dont think that apply to me im a p r
     - sorry im not singaporean sorry 
+    - no i know c p f i am foreigner i busy sorry
 
 
 - intent: who_is
@@ -897,6 +907,7 @@ nlu:
     - this is prudential right
     - youre calling from which office
     - this is manulife right
+    - which agency are you from
 
 
 - intent: age 
@@ -1119,6 +1130,7 @@ nlu:
     - no if youre on behalf of great eastern no thank you
     - thank you  
     - i already declined you twice
+    - orh no no no no no
 
 
 - intent: confirm
@@ -1323,3 +1335,4 @@ nlu:
     - manulife insurance ya 
     - its okay because youre doing telemarketing call is it
     - orh orh okay
+    - cpf what
