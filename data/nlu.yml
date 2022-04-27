@@ -42,6 +42,7 @@ nlu:
     - can you hear me can you hear me
     - i dont understand
     - i cant hear you i cant hear you
+    - sorry i cant hear you
 
 
 - intent: dnc
@@ -72,6 +73,8 @@ nlu:
     - no its okay actually how to you come across to call me because my my number is d n c 
     - is a robot
     - sorry you got the wrong number this one is company phone
+    - no i already put myself on a do not call list
+    - ya precisely i already put myself on the do not call registry so i will appreciate if you dont call
 
 
 - intent: question_related_to_manager
@@ -114,7 +117,6 @@ nlu:
     - i not sure whether she has prudential insurance
     - is this a sales call
     - the nomination is very direct right why do we need any guidance
-    - the nomination can be done online right
     - its okay because youre doing telemarketing call is it
     - what does that mean
     - i do not know what is your intention
@@ -284,6 +286,8 @@ nlu:
     - why your number start from plus six five
     - your number is plus six five
     - where are you from first hold on because i see a plus sixty five thirteen im very worried
+    - i dont know whether you are already calling for manual life because they plus six five so it could be a scam call
+    - no are you calling from singapore why your number is not from singapore
 
 
 - intent: question_related_to_distribution
@@ -472,6 +476,8 @@ nlu:
     - i am working at manulife i am also the staff there
     - sorry im from manulife
     - not interested because i am a insurance agent thank you
+    - my sister works for the insurance company
+    - my sister work for manulife
 
 
 - intent: question_related_to_who_i_can_nominate
@@ -533,6 +539,7 @@ nlu:
     - if youre calling from great eastern while mobile number
     - sorry where did you get my contact 
     - no im not interested i dont know how you get my number
+    - how did you have my number in the first place
 
 
 - intent: already_have_agent
@@ -575,6 +582,7 @@ nlu:
     - no thats fine i have already somebody working with me with on manulife itself
     - youre frommanulife is it my my agent is from prudential ill just check with her okay
     - manulife i got my own agent leh 
+    - no i have one consultant to do for me already
 
 
 - intent: cpf_account_distribution
@@ -648,6 +656,7 @@ nlu:
     - ten p m
     - eleven p m 
     - next week next week evening 
+    - i think evening would be better
 
 
 - intent: morning
@@ -690,6 +699,8 @@ nlu:
     - four p m
     - five p m
     - afternoon would be better depending on time
+    - lunch time better
+    - next week lunch time better
 
 
 - intent: busy
@@ -792,6 +803,8 @@ nlu:
     - no not at the moment
     - im actually in the train
     - i cant hear you 
+    - okay i didnt have time for this
+    - no this week i cannot
 
 
 - intent: already_done
@@ -841,6 +854,9 @@ nlu:
     - i think done
     - but i dont understand so that means because myself i have already made a nomination so why would the call the whats the purpose of the call
     - i thought theres already a nomination made
+    - orh cpf nomination already
+    - done my nomination two months back
+    -  i just did it last year i just did it last year two months ago three months ago or something like that yeah so i wouldnt want to revisit for now
 
 
 - intent: not_singaporean
@@ -876,6 +892,9 @@ nlu:
     - i dont think that apply to me im a p r
     - sorry im not singaporean sorry 
     - no i know c p f i am foreigner i busy sorry
+    - no sorry i dont have any contribution
+    - i dont contribute cpf
+    - im not singaporean youre calling the wrong person
 
 
 - intent: who_is
@@ -908,6 +927,12 @@ nlu:
     - youre calling from which office
     - this is manulife right
     - which agency are you from
+    - hello whos this
+    - may i know which company are you calling form
+    - from which insurance company
+    - this one is what which company are you from
+    - from where
+    - where you calling
 
 
 - intent: age 
@@ -1131,6 +1156,16 @@ nlu:
     - thank you  
     - i already declined you twice
     - orh no no no no no
+    - that one very easy to do right i can just do through cpf 
+    - the nomination can be done online right
+    - is it an optional thing or is it
+    - did i say i i agree
+    - no need i can anytime book a slot to go down to cpf can do it
+    - sorry sorry thank you
+    - im sorry
+    - its okay i will discuss with my family members you know to do the necessary things
+    - no i dont require that i dont want to get the service i can do it my own
+    - i think at the moment maybe not
 
 
 - intent: confirm
@@ -1336,3 +1371,4 @@ nlu:
     - its okay because youre doing telemarketing call is it
     - orh orh okay
     - cpf what
+    - why calling me
