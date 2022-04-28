@@ -75,6 +75,7 @@ nlu:
     - sorry you got the wrong number this one is company phone
     - no i already put myself on a do not call list
     - ya precisely i already put myself on the do not call registry so i will appreciate if you dont call
+    -  do not called registry
 
 
 - intent: question_related_to_manager
@@ -288,6 +289,7 @@ nlu:
     - where are you from first hold on because i see a plus sixty five thirteen im very worried
     - i dont know whether you are already calling for manual life because they plus six five so it could be a scam call
     - no are you calling from singapore why your number is not from singapore
+    - i wouldnt know whether you are actually calling from manulife and i cannot verify and you know that there are a lot of scam calls and all that i wouldnt know
 
 
 - intent: question_related_to_distribution
@@ -478,6 +480,10 @@ nlu:
     - not interested because i am a insurance agent thank you
     - my sister works for the insurance company
     - my sister work for manulife
+    - no need im also agent
+    - orh no need because my daughter is under manual life also
+    - im a manager from manual life
+    -  my wife is an insurance agent at my sisters a lawyer so they do it for me
 
 
 - intent: question_related_to_who_i_can_nominate
@@ -540,6 +546,7 @@ nlu:
     - sorry where did you get my contact 
     - no im not interested i dont know how you get my number
     - how did you have my number in the first place
+    - did you get my consent before you call me
 
 
 - intent: already_have_agent
@@ -583,6 +590,7 @@ nlu:
     - youre frommanulife is it my my agent is from prudential ill just check with her okay
     - manulife i got my own agent leh 
     - no i have one consultant to do for me already
+    - ive other advisor that already trying to guide me 
 
 
 - intent: cpf_account_distribution
@@ -857,6 +865,7 @@ nlu:
     - orh cpf nomination already
     - done my nomination two months back
     -  i just did it last year i just did it last year two months ago three months ago or something like that yeah so i wouldnt want to revisit for now
+    - i just did it
 
 
 - intent: not_singaporean
@@ -895,6 +904,7 @@ nlu:
     - no sorry i dont have any contribution
     - i dont contribute cpf
     - im not singaporean youre calling the wrong person
+    - i tourist only
 
 
 - intent: who_is
@@ -933,6 +943,8 @@ nlu:
     - this one is what which company are you from
     - from where
     - where you calling
+    - whats your name
+    - your the agent or what
 
 
 - intent: age 
@@ -1007,6 +1019,8 @@ nlu:
     - sixty seven
     - sixty eight
     - sixty nine
+    -  im fifty plus already
+    - im forty plus already
 
 
 - intent: reject
@@ -1166,6 +1180,9 @@ nlu:
     - its okay i will discuss with my family members you know to do the necessary things
     - no i dont require that i dont want to get the service i can do it my own
     - i think at the moment maybe not
+    - im currently not working so i dont have cpf yah
+    - no thank you i know how to do my nomination
+    -  i can actually do it on my own
 
 
 - intent: confirm
@@ -1372,3 +1389,11 @@ nlu:
     - orh orh okay
     - cpf what
     - why calling me
+    - sorry what what is it
+    - what can i do for you
+    - manual life
+    - sorry what is this about
+    - manulife
+    - i will prefer talking to a real person that can answer my question
+    - manual life
+    - okay ill give you two minutes
