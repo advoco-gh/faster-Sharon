@@ -168,4 +168,7 @@ responses:
     - text: er ya because the government are encouraging everyone to do their CPF nomination so erm we are actually providing a free guidance to all singaporean and pr as a value added service to assist them so erm will it be okay for my manager to give you a quick call this week and arrange a meet up to guide you through the process
   utter_sry_are_you_there:
     - text: hi erm sorry are you there
- 
+    
+    
+   utter_manager_introduction:
+    - text: er ya my manager is from manulife with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you with the nomination erm the whole duration will take around thirty minutes or more
