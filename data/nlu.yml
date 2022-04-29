@@ -157,6 +157,13 @@ nlu:
     - no i already done my cpf nomination what okay its done through the cpf board why why need to go through manulife l i thought understand
     - no i just im just wondering for cpf nomination manulife calling me to do up
     - calling from manulife and tell you tell me you wanna talk about nominations also strange right
+    - can i nominate my whole family
+    - i also not married who can i nominate to
+    - i dont remember if i have make any nomination
+    - i single who can i give
+    - who can I nominate to?
+    - can i choose who i want to distribute to
+    - i only got 1 daughter money all give her who else i can nominate
     
 
 
@@ -290,20 +297,6 @@ nlu:
     - i dont know whether you are already calling for manual life because they plus six five so it could be a scam call
     - no are you calling from singapore why your number is not from singapore
     - i wouldnt know whether you are actually calling from manulife and i cannot verify and you know that there are a lot of scam calls and all that i wouldnt know
-
-
-- intent: question_related_to_distribution
-  examples: |
-    - can i check to whom it is distributed?
-    - can i choose who i want to distribute to
-    - can i know the distribution process la
-    - can you explain me the distribution process
-    - i can distribute to how many people
-    - i no computer
-    - i only got 1 daughter money all give her who else i can nominate
-    - only distributed to nominated person?
-    - what account can nominate
-    - c p f normally i thought its by default is will be in to my next next of kin
 
 
 - intent: question_related_to_disclosure_details
@@ -485,22 +478,6 @@ nlu:
     - im a manager from manual life
     -  my wife is an insurance agent at my sisters a lawyer so they do it for me
 
-
-- intent: question_related_to_who_i_can_nominate
-  examples: |
-    - any capped anot
-    - can i nominate my whole family
-    - how many people i can nominate
-    - i also not married who can i nominate to
-    - i dont remember if i have make any nomination
-    - i single who can i give
-    - is there any criteria
-    - is there any particular criteria for nomination
-    - what are the maximum people i can nominate to
-    - what are the requirement of the nomination?
-    - what are the requirements of the nomination
-    - what is its requirement
-    - who can I nominate to?
 
 
 - intent: question_related_to_witness
