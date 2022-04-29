@@ -103,7 +103,7 @@ responses:
   # utter_ask_last_name:
   # - text: What is your last name?
   utter_value_added_services:
-  - text: uhm yap so i am calling on behalf of manulife this call is to check if you have done your CPF nomination as this is a value added service provided by us to all Singaporean and pr with no cost involvement so erm would it be ok for my manager to give you a quick call this week and arrange a meet up to guide you through the process
+  - text: erm ya this call is not intended to sell you any policy so erm we are here to help citizen to guide them on the cpf nomination ya erm if you have done your nomination the government also provide subsidies on a long term care insurance that uses your Medshield to support unforeseen accident which erm many are not aware erm only by doing so you would need to review your nomination so erm can i get my manager to assist you further
   utter_submit:
   - text: Ok. Thanks!
   utter_ask_email:
@@ -120,8 +120,6 @@ responses:
     - text: er yes don't worry during the meet with my manager there will not be any cost involvement on the whole process of nomination so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process
   utter_scam_reply:
     - text: erm don't worry this is definitely not a scam i am calling on behalf of manulife so erm many people like you and i probably not aware of CPF nomination so this more like a awareness campaign to guide you through on the process so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process
-  utter_distributions_info:
-    - text: er yes the distribution will distribute base on the intestate law however if you have done your nomination you have the flexibility to choose who you would like to nominate to which many singaporean are not aware of it so erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_disclose_nomination_info:
     - text: er no CPF board will not disclose your CPF account information er this information will only be disclosed upon your demise erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_call_others:
@@ -133,9 +131,7 @@ responses:
   utter_witness_info:
     - text: er no the witness do not have to come during the meet up once you assign them as witness using your singpass they will receive a authorization sms or email erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_chinese_audio:
-    - text: hi er er dui bu qi wo bu da hui shuo hua yu er wo ming tian jia wo de tong shi da gei ni okay thank you bye bye
-  utter_agent_followup:
-    - text: oh okay would you still be keen for me to assign a new agent for you as my manager has many years of experience in manulife
+    - text: hi er er so sorry wo bu da hui hua yu wo tong shi ming tian call ni okay thank you bye bye
   utter_goodbye_conversion:
     - text: oh okay thank you have a nice day good bye (conversion)
   utter_ask_am_i_ashley:
@@ -161,7 +157,7 @@ responses:
   utter_discuss_nomination:
     - text: hmm can i discuss with you on the CPF nomination
   utter_done_nomination:
-    - text: ah ok erm so you are encouraged to review your CPF nomination as often as possible as there is no limit to the number of time you make changes on the nomination so erm will it be okay for my manager to give you a quick call and arrange a meet up to guide you through the process
+    - text: orh okay erm if you have done your nomination you might have missed out a component that you could use it to upgrade on the national long term care insurance erm which is subsidies by the government and erm during the meet my manager can help you with this cashless upgrade with no obligation of purchasing any policy erm would that be okay for you
   utter_fallback:
     - text: erm so sorry i didnt get you 
   utter_goodbye:
@@ -170,10 +166,6 @@ responses:
     - text: hi hmm so sorry i am sharon calling on behalf of manulife
   utter_greeting_sharon_prudential:
     - text: hello hi i am sharon calling on behalf of manulife
-  utter_manager_introduction:
-    - text: er ya my manager is from manulife with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you with the nomination erm the whole duration will take around 30 minutes or more
-  utter_nomination_criteria_info:
-    - text: er ya you can indicate to any person that includes a non cpf account holder as long as they are 16 years old and above so all you need to know is their name exactly as per NRIC so erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_purpose:
     - text: er ya because the government are encouraging everyone to do their CPF nomination so erm we are actually providing a free guidance to all singaporean and pr as a value added service to assist them so erm will it be okay for my manager to give you a quick call this week and arrange a meet up to guide you through the process
   utter_sry_are_you_there:
