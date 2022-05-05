@@ -5,7 +5,6 @@ nlu:
   examples: |
     - start conversation
 
-
 - intent: question_related_to_email_request
   examples: |
     - is it possible to send email instead

@@ -1,27 +1,27 @@
 version: '2.0'
 rules:
 
-  - rule: Activate already_have_agent
-    steps:
-    - intent: already_have_agent
-    - action: already_have_agent
-    - active_loop: already_have_agent
-
-  - rule: Submit already_have_agent
-    condition:
-    - active_loop: already_have_agent
-    steps:
-    - action: already_have_agent
-    - active_loop: null
-    - slot_was_set:
-      - requested_slot: null
-    - action: utter_manager_introduction
-    
-
-  # - rule: already_have_agent
+  # - rule: Activate already_have_agent
   #   steps:
   #   - intent: already_have_agent
-  #   - action: action_trigger_conversion_form 
+  #   - action: already_have_agent
+  #   - active_loop: already_have_agent
+
+  # - rule: Submit already_have_agent
+  #   condition:
+  #   - active_loop: already_have_agent
+  #   steps:
+  #   - action: already_have_agent
+  #   - active_loop: null
+  #   - slot_was_set:
+  #     - requested_slot: null
+  #   - action: utter_manager_introduction
+    
+
+  - rule: already_have_agent
+    steps:
+    - intent: already_have_agent
+    - action: utter_ask_goodbye
 
 
   - rule: Activate busy
@@ -117,10 +117,10 @@ rules:
     - intent: question_related_to_scam
     - action: action_rule_only_once
 
-  - rule: question_related_to_distribution
-    steps:
-    - intent: question_related_to_distribution
-    - action: action_rule_only_once
+  # - rule: question_related_to_distribution
+  #   steps:
+  #   - intent: question_related_to_distribution
+  #   - action: action_rule_only_once
 
   - rule: question_related_to_disclosure_details
     steps:
@@ -147,10 +147,10 @@ rules:
     - intent: question_related_to_witness
     - action: action_rule_only_once 
 
-  - rule: question_related_to_who_i_can_nominate
-    steps:
-    - intent: question_related_to_who_i_can_nominate
-    - action: action_rule_only_once 
+  # - rule: question_related_to_who_i_can_nominate
+  #   steps:
+  #   - intent: question_related_to_who_i_can_nominate
+  #   - action: action_rule_only_once 
 
   - rule: objection_i_am_agent
     steps:

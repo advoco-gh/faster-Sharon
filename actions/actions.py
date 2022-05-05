@@ -51,6 +51,7 @@ from typing import Text, List, Optional
 
         
 class Validate_already_have_agent(FormValidationAction):
+    ACTIONS = []
     def name(self) -> Text:
         return "validate_already_have_agent"
 
@@ -61,11 +62,22 @@ class Validate_already_have_agent(FormValidationAction):
             tracker: "Tracker",
             domain: "DomainDict",
     ) -> Optional[List[Text]]:
+        action = tracker.get_intent_of_latest_message()
+        actions = []
+
+        ret=slots_mapped_in_domain.copy()
         if not tracker.get_slot("want_to_continue"):
-            slots_mapped_in_domain.append("goodbye")
+            ret.append('goodbye')
 
-        return slots_mapped_in_domain
+        print(self.ACTIONS.count('already_have_agent'))
+        if action == "already_done" or self.ACTIONS.count('already_have_agent') >= 2:
+            ret.clear()
+            ret = ["goodbye"]
+        self.ACTIONS.append(action)
+        # print("{}, action:{}, reply: {}, intent: {}".format(self.name(), ret))
 
+        print(self.name(), action, ret)
+        return ret
 
         
 class action_rule_only_once(Action):
@@ -130,7 +142,8 @@ class action_rule_only_once(Action):
                         'objection_i_am_agent': 'utter_goodbye'}
 
                 reply = rules[only_intents[-1]]
-
+        print("{}, action: {}, reply: {}, intent: {}".format(self.name(), only_actions[-1], reply, only_intents[-1]))
+  
         dispatcher.utter_message(response = reply)
         return []
 
@@ -248,6 +261,23 @@ class action_fast_sharon(Action):
                 reply = 'utter_acknowledgement_age'
               
 
+        #solve the multiscript
+        print("{}, action: {}, reply: {}, intent: {}".format(self.name(), only_actions[-1], reply, only_intents[-1]))
+
+        if only_intents[-1] == "already_done" and only_actions[-1] == "utter_ask_want_to_continue":
+            return []
+        #solve already-done
+        if only_intents[-1] == "already_done":
+            reply = "utter_done_nomination"
+
+        #slolve already-done with reject
+        print(only_intents, only_actions)
+        if only_intents[-1] == "reject" and "utter_ask_want_to_continue" in only_actions:
+            reply = "utter_ask_goodbye"
+
+
+        print("{}, action: {}, reply: {}, intent: {}".format(self.name(), only_actions[-1], reply, only_intents[-1]))
+        
         dispatcher.utter_message(response = reply)
         return []
 
@@ -291,7 +321,8 @@ class action_busy_reply(Action):
 						"call_back_to_another_party": "utter_call_others",
 						"question_related_to_who_i_can_nominate": "utter_nomination_criteria_info",
                         "question_why_cpf_and_prudential":"utter_value_added_services",
-                        "question_related_to_email_request":"utter_ask_email"
+                        "question_related_to_email_request":"utter_ask_email",
+                        "afternoon":"utter_greeting_sharon_prudential"
 				    }
        
         print('action_busy_reply', only_intents, only_actions)
@@ -304,5 +335,9 @@ class action_busy_reply(Action):
 
         if only_intents.count('busy') > 1:
                 reply = 'utter_ask_goodbye'
+
+        print("{}, action: {}, reply: {}, intent: {}".format(self.name(), only_actions[-1], reply, only_intents[-1]))
         dispatcher.utter_message(response = reply)
         return []
+
+
