@@ -75,6 +75,8 @@ nlu:
     - no i already put myself on a do not call list
     - ya precisely i already put myself on the do not call registry so i will appreciate if you dont call
     -  do not called registry
+    - actually this is a office phone
+    -  is a random care or you already have some of my information thats why you call me
 
 
 - intent: question_related_to_manager
@@ -163,6 +165,15 @@ nlu:
     - who can I nominate to?
     - can i choose who i want to distribute to
     - i only got 1 daughter money all give her who else i can nominate
+    - i dont have any plan with manulife
+    - i dont understand why would manulife help me with something with cpf
+    - why you need guidance for nomination
+    -  so what has manulife got to do with cpf nomination i dont get it
+    - manual life i dont think i have any plan with manulife
+    - what is it to do with your company cpf
+    - are you sure you are from manulife
+    - im asking im asking you what is manulife i did not sign up anything 
+    - regards about investment
     
 
 
@@ -203,6 +214,7 @@ nlu:
     - only twelve years old
     - i am actually a student
     - actually no because i not im not at the age where i want to explore other policy
+    - im not of age to do that
 
 
 - intent: question_related_to_singpass_checking
@@ -523,6 +535,8 @@ nlu:
     - no im not interested i dont know how you get my number
     - how did you have my number in the first place
     - did you get my consent before you call me
+    - okay you answer this question first where did you get my number first
+    - did you check my number before you call me
 
 
 - intent: already_have_agent
@@ -567,6 +581,9 @@ nlu:
     - manulife i got my own agent leh 
     - no i have one consultant to do for me already
     - ive other advisor that already trying to guide me 
+    - i will talk to my insurance agent and take the help if i need i need to check whether ive already done nomination or not
+    - i have my own financial advice from manual life finance so probably i will go with her if she wants to do something like that
+    - i im doing it with a i a
 
 
 - intent: cpf_account_distribution
@@ -607,6 +624,8 @@ nlu:
     - you know who am i anot why you call me
     - you are talking to which client can i have your name
     - i think you got the wrong number i dont have the patience
+    - did you get the right person
+    - i dont know you
 
 
 - intent: evening
@@ -789,7 +808,12 @@ nlu:
     - i cant hear you 
     - okay i didnt have time for this
     - no this week i cannot
-
+    - im overseas now
+    - orh can you call back after six
+    - i cant take this call right now
+    - im actually im overseas now
+    - manulife ah can you call me back tomorrow
+    - busy rushing for a report
 
 - intent: already_done
   examples: |
@@ -842,6 +866,8 @@ nlu:
     - done my nomination two months back
     -  i just did it last year i just did it last year two months ago three months ago or something like that yeah so i wouldnt want to revisit for now
     - i just did it
+    - done as well
+    - no i think i think not necessary its okay no need i already done the nomination myself
 
 
 - intent: not_singaporean
@@ -881,6 +907,7 @@ nlu:
     - i dont contribute cpf
     - im not singaporean youre calling the wrong person
     - i tourist only
+    - sorry i think we cannot because we are foreigners
 
 
 - intent: who_is
@@ -921,6 +948,10 @@ nlu:
     - where you calling
     - whats your name
     - your the agent or what
+    - who are you representing
+    - you are calling from  
+    - sorry you are calling from cpf
+    - whos that on the line
 
 
 - intent: age 
@@ -997,6 +1028,7 @@ nlu:
     - sixty nine
     -  im fifty plus already
     - im forty plus already
+    - in my early fifties
 
 
 - intent: reject
@@ -1159,6 +1191,13 @@ nlu:
     - im currently not working so i dont have cpf yah
     - no thank you i know how to do my nomination
     -  i can actually do it on my own
+    - manual life i dont remember
+    - its okay i know how to do
+    - no whats the purpose of your call
+    - its okay i i dont need that for the moment its okay
+    - i said i upgraded my elder shield my enhancements everything
+    - the component i also already upgrade
+    - i already upgrade
 
 
 - intent: confirm
@@ -1373,3 +1412,4 @@ nlu:
     - i will prefer talking to a real person that can answer my question
     - manual life
     - okay ill give you two minutes
+    -  from manulife
