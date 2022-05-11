@@ -270,6 +270,10 @@ class action_fast_sharon(Action):
         if only_intents[-1] == "already_done":
             reply = "utter_done_nomination"
 
+        #solve the already-done count
+        if only_intents.count('already_done') >= 2:
+            reply = "utter_ask_goodbye"
+        
         #slolve already-done with reject
         print(only_intents, only_actions)
         if only_intents[-1] == "reject" and "utter_ask_want_to_continue" in only_actions:
