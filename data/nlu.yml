@@ -77,6 +77,8 @@ nlu:
     -  do not called registry
     - actually this is a office phone
     -  is a random care or you already have some of my information thats why you call me
+    - anyway i will report due to p d p a
+    - where do i get my information
 
 
 - intent: question_related_to_manager
@@ -174,6 +176,14 @@ nlu:
     - are you sure you are from manulife
     - im asking im asking you what is manulife i did not sign up anything 
     - regards about investment
+    - what has nomination got to do with the insurance
+    - all right so is this a cold call
+    - what is it got to do with manual life
+    - you mean the nomination
+    - orh sorry is it regarding on insurance or something like that for policy
+    - yeah but do you know who is just a random call is it
+    - so you just give me a call or you get instructed by the government to contact me
+    - what what do you mean by cpf nomination
     
 
 
@@ -488,6 +498,9 @@ nlu:
     - orh no need because my daughter is under manual life also
     - im a manager from manual life
     -  my wife is an insurance agent at my sisters a lawyer so they do it for me
+    - dont have to i am from manulife also
+    - im a manual life advisor
+    - my family is working in the same line
 
 
 
@@ -584,6 +597,7 @@ nlu:
     - i will talk to my insurance agent and take the help if i need i need to check whether ive already done nomination or not
     - i have my own financial advice from manual life finance so probably i will go with her if she wants to do something like that
     - i im doing it with a i a
+    - okay i have my insurance agent to help me
 
 
 - intent: cpf_account_distribution
@@ -673,6 +687,8 @@ nlu:
     - maybe tomorrow morning
     - ten a m 
     - eleven a m
+    - in the morning because usually afternoon i will be 
+   
 
 
 - intent: afternoon
@@ -814,6 +830,9 @@ nlu:
     - im actually im overseas now
     - manulife ah can you call me back tomorrow
     - busy rushing for a report
+    - orh no sorry in jakarta thanks thank you
+    - orh so you can call later i am not feeling well i am sleeping
+    -  im busy working yah thank you
 
 - intent: already_done
   examples: |
@@ -868,6 +887,7 @@ nlu:
     - i just did it
     - done as well
     - no i think i think not necessary its okay no need i already done the nomination myself
+    -  but i remember doing the nomination many years ago
 
 
 - intent: not_singaporean
@@ -952,6 +972,8 @@ nlu:
     - you are calling from  
     - sorry you are calling from cpf
     - whos that on the line
+    - may i know whos on the line
+    - okay what were you from
 
 
 - intent: age 
@@ -1198,6 +1220,7 @@ nlu:
     - i said i upgraded my elder shield my enhancements everything
     - the component i also already upgrade
     - i already upgrade
+    - i have no idea what you talking about
 
 
 - intent: confirm
@@ -1413,3 +1436,9 @@ nlu:
     - manual life
     - okay ill give you two minutes
     -  from manulife
+    - okay fine you arrange a date but currently i think should be next month already
+    - sorry i dont know what you mean
+    - is there anything important
+    - you want to discuss with me about what
+    - yeah can get them to call me
+    - eh hi
