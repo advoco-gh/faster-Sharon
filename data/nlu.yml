@@ -79,6 +79,8 @@ nlu:
     -  is a random care or you already have some of my information thats why you call me
     - anyway i will report due to p d p a
     - where do i get my information
+    - its an automatic i intelligence really yeah artificial intelligence
+    - no im sorry this is a business line
 
 
 - intent: question_related_to_manager
@@ -98,6 +100,7 @@ nlu:
     - your manager who
     - who is your manager is it amanda
     - she will meet me to do the nomination with me or no
+    - how is he or she going to assist me
 
 
 - intent: question_why_cpf_and_prudential
@@ -184,6 +187,13 @@ nlu:
     - yeah but do you know who is just a random call is it
     - so you just give me a call or you get instructed by the government to contact me
     - what what do you mean by cpf nomination
+    - this for the cold call right
+    - no because i straight away go to c p f to do the nomination again
+    - is a very random call
+    - yeah i dont have an account with manual life where you calling me
+    - i know how to do it myself i can read it out myself
+    - i mean what is the purpose of doing this
+    - is it necessary
     
 
 
@@ -225,6 +235,7 @@ nlu:
     - i am actually a student
     - actually no because i not im not at the age where i want to explore other policy
     - im not of age to do that
+    - i dont think im old enough for for it im only currently sixteen this year
 
 
 - intent: question_related_to_singpass_checking
@@ -275,6 +286,7 @@ nlu:
     - zero cost ah
     - it a complimentary service by you
     - complimentary service
+    - theres no free lunch in this world
 
 
 - intent: question_related_to_scam
@@ -640,6 +652,11 @@ nlu:
     - i think you got the wrong number i dont have the patience
     - did you get the right person
     - i dont know you
+    -  youre calling the wrong number
+    - may i ask you you would like to speak to
+    - sorry wrong number
+    - i think you have the wrong number
+    - you want to talk to who
 
 
 - intent: evening
@@ -674,6 +691,7 @@ nlu:
     - eleven p m 
     - next week next week evening 
     - i think evening would be better
+    - can you call me tomorrow evening cause now is not available
 
 
 - intent: morning
@@ -833,6 +851,7 @@ nlu:
     - orh no sorry in jakarta thanks thank you
     - orh so you can call later i am not feeling well i am sleeping
     -  im busy working yah thank you
+    - im actually traveling so probably we can we can see
 
 - intent: already_done
   examples: |
@@ -888,6 +907,7 @@ nlu:
     - done as well
     - no i think i think not necessary its okay no need i already done the nomination myself
     -  but i remember doing the nomination many years ago
+    - no listen i already done my nomination already
 
 
 - intent: not_singaporean
@@ -928,6 +948,8 @@ nlu:
     - im not singaporean youre calling the wrong person
     - i tourist only
     - sorry i think we cannot because we are foreigners
+    - work permit
+    - im not a citizen
 
 
 - intent: who_is
@@ -1221,6 +1243,18 @@ nlu:
     - the component i also already upgrade
     - i already upgrade
     - i have no idea what you talking about
+    - i think i will pass is okay
+    - i already i already top up already sorry dont need i already bought the rider also so i dont need
+    - orh sorry thank you
+    - yeah i i think you didnt hear me so i am just saying its okay i dont need it
+    - no not at this moment
+    - not at the moment thanks yeah
+    - i cant understand what you mean
+    - you should reach out to those who have yet to do yeah
+    - probably not
+    - no problem no problem
+    - no thanks i dont need any guidance
+    - im not really interested in anything else right
 
 
 - intent: confirm
@@ -1442,3 +1476,13 @@ nlu:
     - you want to discuss with me about what
     - yeah can get them to call me
     - eh hi
+    - may i know the purpose of this called
+    - yeah i think its fine but most probably within next week
+    -  you can just get you managed to drop me a call but not now
+    - why i do not have any business with you right
+    - meaning
+    - ya maybe can get her to call me first lor
+    - is there some materials that you want to send over that i can read out on my own
+    - sure sure
+    - what is this about
+    - what cpf nomination
