@@ -42,6 +42,8 @@ nlu:
     - i dont understand
     - i cant hear you i cant hear you
     - sorry i cant hear you
+    - sorry hold on hold on
+    - hi i cant hear you just now
 
 
 - intent: dnc
@@ -81,6 +83,7 @@ nlu:
     - where do i get my information
     - its an automatic i intelligence really yeah artificial intelligence
     - no im sorry this is a business line
+    -  i think that you should actually you scrub off your marketing less because im on the d n c
 
 
 - intent: question_related_to_manager
@@ -194,6 +197,8 @@ nlu:
     - i know how to do it myself i can read it out myself
     - i mean what is the purpose of doing this
     - is it necessary
+    - no that one is the online right theres like online
+    - check this one is a government programme thing is it
     
 
 
@@ -211,6 +216,8 @@ nlu:
     - you need my age for what
     - is my age important
     - not comfortable giving age
+    - how old am i
+
 
 
 - intent: student
@@ -1255,6 +1262,9 @@ nlu:
     - no problem no problem
     - no thanks i dont need any guidance
     - im not really interested in anything else right
+    - im not going to talk to you to waste my time
+    - sorry i dont think i want to continue this conversation thank you for your time
+    -  no i have i have enough insurance coverage already thank you thank you
 
 
 - intent: confirm
