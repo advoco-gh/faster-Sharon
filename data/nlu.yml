@@ -44,6 +44,7 @@ nlu:
     - sorry i cant hear you
     - sorry hold on hold on
     - hi i cant hear you just now
+    - hello can you repeat please
 
 
 - intent: dnc
@@ -84,6 +85,8 @@ nlu:
     - its an automatic i intelligence really yeah artificial intelligence
     - no im sorry this is a business line
     -  i think that you should actually you scrub off your marketing less because im on the d n c
+    - this is actually a clinic phone
+    - is this an automated message
 
 
 - intent: question_related_to_manager
@@ -104,6 +107,7 @@ nlu:
     - who is your manager is it amanda
     - she will meet me to do the nomination with me or no
     - how is he or she going to assist me
+    - how long does it take do i have to meet up with somebody and you know is it really like a long process to do or
 
 
 - intent: question_why_cpf_and_prudential
@@ -199,6 +203,12 @@ nlu:
     - is it necessary
     - no that one is the online right theres like online
     - check this one is a government programme thing is it
+    - what nomination you are talking about
+    - i dont have anything to manualife
+    - what package you are selling
+    - what you are trying to sell
+    - im a housewife
+    - what does it got to do with you
     
 
 
@@ -520,6 +530,7 @@ nlu:
     - dont have to i am from manulife also
     - im a manual life advisor
     - my family is working in the same line
+    -  i know i work in insurance so i know about this thing
 
 
 
@@ -569,6 +580,7 @@ nlu:
     - did you get my consent before you call me
     - okay you answer this question first where did you get my number first
     - did you check my number before you call me
+    - where did you get my number
 
 
 - intent: already_have_agent
@@ -664,6 +676,7 @@ nlu:
     - sorry wrong number
     - i think you have the wrong number
     - you want to talk to who
+    - i know my dear no do you know who youre talking to a not
 
 
 - intent: evening
@@ -699,6 +712,7 @@ nlu:
     - next week next week evening 
     - i think evening would be better
     - can you call me tomorrow evening cause now is not available
+    - evening because im at work now
 
 
 - intent: morning
@@ -745,6 +759,7 @@ nlu:
     - afternoon would be better depending on time
     - lunch time better
     - next week lunch time better
+    - i think afternoon it would be good
 
 
 - intent: busy
@@ -915,6 +930,8 @@ nlu:
     - no i think i think not necessary its okay no need i already done the nomination myself
     -  but i remember doing the nomination many years ago
     - no listen i already done my nomination already
+    - no thanks yeah i have done my nomination yup thank you
+    - no i think its okay i already done thank you so much yah
 
 
 - intent: not_singaporean
@@ -1265,6 +1282,11 @@ nlu:
     - im not going to talk to you to waste my time
     - sorry i dont think i want to continue this conversation thank you for your time
     -  no i have i have enough insurance coverage already thank you thank you
+    - not at the moment now
+    - i know how to do that
+    - its okay i think i can handle myself
+    - no im saying im im able to handle this myself
+    - i understand
 
 
 - intent: confirm
@@ -1496,3 +1518,7 @@ nlu:
     - sure sure
     - what is this about
     - what cpf nomination
+    - what are you calling me for
+    - because i havent done any nomination yet
+    - okay this is for
+    - sorry c p f
