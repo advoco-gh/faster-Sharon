@@ -17,6 +17,7 @@ nlu:
     - okay i will consider can you send me an email 
     - i not free now able to e mail to me or what
     - at the moment im not convenient now can you drop me an email or anything
+    - because im very busy right now maybe can you send me an email
 
 
 - intent: repeat
@@ -45,6 +46,7 @@ nlu:
     - sorry hold on hold on
     - hi i cant hear you just now
     - hello can you repeat please
+    - just now you say what
 
 
 - intent: dnc
@@ -87,6 +89,11 @@ nlu:
     -  i think that you should actually you scrub off your marketing less because im on the d n c
     - this is actually a clinic phone
     - is this an automated message
+    -  i wanted to have my contact removed from manulife contact list so i would try not to receive further calls
+    - im not free and stopped calling
+    - i say stop calling im not free
+    - this is an office line
+    - this is an office line is not an individual line
 
 
 - intent: question_related_to_manager
@@ -209,6 +216,19 @@ nlu:
     - what you are trying to sell
     - im a housewife
     - what does it got to do with you
+    - so this is regarding the insurance is it
+    - that one is quite easy you online also can do nomination
+    - im currently doing n s so i dont have time to meet up
+    - normally if anything i pass away then all the cpf will be direct pass to my husband or my my kid
+    - nomination for what
+    - i did not apply anything for my c p f
+    - ya i know you call me many times already
+    - someone from manulife just call me
+    - what is it about
+    - i havent get my nomination meh
+    - what do you mean
+    - is this a promotional items
+    - is this a promotional thing
     
 
 
@@ -253,6 +273,7 @@ nlu:
     - actually no because i not im not at the age where i want to explore other policy
     - im not of age to do that
     - i dont think im old enough for for it im only currently sixteen this year
+    - im not at the age yet
 
 
 - intent: question_related_to_singpass_checking
@@ -347,6 +368,8 @@ nlu:
     - i dont know whether you are already calling for manual life because they plus six five so it could be a scam call
     - no are you calling from singapore why your number is not from singapore
     - i wouldnt know whether you are actually calling from manulife and i cannot verify and you know that there are a lot of scam calls and all that i wouldnt know
+    - how do i know this is not scam
+    - why are you using a plus sixty five number
 
 
 - intent: question_related_to_disclosure_details
@@ -417,6 +440,7 @@ nlu:
     - you can call my friend
     - you can do it for my sister
     - orh yah its for my my dads right
+    - this one i not very sure maybe i need to check with my son
 
 
 - intent: question_speak_chinese
@@ -531,6 +555,9 @@ nlu:
     - im a manual life advisor
     - my family is working in the same line
     -  i know i work in insurance so i know about this thing
+    - i think dont need because my son is a agent
+    - actually no need because my wife is from your industry yeah thank you
+    - im from prudential so its okay
 
 
 
@@ -629,6 +656,11 @@ nlu:
     - i have my own financial advice from manual life finance so probably i will go with her if she wants to do something like that
     - i im doing it with a i a
     - okay i have my insurance agent to help me
+    - no i already got someone to help me do okay thanks thanks
+    - not my husband is the financial planner so dont require this
+    -  i dont need my brother in law services in insurance
+    - ya i have already have somebody doing it for me thanks
+    - no need its okay because my my sis working in c p f
 
 
 - intent: cpf_account_distribution
@@ -677,6 +709,7 @@ nlu:
     - i think you have the wrong number
     - you want to talk to who
     - i know my dear no do you know who youre talking to a not
+    - is wrong number
 
 
 - intent: evening
@@ -874,6 +907,9 @@ nlu:
     - orh so you can call later i am not feeling well i am sleeping
     -  im busy working yah thank you
     - im actually traveling so probably we can we can see
+    - no not now you call me tomorrow okay
+    - c p f now i cant talk to you on the road
+    - i dont have the time for a meet up until after july
 
 - intent: already_done
   examples: |
@@ -974,6 +1010,7 @@ nlu:
     - sorry i think we cannot because we are foreigners
     - work permit
     - im not a citizen
+    - im malaysian
 
 
 - intent: who_is
@@ -1020,6 +1057,9 @@ nlu:
     - whos that on the line
     - may i know whos on the line
     - okay what were you from
+    -  from where from manulife
+    - from
+    - what is that insurance company
 
 
 - intent: age 
@@ -1097,6 +1137,8 @@ nlu:
     -  im fifty plus already
     - im forty plus already
     - in my early fifties
+    - no no no no im sixty six years old already now
+    - seven zero
 
 
 - intent: reject
@@ -1287,6 +1329,13 @@ nlu:
     - its okay i think i can handle myself
     - no im saying im im able to handle this myself
     - i understand
+    - im very old already i retire already okay
+    - sorry i im not comfortable to talk over the phone for personal things
+    - no i dont need a nomination
+    -  im not interested for for this moment yeah i i will nominate i will complete the nomination is sometimes
+    - its okay for the time being yeah
+    - no because im jobless now no more working i cannot do anything
+    -  no i dont i think you can do it later appreciate it thank you
 
 
 - intent: confirm
@@ -1522,3 +1571,24 @@ nlu:
     - because i havent done any nomination yet
     - okay this is for
     - sorry c p f
+    - ya sharon  how can i assist you
+    - what do you talk about sorry
+    - actually im free on monday 
+    - actually im free on tuesday
+    - actually im free on wednesday
+    - actually im free on thursday
+    - actually im free on friday
+    - actually im free on saturday
+    - actually im free on sunday
+    - if possible now
+    -  why do you need to do that
+    - nomination
+    - whatsapp me the the details
+    - yes you can give me a call back maybe next monday
+    - next week is better because i will be in singapore then okay
+    - what do you want to know
+    - maybe you can try to call up to five thirty
+    - my cpf nomination
+    - manulife yes
+    - tell me
+    - sure okay you can try
