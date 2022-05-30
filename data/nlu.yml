@@ -5,42 +5,40 @@ nlu:
   examples: |
     - start conversation
 
+
 - intent: question_related_to_email_request
   examples: |
     - is it possible to send email instead
     - can drop me email
-    - can email me 
+    - can email me
     - sendc email
     - email
-    - you send me email for me to look through 
+    - you send me email for me to look through
     - okay email me first can
-    - okay i will consider can you send me an email 
-    - i not free now able to e mail to me or what
-    - at the moment im not convenient now can you drop me an email or anything
+    - okay i will consider can you send me an email
     - because im very busy right now maybe can you send me an email
 
 
 - intent: repeat
   examples: |
     - can you repeat
-    - sorry I didn't get you
+    - sorry I didnt get you
     - what did you say
     - come again
     - sorry come again
     - i don't get you
     - no sorry what what were you saying
-    - why is the thing about again 
+    - why is the thing about again
     - im sorry say that again
     - hello hello can you hear me
     - sorry sorry hello hello
     - cannot hear
-    - sorry 
+    - sorry
     - wait sorry
     - can you hear me
     - what what is that sorry whats that again
     - can you hear me
     - can you hear me can you hear me
-    - i dont understand
     - i cant hear you i cant hear you
     - sorry i cant hear you
     - sorry hold on hold on
@@ -65,35 +63,35 @@ nlu:
     - stop calling i am under do not call
     - why are you calling me my number from DNC
     - you know you cannot call me i am from DNC list
-    - this a company number 
-    - this is help support number from dbs bank 
+    - this a company number
+    - this is help support number from dbs bank
     - this is a bank number
-    - this is a coperate phone 
+    - this is a coperate phone
     - this is a company phone
     - hotline
-    - despite me telling not to call me anymore why do i still receive call every day 
+    - despite me telling not to call me anymore why do i still receive call every day
     - do you know im on the do not call list
-    - why do you actually call my number because as i mentioned my number is d n c 
-    - no its okay actually how to you come across to call me because my my number is d n c 
+    - why do you actually call my number because as i mentioned my number is d n c
+    - no its okay actually how to you come across to call me because my my number is d n c
     - is a robot
     - sorry you got the wrong number this one is company phone
     - no i already put myself on a do not call list
     - ya precisely i already put myself on the do not call registry so i will appreciate if you dont call
-    -  do not called registry
+    - do not called registry
     - actually this is a office phone
-    -  is a random care or you already have some of my information thats why you call me
+    - is a random care or you already have some of my information thats why you call me
     - anyway i will report due to p d p a
-    - where do i get my information
     - its an automatic i intelligence really yeah artificial intelligence
     - no im sorry this is a business line
-    -  i think that you should actually you scrub off your marketing less because im on the d n c
+    - i think that you should actually you scrub off your marketing less because im on the d n c
     - this is actually a clinic phone
     - is this an automated message
-    -  i wanted to have my contact removed from manulife contact list so i would try not to receive further calls
+    - i wanted to have my contact removed from manulife contact list so i would try not to receive further calls
     - im not free and stopped calling
     - i say stop calling im not free
     - this is an office line
     - this is an office line is not an individual line
+    - my number is in a no call zone
 
 
 - intent: question_related_to_manager
@@ -132,23 +130,29 @@ nlu:
     - cpf nomination may i will go check it out myself first
     - the nomination can i do it on my own at home online or i must go to the c d a branch or what
     - is this for singaporean or pr only
-    - what is the cpf thing 
+    - what is the cpf thing
     - cpf nomination why are you calling from to talk about my cpf nomination
     - no i just im just wondering for cpf nomination prudential calling me to do up
     - i not sure whether she has prudential insurance
     - is this a sales call
+    - cpf nomination are you saying that
     - the nomination is very direct right why do we need any guidance
+    - what does that mean
+    - i do not know what is your intention
+    - no i dont understand what else is got to do with prudential
+    - the nomination is very direct right why do we need any guidance
+    - the nomination can be done online right
     - its okay because youre doing telemarketing call is it
     - what does that mean
     - i do not know what is your intention
     - no i dont understand what else is got to do with prudential
-    - i dont know the goverment ask me to do 
+    - i dont know the goverment ask me to do
     - it weird that why is it doing a nomination on behalf of cpf
     - you mean i need to make decisions on my beneficiary i need someone to tell me
-    - c p f i really dont know what is it 
+    - c p f i really dont know what is it
     - are you calling from cpf board
-    - this is p n c issue why prudential 
-    - this is private and confidential 
+    - this is p n c issue why prudential
+    - this is private and confidential
     - cpf nomination are you saying that
     - why great eastern call me about cpf
     - what has cpf got to do with great eastern
@@ -187,11 +191,11 @@ nlu:
     - i dont have any plan with manulife
     - i dont understand why would manulife help me with something with cpf
     - why you need guidance for nomination
-    -  so what has manulife got to do with cpf nomination i dont get it
+    - so what has manulife got to do with cpf nomination i dont get it
     - manual life i dont think i have any plan with manulife
     - what is it to do with your company cpf
     - are you sure you are from manulife
-    - im asking im asking you what is manulife i did not sign up anything 
+    - im asking im asking you what is manulife i did not sign up anything
     - regards about investment
     - what has nomination got to do with the insurance
     - all right so is this a cold call
@@ -224,12 +228,16 @@ nlu:
     - i did not apply anything for my c p f
     - ya i know you call me many times already
     - someone from manulife just call me
-    - what is it about
     - i havent get my nomination meh
     - what do you mean
     - is this a promotional items
     - is this a promotional thing
-    
+    - is my c p f with manulife i dont think so right
+    - do i currently have any product with you
+    - in relation to what about manulife
+    - are you trying to sell me some product or something
+    - no no no no what policy is this
+    - its a compulsory
 
 
 - intent: question_related_to_age_info
@@ -244,10 +252,8 @@ nlu:
     - why must i tell you my age
     - why must you know
     - you need my age for what
-    - is my age important
-    - not comfortable giving age
     - how old am i
-
+    - wouldnt you know
 
 
 - intent: student
@@ -270,10 +276,10 @@ nlu:
     - still studying
     - only twelve years old
     - i am actually a student
-    - actually no because i not im not at the age where i want to explore other policy
     - im not of age to do that
     - i dont think im old enough for for it im only currently sixteen this year
     - im not at the age yet
+    - to save your breath im only eighteen im not working im just schooling right now
 
 
 - intent: question_related_to_singpass_checking
@@ -322,8 +328,6 @@ nlu:
     - what it costs
     - you sure free ah
     - zero cost ah
-    - it a complimentary service by you
-    - complimentary service
     - theres no free lunch in this world
 
 
@@ -360,7 +364,6 @@ nlu:
     - you think i 3 years old is it
     - you think i am a fool is it
     - you trying to disturb aunty is it
-    - is this a scam i think you better get some one from prudential to call me
     - how come your number is six five
     - why your number start from plus six five
     - your number is plus six five
@@ -476,8 +479,6 @@ nlu:
     - wo bu hui ting
     - ni jiang some more
     - some more
-    - i no english 
-    - ke yi jiang hua yi ma
     - i cannot understand
 
 
@@ -487,7 +488,7 @@ nlu:
     - i am a financial advisor from aviva
     - i am a insurance agent myself
     - i am a insurance broker myself
-    - i am agent from  Aviva
+    - i am agent from Aviva
     - i am agent from AIG
     - i am agent from Allianz Insurance
     - i am agent from AXA
@@ -529,36 +530,20 @@ nlu:
     - i am working at prudential i am also the staff there
     - I'm also an agent
     - we are actually in the same industry
-    - no i dont want i have i have a family member that insurance
-     - im from prudential too
-    - im a planner myself you know
-    - but i already told you im a planner myself
-    - my wife is a insurance agent
-    - my uncle is a insurance agent
-    - my aunt is a insurance agent
-    - my brother is a insurance agent
-    - my relative is a agent
-    - no need i am financial planner myself thanks
-    - no im a own brooker for that
-    - sorry im from great eastern
-    - i am also under manulife
-    - i am working at manulife i am also the staff there
-    - sorry im from manulife
     - not interested because i am a insurance agent thank you
     - my sister works for the insurance company
     - my sister work for manulife
     - no need im also agent
     - orh no need because my daughter is under manual life also
     - im a manager from manual life
-    -  my wife is an insurance agent at my sisters a lawyer so they do it for me
+    - my wife is an insurance agent at my sisters a lawyer so they do it for me
     - dont have to i am from manulife also
     - im a manual life advisor
     - my family is working in the same line
-    -  i know i work in insurance so i know about this thing
+    - i know i work in insurance so i know about this thing
     - i think dont need because my son is a agent
     - actually no need because my wife is from your industry yeah thank you
     - im from prudential so its okay
-
 
 
 - intent: question_related_to_witness
@@ -600,14 +585,15 @@ nlu:
     - where you got my number from
     - who gave my number
     - who pass you my number
-    - if youre calling from great eastern while mobile number
-    - sorry where did you get my contact 
     - no im not interested i dont know how you get my number
     - how did you have my number in the first place
     - did you get my consent before you call me
     - okay you answer this question first where did you get my number first
     - did you check my number before you call me
+    - where do i get my information
     - where did you get my number
+    - no im asking you because you are calling this number how do you get this number
+    - how do you get my info
 
 
 - intent: already_have_agent
@@ -620,7 +606,7 @@ nlu:
     - i prefer to stay to my agent
     - it is okay i got some one who handle my insurance for me
     - my brother is an agent too
-    - my girlfriend is a insurance agent from great eastern 
+    - my girlfriend is a insurance agent from great eastern
     - my husband is a agent
     - my relative is a agent
     - my wife is a agent
@@ -636,47 +622,39 @@ nlu:
     - i think its fine because i have a potential agent
     - i think no need because if lets say youre from prudential i do have my own agent
     - no need i have my own agent
-    - prudrential i got my own agent leh 
+    - prudrential i got my own agent leh
     - sorry i think i will i will look for my agent my agent also prudential
     - no its okay thank you i have my insurance agent
-    - i mentioned earlier i already have my own financial planner 
-    - its okay i will call my agent
-    - i think its okay because i have a agent also handled my case also yeah
-    - its okay because i got my own agent
-    - no my agent has been there for very long and experience as well
-    - friend is from manulife very long time working with me on my portfolio so appreciate that call thank you so much
-    - i actually have my own manulife agent i think i dont think i need i need to discuss already
-    - I have a manulife agent
-    - no thats fine i have already somebody working with me with on manulife itself
-    - youre frommanulife is it my my agent is from prudential ill just check with her okay
-    - manulife i got my own agent leh 
+    - i mentioned earlier i already have my own financial planner
     - no i have one consultant to do for me already
-    - ive other advisor that already trying to guide me 
+    - ive other advisor that already trying to guide me
     - i will talk to my insurance agent and take the help if i need i need to check whether ive already done nomination or not
     - i have my own financial advice from manual life finance so probably i will go with her if she wants to do something like that
     - i im doing it with a i a
     - okay i have my insurance agent to help me
     - no i already got someone to help me do okay thanks thanks
     - not my husband is the financial planner so dont require this
-    -  i dont need my brother in law services in insurance
+    - i dont need my brother in law services in insurance
     - ya i have already have somebody doing it for me thanks
     - no need its okay because my my sis working in c p f
+    - its not necessary thanks i have my own financial adviser yah thank you
+    - thanks for your call but i dont such services because my wife is from your industry ya
 
 
 - intent: cpf_account_distribution
   examples: |
-    - all account can nominate or 
+    - all account can nominate or
     - can medisave contribution distributed too?
-    - OA account 
-    - OA account 
-    - ordinary account 
+    - OA account
+    - OA account
+    - ordinary account
     - retirement account also can distribute
-    - SA account 
-    - special account 
+    - SA account
+    - special account
     - the distribution base on percentage or
     - the nomination only can nominate base on ordinary account or all?
     - what is the distribution process?
-    - which account i can use 
+    - which account i can use
 
 
 - intent: looking_for
@@ -691,7 +669,6 @@ nlu:
     - tell me what is my name to prove me you know me
     - what is my date of birth
     - what is my name
-    - where did you get my number
     - who are you calling
     - who are you looking for
     - who do you want to call
@@ -700,10 +677,9 @@ nlu:
     - why are you calling me
     - you know who am i anot why you call me
     - you are talking to which client can i have your name
-    - i think you got the wrong number i dont have the patience
     - did you get the right person
     - i dont know you
-    -  youre calling the wrong number
+    - youre calling the wrong number
     - may i ask you you would like to speak to
     - sorry wrong number
     - i think you have the wrong number
@@ -737,13 +713,13 @@ nlu:
     - 11pm
     - evening
     - six p m
-    - seven p m 
+    - seven p m
     - eight p m
     - nine p m
     - ten p m
-    - eleven p m 
-    - next week next week evening 
+    - eleven p m
     - i think evening would be better
+    - evening will be better
     - can you call me tomorrow evening cause now is not available
     - evening because im at work now
 
@@ -757,10 +733,10 @@ nlu:
     - morning please
     - morning
     - maybe tomorrow morning
-    - ten a m 
+    - ten a m
     - eleven a m
-    - in the morning because usually afternoon i will be 
-   
+    - in the morning because usually afternoon i will be busy
+    - can can can but yeah call me on friday morning
 
 
 - intent: afternoon
@@ -785,14 +761,14 @@ nlu:
     - 3pm
     - early afternoon please
     - one p m
-    - two p m 
-    - three p m 
+    - two p m
+    - three p m
     - four p m
     - five p m
-    - afternoon would be better depending on time
     - lunch time better
     - next week lunch time better
     - i think afternoon it would be good
+    - yah sure in the afternoon is fine ya
 
 
 - intent: busy
@@ -823,11 +799,11 @@ nlu:
     - I am busy
     - I am busy leh
     - I am busy with my baby right now what is it
-    - I am busy with my children now
+    - not this week not this please
     - I am in office
     - i am in the middle of discussion now so sorry
     - i am not convenient to talk okay
-    - i am not free at the moment 
+    - i am not free at the moment
     - i am so sorry i am actually in the mid of conference right now
     - I am unavailable at the moment
     - I don't have time for the call now
@@ -851,7 +827,7 @@ nlu:
     - im sorry actually im from the call now
     - it is okay i am expecting a call now
     - maybe not i am talking with some one else
-    - meeting 
+    - meeting
     - no free
     - no i think its okay because i only its okay its okay because i just did not long ago
     - No I'm in the public transport
@@ -869,8 +845,7 @@ nlu:
     - sorry I cant talk
     - Sorry I'm still in the middle of something
     - sorry im having lunch now
-    - sorry,this isn't a good convienent time to talk.I am at work
-    - this is a work phone
+    - sorry this isn't a good convienent time to talk I am at work
     - this is not a good time can you call me back later
     - yeah but can you call me back later
     - can i call you back later just just one minute okay
@@ -885,16 +860,6 @@ nlu:
     - orh no free when we were walking so ya
     - call back later
     - orh sorry i dont have time
-    - i i dont think so im quite busy right now yeah its okay thanks anyway i i will let you know if i need your help
-    - sorry im on the another line
-    - okay now i quite busy
-    - now is not a s good time 
-    - not at the moment im working 
-    - actually i just woke up can you call back tomorrow
-    - no no not at the moment thanks thanks
-    - no not at the moment
-    - im actually in the train
-    - i cant hear you 
     - okay i didnt have time for this
     - no this week i cannot
     - im overseas now
@@ -905,11 +870,14 @@ nlu:
     - busy rushing for a report
     - orh no sorry in jakarta thanks thank you
     - orh so you can call later i am not feeling well i am sleeping
-    -  im busy working yah thank you
+    - im busy working yah thank you
     - im actually traveling so probably we can we can see
     - no not now you call me tomorrow okay
     - c p f now i cant talk to you on the road
     - i dont have the time for a meet up until after july
+    - sorry i think maybe now not right time yeah
+    - just hold on
+
 
 - intent: already_done
   examples: |
@@ -919,7 +887,7 @@ nlu:
     - can do online or
     - done alr I go cpf do alr
     - done alr last week
-    - i already have 
+    - i already have
     - i already settle allthis
     - i completed
     - I got the nomination
@@ -928,7 +896,7 @@ nlu:
     - i've already done my nomination
     - I've already done the cpf nomination
     - I've done it already
-    - never mind i nominate already 
+    - never mind i nominate already
     - no thanks i've already done my nomination thank you
     - nomination already done already
     - oh done already
@@ -954,17 +922,13 @@ nlu:
     - no need la i already nominate before
     - no i think its okay i have i have already nominated
     - i did long ago
-    - yeah i nominated
-    - i think done
-    - but i dont understand so that means because myself i have already made a nomination so why would the call the whats the purpose of the call
-    - i thought theres already a nomination made
     - orh cpf nomination already
     - done my nomination two months back
-    -  i just did it last year i just did it last year two months ago three months ago or something like that yeah so i wouldnt want to revisit for now
+    - i just did it last year i just did it last year two months ago three months ago or something like that yeah so i wouldnt want to revisit for now
     - i just did it
     - done as well
     - no i think i think not necessary its okay no need i already done the nomination myself
-    -  but i remember doing the nomination many years ago
+    - but i remember doing the nomination many years ago
     - no listen i already done my nomination already
     - no thanks yeah i have done my nomination yup thank you
     - no i think its okay i already done thank you so much yah
@@ -998,19 +962,16 @@ nlu:
     - oh sorry i am a foreigner i am a s pass holder
     - sorry i am not a pr
     - no i know c p f i am foreigner i busy sorry
-    - so sorry im im not p r
-    - because im not the p r and singaporean
-    - i dont think that apply to me im a p r
-    - sorry im not singaporean sorry 
-    - no i know c p f i am foreigner i busy sorry
     - no sorry i dont have any contribution
     - i dont contribute cpf
     - im not singaporean youre calling the wrong person
     - i tourist only
     - sorry i think we cannot because we are foreigners
+    - no because i dont have c p f thank you
     - work permit
     - im not a citizen
     - im malaysian
+    - i dont have c p f
 
 
 - intent: who_is
@@ -1031,17 +992,8 @@ nlu:
     - who's on the line
     - you are
     - you are calling from prudential?
-    - i think you got the wrong number 
-    - you are from prudential right 
-    - are you from cpf
-    - which agency are you from
-    - no its alright your name miss sharon right
-    - you are calling from 
-    - calling from
-    - calling on behalf of what 
-    - this is prudential right
-    - youre calling from which office
-    - this is manulife right
+    - i think you got the wrong number
+    - you are from prudential right
     - which agency are you from
     - hello whos this
     - may i know which company are you calling form
@@ -1052,17 +1004,20 @@ nlu:
     - whats your name
     - your the agent or what
     - who are you representing
-    - you are calling from  
+    - you are calling from
     - sorry you are calling from cpf
     - whos that on the line
     - may i know whos on the line
     - okay what were you from
-    -  from where from manulife
+    - from where from manulife
     - from
     - what is that insurance company
+    - wait you are you a financial adviser
+    - what are you calling about where are you calling from
+    - where are you calling
 
 
-- intent: age 
+- intent: age
   examples: |
     - xamples: |
     - [thirtyfive](number)
@@ -1134,7 +1089,7 @@ nlu:
     - sixty seven
     - sixty eight
     - sixty nine
-    -  im fifty plus already
+    - im fifty plus already
     - im forty plus already
     - in my early fifties
     - no no no no im sixty six years old already now
@@ -1190,13 +1145,11 @@ nlu:
     - its okay nevermind
     - its okay thank you
     - its okay thanks for calling
-    - My husband is from AIA
     - need not
     - never
     - never help
     - never mind
     - No
-    - no actually i got my agent who contact me also
     - no already arranged for this
     - no don't want
     - no dont call me
@@ -1241,7 +1194,7 @@ nlu:
     - okay thank you bye bye
     - orh i think no need because i really done recently only
     - please dont call me again
-    - sorry i am not interested thank you bye bye 
+    - sorry i am not interested thank you bye bye
     - sorry i am not really keen thanks
     - sorry i don't need
     - sorry no
@@ -1259,17 +1212,17 @@ nlu:
     - Yes, but I am not keen now
     - you can share this with other people
     - Zoom ah? No need thankyou
-    -why would you want to dicuss on that
-    -you dont wont be talking about nomination only you will be also selling selling insurance to me so i i dont need this ok thank you bye
+    - why would you want to dicuss on that
+    - you dont wont be talking about nomination only you will be also selling selling insurance to me so i i dont need this ok thank you bye
     - ya is okay
     - its alright
     - i think its alright because the process i can read up on the c p f website should be quite clear i mean i i read it before but ya
-    -  im aware im aware im aware i read i read up last year actually but of course maybe theres this year they got change things i dunno
+    - im aware im aware im aware i read i read up last year actually but of course maybe theres this year they got change things i dunno
     - no i dont need him to call me sorry what is that what is there for you to call me to tell me how to do nomination yet
     - no no actually is fine i think im im still okay with my current nomination
     - no need im good
     - sorry im not very keen in any insurance yah
-    - no need thank you very much im covered from head to toe 
+    - no need thank you very much im covered from head to toe
     - no im very tied up
     - yah i understand
     - i do not need to review my c p f nomination unless you are something to sell but you can consider points i do not like being push
@@ -1279,17 +1232,8 @@ nlu:
     - its okay i think fine i have others whom i can consult okay thanks for reminding right i will yeah i dont need your manager to call me back thanks
     - i know
     - no i i do myself no worries
-    - im aware of this 
-    - why do i what do i want to work with you then
-    - no its okay i think im im all right thank you so much thank you
-    - i have no need for any financial services thanks
-    - isnt making the nomination just doing it on the website
-    - no if youre on behalf of great eastern no thank you
-    - thank you  
-    - i already declined you twice
     - orh no no no no no
-    - that one very easy to do right i can just do through cpf 
-    - the nomination can be done online right
+    - that one very easy to do right i can just do through cpf
     - is it an optional thing or is it
     - did i say i i agree
     - no need i can anytime book a slot to go down to cpf can do it
@@ -1300,7 +1244,7 @@ nlu:
     - i think at the moment maybe not
     - im currently not working so i dont have cpf yah
     - no thank you i know how to do my nomination
-    -  i can actually do it on my own
+    - i can actually do it on my own
     - manual life i dont remember
     - its okay i know how to do
     - no whats the purpose of your call
@@ -1323,7 +1267,7 @@ nlu:
     - im not really interested in anything else right
     - im not going to talk to you to waste my time
     - sorry i dont think i want to continue this conversation thank you for your time
-    -  no i have i have enough insurance coverage already thank you thank you
+    - no i have i have enough insurance coverage already thank you thank you
     - not at the moment now
     - i know how to do that
     - its okay i think i can handle myself
@@ -1332,15 +1276,20 @@ nlu:
     - im very old already i retire already okay
     - sorry i im not comfortable to talk over the phone for personal things
     - no i dont need a nomination
-    -  im not interested for for this moment yeah i i will nominate i will complete the nomination is sometimes
+    - im not interested for for this moment yeah i i will nominate i will complete the nomination is sometimes
     - its okay for the time being yeah
     - no because im jobless now no more working i cannot do anything
-    -  no i dont i think you can do it later appreciate it thank you
+    - no i dont i think you can do it later appreciate it thank you
+    - no we wont be free the whole day today
+    - no okay i can i cannot remember that i did anything
+    - yeah i havent missed out anything yeah
+    - ive never heard this before you know
+    - not sure what you are talkng about
 
 
 - intent: confirm
   examples: |
-    -  cpf nomination why cpf nomination ah
+    - cpf nomination why cpf nomination ah
     - a good day
     - a quick call I think it's fine
     - absolutely
@@ -1406,7 +1355,7 @@ nlu:
     - hm hum
     - hmm yes
     - hola
-    - how are you regarding 
+    - how are you regarding
     - howdy
     - I agree
     - I guess
@@ -1425,7 +1374,7 @@ nlu:
     - lovely day isn't it
     - maybe
     - maybe it is ok
-    - nice okay 
+    - nice okay
     - no problem
     - no what what is this regarding
     - of course
@@ -1513,32 +1462,10 @@ nlu:
     - you working on weekend
     - i dont understand why
     - hi whats that called actually
-    - sorry  
     - nomination why do i need to do that
-    - what is that 
+    - what is that
     - okay can thank you sorry sorry
     - yah so sorry
-    - orh orh okay
-    - potential
-    - great eastern you mean great eastern insurance
-    - great eastern okay
-    - great eastern ya
-    - why you want to know my nomination sorry
-    - what do you mean
-    - what is that about
-    - yes sorry what is the about for the c p f thing
-    - no i do i have any plans for great eastern
-    - can it be a virtual call versus a physical meet up i think that will be easier
-    - cpf what sorry
-    - okay you can call back
-    - great eastern
-    - great eastern ya 
-    - the meet up cant be this week 
-    - and this is regarding nomination for
-    - can sure but im a p r i just work here for one year plus
-    - manulife
-    - manulife insurance ya 
-    - its okay because youre doing telemarketing call is it
     - orh orh okay
     - cpf what
     - why calling me
@@ -1550,7 +1477,7 @@ nlu:
     - i will prefer talking to a real person that can answer my question
     - manual life
     - okay ill give you two minutes
-    -  from manulife
+    - from manulife
     - okay fine you arrange a date but currently i think should be next month already
     - sorry i dont know what you mean
     - is there anything important
@@ -1559,7 +1486,7 @@ nlu:
     - eh hi
     - may i know the purpose of this called
     - yeah i think its fine but most probably within next week
-    -  you can just get you managed to drop me a call but not now
+    - you can just get you managed to drop me a call but not now
     - why i do not have any business with you right
     - meaning
     - ya maybe can get her to call me first lor
@@ -1571,9 +1498,9 @@ nlu:
     - because i havent done any nomination yet
     - okay this is for
     - sorry c p f
-    - ya sharon  how can i assist you
+    - ya sharon how can i assist you
     - what do you talk about sorry
-    - actually im free on monday 
+    - actually im free on monday
     - actually im free on tuesday
     - actually im free on wednesday
     - actually im free on thursday
@@ -1581,7 +1508,7 @@ nlu:
     - actually im free on saturday
     - actually im free on sunday
     - if possible now
-    -  why do you need to do that
+    - why do you need to do that
     - nomination
     - whatsapp me the the details
     - yes you can give me a call back maybe next monday
@@ -1592,3 +1519,11 @@ nlu:
     - manulife yes
     - tell me
     - sure okay you can try
+    - what is it about
+    - i actually received similar calls before
+    - the cpf nominations for what what is wrong
+    - cpf nominations man what is this about
+    - what about the cpf nomination that you would like to know
+    - what happened
+    - menulife insurance company okay why
+    - what about cpf nomination
