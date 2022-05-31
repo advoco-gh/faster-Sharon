@@ -17,6 +17,8 @@ nlu:
     - okay email me first can
     - okay i will consider can you send me an email
     - because im very busy right now maybe can you send me an email
+    - sorry no you can just drop me an email i will just read through it
+    - can you drop me an e mail to tell me exactly what i need to do
 
 
 - intent: repeat
@@ -92,6 +94,9 @@ nlu:
     - this is an office line
     - this is an office line is not an individual line
     - my number is in a no call zone
+    - you are calling a company
+    - no i think you called the wrong number i mean you definitely all the wrong number and im im on and do not called registry
+    - thank you for your call would you be able to take me off the calling please
 
 
 - intent: question_related_to_manager
@@ -228,6 +233,7 @@ nlu:
     - i did not apply anything for my c p f
     - ya i know you call me many times already
     - someone from manulife just call me
+    - what is this for ah i dont understand
     - i havent get my nomination meh
     - what do you mean
     - is this a promotional items
@@ -238,6 +244,17 @@ nlu:
     - are you trying to sell me some product or something
     - no no no no what policy is this
     - its a compulsory
+    - do i exactly need the meet up to do the nomination or like can i do it myself
+    - why would i need help from you all
+    - no why where do you where do you asked me whether i need to do a nomination
+    - about c p f right
+    - we does it have to do with manulife
+    - a insurance company is it
+    - why are you asking me about cpf when you are calling from manulfe
+    - i dont know what youre talking about
+    - in relation to what about singlife aviva
+    - why are you asking me about cpf when you are calling from singlife aviva
+    - is my c p f with singlife aviva dont think so right
 
 
 - intent: question_related_to_age_info
@@ -280,6 +297,7 @@ nlu:
     - i dont think im old enough for for it im only currently sixteen this year
     - im not at the age yet
     - to save your breath im only eighteen im not working im just schooling right now
+    - i im a student
 
 
 - intent: question_related_to_singpass_checking
@@ -544,6 +562,8 @@ nlu:
     - i think dont need because my son is a agent
     - actually no need because my wife is from your industry yeah thank you
     - im from prudential so its okay
+    - i working with a i a
+    - thank you im working in prudential so i dont think i need anything
 
 
 - intent: question_related_to_witness
@@ -594,6 +614,7 @@ nlu:
     - where did you get my number
     - no im asking you because you are calling this number how do you get this number
     - how do you get my info
+    - how you got my contact 
 
 
 - intent: already_have_agent
@@ -639,6 +660,9 @@ nlu:
     - no need its okay because my my sis working in c p f
     - its not necessary thanks i have my own financial adviser yah thank you
     - thanks for your call but i dont such services because my wife is from your industry ya
+    - no my family member is an insurance agent
+    - no i think i kind of settled already my agent
+    - no need i have my financial advisor from g e who take care everything for me
 
 
 - intent: cpf_account_distribution
@@ -669,6 +693,7 @@ nlu:
     - tell me what is my name to prove me you know me
     - what is my date of birth
     - what is my name
+    - where did you get my number
     - who are you calling
     - who are you looking for
     - who do you want to call
@@ -686,6 +711,7 @@ nlu:
     - you want to talk to who
     - i know my dear no do you know who youre talking to a not
     - is wrong number
+    - so you wanna speaking you want to speak to
 
 
 - intent: evening
@@ -877,6 +903,9 @@ nlu:
     - i dont have the time for a meet up until after july
     - sorry i think maybe now not right time yeah
     - just hold on
+    - no right now i cannot be speaking to you i have something on
+    - i cannot speak to you i am doing something else
+    - can you call on monday because im quite busy with some works
 
 
 - intent: already_done
@@ -932,6 +961,11 @@ nlu:
     - no listen i already done my nomination already
     - no thanks yeah i have done my nomination yup thank you
     - no i think its okay i already done thank you so much yah
+    - i thought the nomination already done right because i already nominated
+    - c p f nomination i thought ive done already
+    - ive handled it on my own thank you very much for your call thank you
+    - yes i hear you i also mentioned that i have do my nomination to my my family
+    - ya ya which i have done i told you
 
 
 - intent: not_singaporean
@@ -1015,6 +1049,13 @@ nlu:
     - wait you are you a financial adviser
     - what are you calling about where are you calling from
     - where are you calling
+    - hah calling on behalf of
+    - on behalf of who
+    - on behalf of
+    - youre calling from
+    - who manulife
+    - on behalf of where
+    - sorry calling
 
 
 - intent: age
@@ -1285,6 +1326,12 @@ nlu:
     - yeah i havent missed out anything yeah
     - ive never heard this before you know
     - not sure what you are talkng about
+    - cannot hear nevermind
+    - im doing it soon so its okay thank you so much
+    - for what
+    - i know you discuss already no thanks
+    - somebody call me already no need
+    - no im not so keen to meet anyone
 
 
 - intent: confirm
@@ -1527,3 +1574,16 @@ nlu:
     - what happened
     - menulife insurance company okay why
     - what about cpf nomination
+    - yes i hear you how can i help you
+    - you mean my cpf nominee yah what about it
+    - it depend
+    - why are you a discussion here
+    - what is it regarding you know i dont get whats the purpose of this called
+    - im sorry the what
+    - orh youre calling from manulife
+    - what its about
+    - my cpf nomination
+    - singlife aviva
+    - singlife aviva insurance okay
+    - oh okay you are calling from singlife aviva
+    - from singlife aviva
