@@ -94,7 +94,7 @@ responses:
     - text: oh okay would you still be keen for me to assign a new agent for you as my manager has many years of experience in manulife
     
   utter_ask_reply_to_manager_advice:
-    - text: er ya my manager is from singlife aviva with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you with the nomination erm the whole duration will take around thirty minutes or more
+    - text: er ya my manager is from manulife with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you with the nomination erm the whole duration will take around thirty minutes or more
 
   # utter_ask_first_name:
   # - text: What is your first name?
@@ -117,7 +117,7 @@ responses:
   utter_cost_info:
     - text: er yes don't worry during the meet with my manager there will not be any cost involvement on the whole process of nomination so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process
   utter_scam_reply:
-    - text: erm don't worry this is definitely not a scam i am calling on behalf of singlife aviva so erm many people like you and i probably not aware of CPF nomination so this more like a awareness campaign to guide you through on the process so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process
+    - text: erm don't worry this is definitely not a scam i am calling on behalf of manulife so erm many people like you and i probably not aware of CPF nomination so this more like a awareness campaign to guide you through on the process so erm will it be okay for my manager to give you a quick phone call and arrange a meet up and assist you with the nomination process
   utter_disclose_nomination_info:
     - text: er no CPF board will not disclose your CPF account information er this information will only be disclosed upon your demise erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_call_others:
@@ -127,7 +127,7 @@ responses:
   utter_types_of_account_distribution:
     - text: oh okay the nomination covers all the saving in your account such as medisave account ordinary special and retirement account so erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the nomination process okay
   utter_witness_info:
-    - text: er no the witness do not have to come during the meet up once you assign them as the witness using your singpass they will receive a authorization sms or email erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
+    - text: er no the witness do not have to come during the meet up once you assign them as witness using your singpass they will receive a authorization sms or email erm to further explain and help you regarding this my manager will be able arrange a meet up and guide you through the process okay
   utter_chinese_audio:
     - text: hi er er so sorry wo bu da hui hua yu wo tong shi ming tian call ni okay thank you bye bye
   utter_goodbye_conversion:
@@ -161,12 +161,12 @@ responses:
   utter_goodbye:
     - text: oh okay thank you have a nice day good bye
   utter_greeting_repeat_sharon_prudential:
-    - text: hi hmm so sorry i am sharon calling on behalf of singlife aviva
+    - text: hi hmm so sorry i am sharon calling on behalf of manulife
   utter_greeting_sharon_prudential:
-    - text: hello hi i am sharon calling on behalf of singlife aviva
+    - text: hello hi i am sharon calling on behalf of manulife
   utter_purpose:
     - text: er ya because the government are encouraging everyone to do their CPF nomination so erm we are actually providing a free guidance to all singaporean and pr as a value added service to assist them so erm will it be okay for my manager to give you a quick call this week and arrange a meet up to guide you through the process
   utter_sry_are_you_there:
     - text: hi erm sorry are you there
   utter_manager_introduction:
-    - text: er ya my manager is from singlife aviva with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you with the nomination erm the whole duration will take around thirty minutes or more
+    - text: er ya my manager is from manulife with many years of experience in this industry so er would it be okay for my next manager in line to give you a quick call and arrange a meet up with you to assist you with the nomination erm the whole duration will take around thirty minutes or more
