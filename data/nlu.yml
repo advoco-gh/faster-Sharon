@@ -19,6 +19,7 @@ nlu:
     - because im very busy right now maybe can you send me an email
     - sorry no you can just drop me an email i will just read through it
     - can you drop me an e mail to tell me exactly what i need to do
+    - send to the e mail that registered then ill follow up on that if im interested
 
 
 - intent: repeat
@@ -47,6 +48,7 @@ nlu:
     - hi i cant hear you just now
     - hello can you repeat please
     - just now you say what
+    - what again
 
 
 - intent: dnc
@@ -75,7 +77,6 @@ nlu:
     - do you know im on the do not call list
     - why do you actually call my number because as i mentioned my number is d n c
     - no its okay actually how to you come across to call me because my my number is d n c
-    - is a robot
     - sorry you got the wrong number this one is company phone
     - no i already put myself on a do not call list
     - ya precisely i already put myself on the do not call registry so i will appreciate if you dont call
@@ -83,11 +84,9 @@ nlu:
     - actually this is a office phone
     - is a random care or you already have some of my information thats why you call me
     - anyway i will report due to p d p a
-    - its an automatic i intelligence really yeah artificial intelligence
     - no im sorry this is a business line
     - i think that you should actually you scrub off your marketing less because im on the d n c
     - this is actually a clinic phone
-    - is this an automated message
     - i wanted to have my contact removed from manulife contact list so i would try not to receive further calls
     - im not free and stopped calling
     - i say stop calling im not free
@@ -97,6 +96,8 @@ nlu:
     - you are calling a company
     - no i think you called the wrong number i mean you definitely all the wrong number and im im on and do not called registry
     - thank you for your call would you be able to take me off the calling please
+    - the p d p a
+    - sorry this is a school so this number belong to the school doesnt belong to an individual
 
 
 - intent: question_related_to_manager
@@ -255,6 +256,13 @@ nlu:
     - in relation to what about singlife aviva
     - why are you asking me about cpf when you are calling from singlife aviva
     - is my c p f with singlife aviva dont think so right
+    - no i know why are you called making this call did i signed any planned with you
+    - i dont have any plans with you all right
+    - cpf nominations means that if anything happens to me im not around this earth then the where the money will go to is it
+    - why is it involving you
+    - so what is it about what do you all want to do
+    - its a simple nomination i dunno why you need an insurance company to come in
+    - why do i need to inform him about my nomination
 
 
 - intent: question_related_to_age_info
@@ -271,6 +279,7 @@ nlu:
     - you need my age for what
     - how old am i
     - wouldnt you know
+    - im not giving you an informational until i confirm
 
 
 - intent: student
@@ -298,6 +307,9 @@ nlu:
     - im not at the age yet
     - to save your breath im only eighteen im not working im just schooling right now
     - i im a student
+    - i im not really like knowledgeable about this cause im still a student so ya
+    - im too young for that
+    - im thirteen i dont have c p f
 
 
 - intent: question_related_to_singpass_checking
@@ -462,6 +474,7 @@ nlu:
     - you can do it for my sister
     - orh yah its for my my dads right
     - this one i not very sure maybe i need to check with my son
+    - i asked my wife first you call tonight i discuss my my wife and the timing i think you can call me tomorrow
 
 
 - intent: question_speak_chinese
@@ -564,6 +577,7 @@ nlu:
     - im from prudential so its okay
     - i working with a i a
     - thank you im working in prudential so i dont think i need anything
+    - actually i work in a i a so its okay
 
 
 - intent: question_related_to_witness
@@ -615,6 +629,7 @@ nlu:
     - no im asking you because you are calling this number how do you get this number
     - how do you get my info
     - how you got my contact 
+    - i dont understand you calling from our people so how you get my number
 
 
 - intent: already_have_agent
@@ -663,6 +678,8 @@ nlu:
     - no my family member is an insurance agent
     - no i think i kind of settled already my agent
     - no need i have my financial advisor from g e who take care everything for me
+    - its okay cause my current agent already settled it already
+    - i think never mind is fine i have a agent that helping me to do that so i think its okay
 
 
 - intent: cpf_account_distribution
@@ -693,7 +710,6 @@ nlu:
     - tell me what is my name to prove me you know me
     - what is my date of birth
     - what is my name
-    - where did you get my number
     - who are you calling
     - who are you looking for
     - who do you want to call
@@ -712,6 +728,17 @@ nlu:
     - i know my dear no do you know who youre talking to a not
     - is wrong number
     - so you wanna speaking you want to speak to
+    - are you a bot
+    - i think you got the wrong number you know
+    - is a robot
+    - its an automatic i intelligence really yeah artificial intelligence
+    - is this an automated message
+    - intelligent spam calling
+    - can you verify my identity
+    - are you a robot
+    - are you are bored
+    - no sorry i think you got the wrong number
+    - are you a recording message
 
 
 - intent: evening
@@ -748,6 +775,7 @@ nlu:
     - evening will be better
     - can you call me tomorrow evening cause now is not available
     - evening because im at work now
+    -okay to morrow night just call me because today i was going out already
 
 
 - intent: morning
@@ -795,6 +823,7 @@ nlu:
     - next week lunch time better
     - i think afternoon it would be good
     - yah sure in the afternoon is fine ya
+    - maybe like five oclock
 
 
 - intent: busy
@@ -906,6 +935,14 @@ nlu:
     - no right now i cannot be speaking to you i have something on
     - i cannot speak to you i am doing something else
     - can you call on monday because im quite busy with some works
+    - today cannot because i wanna going out already
+    -  please call me about half an hour later
+    - we are going to malaysia for a few days holiday on friday night
+    - i am in the middle of something
+    - okay let me just give me a call tomorrow 
+    - currently not free
+    - im sorry im in the mall now with my daughter
+    - im not in singapore now
 
 
 - intent: already_done
@@ -966,6 +1003,8 @@ nlu:
     - ive handled it on my own thank you very much for your call thank you
     - yes i hear you i also mentioned that i have do my nomination to my my family
     - ya ya which i have done i told you
+    - yes and im telling you right now ive done my my cpf submission has been done
+    - nomination i think i already make a nomination is not wrong
 
 
 - intent: not_singaporean
@@ -1006,6 +1045,12 @@ nlu:
     - im not a citizen
     - im malaysian
     - i dont have c p f
+    - im not sure where you get this number from but im not singaporean now a pr
+    - im not a pr though
+    - sorry im a singaporean
+    - orh okay im not singaporean
+    - i not p r 
+    - not p r 
 
 
 - intent: who_is
@@ -1056,6 +1101,7 @@ nlu:
     - who manulife
     - on behalf of where
     - sorry calling
+    - which organization are you from
 
 
 - intent: age
@@ -1135,6 +1181,8 @@ nlu:
     - in my early fifties
     - no no no no im sixty six years old already now
     - seven zero
+    - im thirty years old
+    - sixty eight years old
 
 
 - intent: reject
@@ -1253,8 +1301,8 @@ nlu:
     - Yes, but I am not keen now
     - you can share this with other people
     - Zoom ah? No need thankyou
-    - why would you want to dicuss on that
-    - you dont wont be talking about nomination only you will be also selling selling insurance to me so i i dont need this ok thank you bye
+    -why would you want to dicuss on that
+    -you dont wont be talking about nomination only you will be also selling selling insurance to me so i i dont need this ok thank you bye
     - ya is okay
     - its alright
     - i think its alright because the process i can read up on the c p f website should be quite clear i mean i i read it before but ya
@@ -1332,6 +1380,23 @@ nlu:
     - i know you discuss already no thanks
     - somebody call me already no need
     - no im not so keen to meet anyone
+    - no need because my income low
+    - cannot
+    - its fine
+    - no thats all okay
+    - because usually this this thing my wife is handling for me right
+    - maybe another time thank you
+    - no need to have that because i dont plan to have an insurance at all
+    - its fine
+    - its okay i got similar call before some people call me before already okay can thanks
+    - i dont get you
+    - okay sorry i am a taxi driver i dont have so much money to nominate
+    - im not interested in meeting your manager okay
+    - alright no thanks im working right now so thank you so much bye bye
+    - no this is regarding what are you must let me know first
+    - i done careshielf life
+    - sorry support the careshield life also
+    - i have careshielf life
 
 
 - intent: confirm
@@ -1587,3 +1652,13 @@ nlu:
     - singlife aviva insurance okay
     - oh okay you are calling from singlife aviva
     - from singlife aviva
+    - okay just asked him to give me a call or what
+    - c p f what 
+    - maybe your manager can call me then i can arrange
+    - what time is the call
+    - anytime
+    - this week when you are calling
+    - what fascinating information do you have for me
+    - what would you like to share with me
+    - drop me a whatapps 
+    - whatapps me can
