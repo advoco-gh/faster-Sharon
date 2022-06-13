@@ -263,6 +263,8 @@ nlu:
     - so what is it about what do you all want to do
     - its a simple nomination i dunno why you need an insurance company to come in
     - why do i need to inform him about my nomination
+    - okay then this is regarding what nomination
+    - sorry sorry i dont entertain phone call like that sorry
 
 
 - intent: question_related_to_age_info
@@ -403,6 +405,7 @@ nlu:
     - i wouldnt know whether you are actually calling from manulife and i cannot verify and you know that there are a lot of scam calls and all that i wouldnt know
     - how do i know this is not scam
     - why are you using a plus sixty five number
+    - dont call me by your hand phone number you call me by a landline number
 
 
 - intent: question_related_to_disclosure_details
@@ -578,6 +581,7 @@ nlu:
     - i working with a i a
     - thank you im working in prudential so i dont think i need anything
     - actually i work in a i a so its okay
+    - im also an insurance agent im doing for my own company already
 
 
 - intent: question_related_to_witness
@@ -943,6 +947,9 @@ nlu:
     - currently not free
     - im sorry im in the mall now with my daughter
     - im not in singapore now
+    - yah because i i im really going out now so can you call me back
+    - hello sorry can you call me back in about two minutes
+    - my dear you are calling me during my working hour
 
 
 - intent: already_done
@@ -1397,6 +1404,7 @@ nlu:
     - i done careshielf life
     - sorry support the careshield life also
     - i have careshielf life
+    - i am not interested sorry you call other people 
 
 
 - intent: confirm
@@ -1662,3 +1670,7 @@ nlu:
     - what would you like to share with me
     - drop me a whatapps 
     - whatapps me can
+    - yeah sure you can call me sometime this week
+    - sorry regarding for
+    - you can whatsapp me and i see how
+    - yeah yeah just call me first
