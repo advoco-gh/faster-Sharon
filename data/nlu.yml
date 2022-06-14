@@ -265,6 +265,7 @@ nlu:
     - why do i need to inform him about my nomination
     - okay then this is regarding what nomination
     - sorry sorry i dont entertain phone call like that sorry
+    - whats the nomination about
 
 
 - intent: question_related_to_age_info
@@ -1674,3 +1675,4 @@ nlu:
     - sorry regarding for
     - you can whatsapp me and i see how
     - yeah yeah just call me first
+    - right now
