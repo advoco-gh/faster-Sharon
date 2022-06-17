@@ -266,6 +266,7 @@ nlu:
     - okay then this is regarding what nomination
     - sorry sorry i dont entertain phone call like that sorry
     - whats the nomination about
+    - is this regarding my car insurance
 
 
 - intent: question_related_to_age_info
@@ -283,6 +284,7 @@ nlu:
     - how old am i
     - wouldnt you know
     - im not giving you an informational until i confirm
+    -     - 8pm
 
 
 - intent: student
@@ -407,6 +409,7 @@ nlu:
     - how do i know this is not scam
     - why are you using a plus sixty five number
     - dont call me by your hand phone number you call me by a landline number
+    - i think no need  too many scam already okay thank you bye
 
 
 - intent: question_related_to_disclosure_details
@@ -685,6 +688,7 @@ nlu:
     - no need i have my financial advisor from g e who take care everything for me
     - its okay cause my current agent already settled it already
     - i think never mind is fine i have a agent that helping me to do that so i think its okay
+    - okay then i will speak to my then i will speak to my insurance agent then
 
 
 - intent: cpf_account_distribution
@@ -744,6 +748,7 @@ nlu:
     - are you are bored
     - no sorry i think you got the wrong number
     - are you a recording message
+    - yeah do you know who youre calling first you must know the name
 
 
 - intent: evening
@@ -951,6 +956,9 @@ nlu:
     - yah because i i im really going out now so can you call me back
     - hello sorry can you call me back in about two minutes
     - my dear you are calling me during my working hour
+    - im currently working
+    - sorry overseas right now
+    - can you call me probably after office hour or weekend
 
 
 - intent: already_done
@@ -1406,6 +1414,10 @@ nlu:
     - sorry support the careshield life also
     - i have careshielf life
     - i am not interested sorry you call other people 
+    - i dont have cpf yet i have not working
+    - i think its okay because i already have the whatever you talking about right now yeah
+    - whats that
+    - orh never mind its all right
 
 
 - intent: confirm
@@ -1676,3 +1688,6 @@ nlu:
     - you can whatsapp me and i see how
     - yeah yeah just call me first
     - right now
+    - orh ya
+    - okay let me know when 
+    - yeah what is it about
